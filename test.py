@@ -1,3 +1,5 @@
+### This is a quick document to help us manually label foods logged into certain groups to allow us to make visualizations based on the classes.
+
 import pandas as pd
 import glob, os
 import numpy as np
