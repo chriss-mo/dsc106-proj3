@@ -42,3 +42,14 @@ div {
 a { color: #07a; }
 a:visited { color: #07a; }
 h2 { margin: 0; }
+
+&:has(path:hover) {
+    path:not(:hover) {
+        opacity: 0.75;
+    }
+}
+
+path {
+    transition: 250ms;
+    cursor: pointer;
+}
