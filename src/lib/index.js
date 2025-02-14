@@ -1,16 +1,29 @@
-console.log('poop')
-let data = [];
-
-async function fetchJSON(url) { //copy pasted code from lab
+async function fetchCSV(url) {
     try {
         const response = await fetch(url);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
-        const data = await response.json();
-        return data;
+        const data = await response.text();
+        const parsedData = d3.csvParse(data, d => ({
+            day: +d.day,
+            hour: +d.hour,
+            value: 1 // Each row represents one meal
+        }));
+
+        // Aggregate the data to count meals per hour and day
+        const groupedData = d3.group(parsedData, d => d.day, d => d.hour);
+        const aggregatedData = Array.from(groupedData, ([day, hours]) => 
+            Array.from(hours, ([hour, values]) => ({
+                day: day,
+                hour: hour,
+                value: values.length
+            }))
+        ).flat();
+
+        return aggregatedData;
     } catch (error) {
-        console.error('Error fetching the JSON data:', error);
+        console.error('Error fetching the CSV data:', error);
     }
 }
 
@@ -27,42 +40,94 @@ const svg = d3.select("#middle-container")
   .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
-function createVisualization(data) {
-    // Create the X axis
+// reference https://d3-graph-gallery.com/graph/heatmap_style.html
+function createChart(data) {
+    
+    const hours = d3.range(0, 24);
+    const days = d3.range(1, 10); // ranges from 1-10
+
+    // Create scales
     const x = d3.scaleBand()
-        .domain(data.map((d, i) => i))
         .range([0, width])
-        .padding(0.1);
+        .domain(hours)
+        .padding(0.01);
 
-    svg.append("g")
-        .attr("transform", `translate(0,${height})`)
-        .call(d3.axisBottom(x).tickFormat(i => `Item ${i+1}`));
+    const y = d3.scaleBand()
+        .range([0, height])
+        .domain(days)
+        .padding(0.01);
 
-    // Create the Y axis
-    const y = d3.scaleLinear()
-        .domain([0, d3.max(data, d => d.value)])
-        .nice()
-        .range([height, 0]);
+    const colorScale = d3.scaleSequential(d3.interpolateViridis) 
+        .domain([0, d3.max(data, d => d.value)]); // change color here
 
-    svg.append("g")
+    // Append rectangles
+    svg.selectAll()
+    .data(data, function(d) { return d.day+':'+d.hour; })
+    .enter()
+    .append("rect")
+    .attr("x", function(d) { return x(d.hour) })
+    .attr("y", function(d) { return y(d.day) })
+    .attr("width", x.bandwidth() )
+    .attr("height", y.bandwidth() )
+    .style("fill", function(d) { return colorScale(d.value)} )
+    .on("mouseover", function(event, d) {
+        d3.select(this)
+        .style("stroke", "black")  // Add border
+        .style("stroke-width", "2");
+        
+        showTooltip(event, d);
+    })
+    .on("mousemove", function(event, d) {
+        showTooltip(event, d); // Ensure tooltip follows cursor
+    })
+    .on("mouseout", function(d) {
+        d3.select(this)
+        .style("stroke", "none");  
+        
+        hideTooltip();
+    });
+    // reference: http://www.d3noob.org/2016/10/adding-axis-labels-in-d3js-v4.html
+    svg.append("g") // Add the X Axis
+        .attr("transform", "translate(0," + height + ")")
+        .call(d3.axisBottom(x));
+
+    // text label for the x axis
+    svg.append("text")             
+        .attr("transform",
+            "translate(" + (width/2) + " ," + 
+            (height + margin.top + 15) + ")")
+        .style("text-anchor", "middle")
+        .text("Hour of Day");
+    
+    svg.append("g") // Add the Y Axis
         .call(d3.axisLeft(y));
-
-    // Create the bars
-    svg.selectAll(".bar")
-        .data(data)
-        .enter()
-        .append("rect")
-        .attr("class", "bar")
-        .attr("x", (d, i) => x(i))
-        .attr("y", d => y(d.value))
-        .attr("width", x.bandwidth())
-        .attr("height", d => height - y(d.value))
-        .attr("fill", "#9ca6d9");
+    
+        // text label for the y axis
+    svg.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 0 - margin.left)
+        .attr("x",0 - (height / 2))
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .text("Day"); 
 }
 
-fetchJSON('../src/data/data.json').then(jdata => {
-    if (jdata) {
-        createVisualization(jdata);
-        data = jdata;
+fetchCSV('../src/data/data1.csv').then(data => {
+    if (data) {
+        createChart(data);
     }
 });
+
+function showTooltip(event, d) {
+    d3.select("#tooltip")
+        .style("left", (event.pageX + 15) + "px")
+        .style("top", (event.pageY + 15) + "px")
+        .classed("visible", true); // make a class 'visible' that sets opacity pretty genius
+
+    d3.select("#tooltip-day").text(`Day: ${d.day}`);
+    d3.select("#tooltip-hour").text(`Hour: ${d.hour}`);
+    d3.select("#tooltip-meals").text(`Meals: ${d.value}`);
+}
+function hideTooltip() {
+    d3.select("#tooltip").classed("visible", false);
+}
