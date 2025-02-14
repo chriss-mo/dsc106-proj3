@@ -8,18 +8,22 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
-    
     <div id="top-container">
         <h2>Daily Appetite Visualizer</h2>
-        <p>A DSC106 Project By: D3adMau5 (<a href="https://github.com/chriss-mo">Chris Mo</a>,
-            <a href="https://github.com/ZachUCSD">Zachary Thomason</a>,
-            <a href="https://github.com/lemoncastle">Adams Yang</a>)</p>
+        <p>A DSC106 Project By: D3adMau5 (<a href="https://github.com/chriss-mo" target="_blank">Chris Mo</a>,
+            <a href="https://github.com/ZachUCSD" target="_blank">Zachary Thomason</a>,
+            <a href="https://github.com/lemoncastle" target="_blank">Adams Yang</a>)</p>
     </div>
     
-    <div id="middle-container">
-        <h2>Our Visualization</h2>
+    <div class = "container", id="middle-container">
+        <h2>Are People Addicted To Coffee ??!!</h2>
+        <h3>Visualizing When People Eat and Popular Foods</h3>
         <script src="../src/lib/index.js"></script>
-        <p>Information Information Information Information</p>
+        <p>Most Popular food of the DAY: probably coffee</p>
+        <p>Most popular food of the HOUR: probably coffee </p>
+        <img src="../src/img/coffeelove.jpg" 
+            title="A picture of coffee" alt="A drawing of coffee in nice warm tones" style="width: 50px; height: auto;">
+        credit: <a href="https://www.pixiv.net/artworks/119702393" target="_blank">noa1008</a>  
     </div>
     
     <div id="bottom-container">
@@ -39,11 +43,19 @@
         </ul>
         <h2>Design Philosophy and Rationale</h2>
         <ul>
-            <li><a href="https://.google.com/">Link</a> (Google Docs (Not working yet))</li>
+            <li><a href="https://.google.com/">Link</a> ((FIX)Should link to our readme page on github )</li>
         </ul>
         <img src="../src/img/GjZ90lWbIAAfxVU.jpg" 
             title="A sketch" alt="A sketch of an anime girl" style="width: 300px; height: auto;">
-        <p>A nice picture credit: <a href="http://pixiv.net/users/34607275">りおねす</a></p>
+        <p>A nice picture credit: <a href="http://pixiv.net/users/34607275" target="_blank">りおねす</a></p>
     </div>
+
+    <div id="tooltip" class="tooltip" hidden>
+        <p id="tooltip-day"></p>
+        <p id="tooltip-hour"></p>
+        <p id="tooltip-meals"></p>
+    </div>
+    <p>kitten</p>
+
 </body>
 </html>
