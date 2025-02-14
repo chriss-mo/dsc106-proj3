@@ -1,0 +1,1090 @@
+,subject,date,day,time,logged_food,amount,unit,calorie,total_carb,sugar,protein,time_of_day,gender,datetime,hour,class,simplified_food
+0,1.0,2020-02-13,1,18:00,Berry Smoothie,20.0,fluid ounce,456.0,85.0,83.0,16.0,Night,Female,2020-02-13 18:00:00,18,Beverage,smoothie
+1,1.0,2020-02-14,2,07:10,Natrel Lactose Free 2 Percent,8.0,fluid ounce,120.0,9.0,8.0,12.0,Early Morning,Female,2020-02-14 07:10:00,7,Beverage,milk
+2,1.0,2020-02-14,2,07:10,Standard Breakfast,0.75,cup,110.0,26.0,10.0,1.0,Early Morning,Female,2020-02-14 07:10:00,7,Meal,standard breakfast
+3,1.0,2020-02-14,2,09:38,Breakfast Trail Mix,0.5,cup,280.0,30.0,22.0,4.0,Morning,Female,2020-02-14 09:38:00,9,Snack,standard breakfast
+4,1.0,2020-02-14,2,12:38,Spinach Salad W/ Strawberries And Cheese,200.0,grams,286.0,14.0,8.5,7.6,Noon,Female,2020-02-14 12:38:00,12,Meal,salad
+5,1.0,2020-02-14,2,19:30,Acai Smoothie,20.0,fluid ounce,440.0,92.0,75.0,5.0,Night,Female,2020-02-14 19:30:00,19,Beverage,smoothie
+6,1.0,2020-02-14,2,20:00,(Trader Joe'S) Mac And Cheese,0.5,cup,135.0,23.5,1.5,5.0,Night,Female,2020-02-14 20:00:00,20,Meal,pasta
+7,1.0,2020-02-14,2,20:00,Coconut Shrimp,5.0,,317.0,30.0,0.1,11.0,Night,Female,2020-02-14 20:00:00,20,Meal,seafood
+8,1.0,2020-02-15,3,07:30,Spinach Smoothie,20.0,fluid ounce,308.0,69.0,38.0,7.2,Early Morning,Female,2020-02-15 07:30:00,7,Beverage,smoothie
+9,1.0,2020-02-15,3,11:02,Breakfast Trail Mix,0.5,cup,280.0,30.0,22.0,4.0,Morning,Female,2020-02-15 11:02:00,11,Snack,standard breakfast
+10,1.0,2020-02-15,3,12:38,"Spinach Salad W/ Blueberries, Egg, And Cheese",200.0,grams,286.0,14.0,8.5,7.6,Noon,Female,2020-02-15 12:38:00,12,Meal,salad
+11,1.0,2020-02-15,3,15:30,Babel Cheese,1.0,,71.0,0.3,0.3,5.0,Afternoon,Female,2020-02-15 15:30:00,15,Snack,cheese
+12,1.0,2020-02-15,3,15:35,Breakfast Trail Mix,0.5,cup,280.0,30.0,22.0,4.0,Afternoon,Female,2020-02-15 15:35:00,15,Snack,standard breakfast
+13,1.0,2020-02-15,3,20:30,Rice,0.5,cup,103.0,22.0,0.0,2.1,Night,Female,2020-02-15 20:30:00,20,Meal,rice
+14,1.0,2020-02-16,4,07:00,Natrel Lactose Free 2 Percent,8.0,fluid ounce,120.0,9.0,8.0,12.0,Early Morning,Female,2020-02-16 07:00:00,7,Beverage,milk
+15,1.0,2020-02-16,4,07:00,Standard Breakfast,0.75,cup,110.0,26.0,10.0,1.0,Early Morning,Female,2020-02-16 07:00:00,7,Meal,standard breakfast
+16,1.0,2020-02-16,4,08:15,Breakfast Trail Mix,0.5,cup,280.0,30.0,22.0,4.0,Early Morning,Female,2020-02-16 08:15:00,8,Snack,standard breakfast
+17,1.0,2020-02-16,4,08:49,Hot Chocolate,1.0,cup,151.0,32.0,25.0,2.5,Early Morning,Female,2020-02-16 08:49:00,8,Beverage,candy
+18,1.0,2020-02-16,4,11:56,Salty Sweet Popcorn,1.0,cup,110.0,14.0,6.0,2.0,Morning,Female,2020-02-16 11:56:00,11,Snack,popcorn
+19,1.0,2020-02-16,4,21:10,Chai Tea,20.0,fluid ounce,12.0,3.4,0.0,0.2,Night,Female,2020-02-16 21:10:00,21,Beverage,tea
+20,1.0,2020-02-17,5,06:42,Maple Brown Sugar Oatmeal,1.0,,158.0,33.0,13.0,4.0,Early Morning,Female,2020-02-17 06:42:00,6,Meal,coffee
+21,1.0,2020-02-17,5,12:30,Salad With Cranberries,2.0,cup,80.0,21.0,17.0,0.0,Noon,Female,2020-02-17 12:30:00,12,Meal,salad
+22,1.0,2020-02-17,5,12:30,Chicken Nuggets,3.0,,147.0,7.2,0.0,7.5,Noon,Female,2020-02-17 12:30:00,12,Meal,poultry
+23,1.0,2020-02-17,5,21:00,Kale Salad,2.0,cup,83.7,4.0,2.1,1.2,Night,Female,2020-02-17 21:00:00,21,Meal,salad
+24,1.0,2020-02-17,5,21:00,Pizza,1.0,slice,285.0,36.0,3.8,12.0,Night,Female,2020-02-17 21:00:00,21,Meal,pizza
+25,1.0,2020-02-17,5,21:56,Oreo Cookies,2.0,,107.0,17.0,9.3,0.7,Night,Female,2020-02-17 21:56:00,21,Meal,desserts
+26,1.0,2020-02-18,6,06:20,Natrel Lactose Free 2 Percent,8.0,fluid ounce,120.0,9.0,8.0,12.0,Early Morning,Female,2020-02-18 06:20:00,6,Beverage,milk
+27,1.0,2020-02-18,6,06:20,Standard Breakfast,0.75,cup,110.0,26.0,10.0,1.0,Early Morning,Female,2020-02-18 06:20:00,6,Meal,standard breakfast
+28,1.0,2020-02-18,6,11:00,Muffin,0.5,,212.0,30.0,18.0,2.5,Morning,Female,2020-02-18 11:00:00,11,Snack,bread/pastry
+29,1.0,2020-02-18,6,11:45,Grilled Chicken Wrap,0.5,,277.0,23.0,1.7,16.0,Morning,Female,2020-02-18 11:45:00,11,Meal,poultry
+30,1.0,2020-02-18,6,01:40,Kale And Fruit Smoothie,20.0,fluid ounce,307.5,70.0,37.5,7.3,Late Night,Female,2020-02-18 01:40:00,1,Beverage,smoothie
+31,1.0,2020-02-18,6,22:00,Ranch Wings,8.0,,776.0,30.4,0.6,44.0,Late Night,Female,2020-02-18 22:00:00,22,Meal,poultry
+32,1.0,2020-02-19,7,11:00,Acai Smoothie,20.0,fluid ounce,440.0,92.0,75.0,5.0,Morning,Female,2020-02-19 11:00:00,11,Beverage,smoothie
+33,1.0,2020-02-19,7,15:30,Lemon Loaf,0.5,,235.0,34.0,21.0,3.0,Afternoon,Female,2020-02-19 15:30:00,15,Meal,bread/pastry
+34,1.0,2020-02-19,7,18:00,Turkey Slider,1.0,,314.0,21.0,3.9,18.0,Night,Female,2020-02-19 18:00:00,18,Meal,poultry
+35,1.0,2020-02-19,7,20:00,Chicken And Rice,2.0,cup,532.0,22.0,1.0,67.0,Night,Female,2020-02-19 20:00:00,20,Meal,poultry
+36,1.0,2020-02-20,8,07:37,Green Smoothie,20.0,fluid ounce,308.0,69.0,38.0,7.2,Early Morning,Female,2020-02-20 07:37:00,7,Beverage,smoothie
+37,1.0,2020-02-20,8,07:37,Bagel,0.5,,139.0,27.0,4.4,5.5,Early Morning,Female,2020-02-20 07:37:00,7,Meal,bread/pastry
+38,1.0,2020-02-20,8,12:30,Salad,2.0,cup,13.0,2.8,1.2,0.8,Noon,Female,2020-02-20 12:30:00,12,Meal,salad
+39,1.0,2020-02-20,8,13:00,Hot Chocolate,1.0,cup,151.0,32.0,25.0,2.5,Noon,Female,2020-02-20 13:00:00,13,Beverage,candy
+40,1.0,2020-02-20,8,12:30,Babel Bell Cheese,1.0,,71.0,0.3,0.3,5.0,Noon,Female,2020-02-20 12:30:00,12,Snack,cheese
+41,1.0,2020-02-20,8,20:15,Salad,2.0,cup,13.0,2.8,1.2,0.8,Night,Female,2020-02-20 20:15:00,20,Meal,salad
+42,1.0,2020-02-20,8,20:30,Green Smoothie,20.0,fluid ounce,308.0,69.0,38.0,7.2,Night,Female,2020-02-20 20:30:00,20,Beverage,smoothie
+43,1.0,2020-02-21,9,07:30,Natrel Lactose Free 2 Percent,8.0,fluid ounce,120.0,9.0,8.0,12.0,Early Morning,Female,2020-02-21 07:30:00,7,Beverage,milk
+44,1.0,2020-02-21,9,07:30,Standard Breakfast,0.75,cup,110.0,26.0,10.0,1.0,Early Morning,Female,2020-02-21 07:30:00,7,Meal,standard breakfast
+45,1.0,2020-02-21,9,11:00,Babybel Cheese,1.0,,71.0,0.3,0.3,5.0,Morning,Female,2020-02-21 11:00:00,11,Snack,cheese
+46,1.0,2020-02-21,9,12:30,Chicken Salad,0.5,cup,254.0,3.3,2.4,19.0,Noon,Female,2020-02-21 12:30:00,12,Meal,salad
+47,1.0,2020-02-21,9,12:30,Pita Bread,7.0,,539.0,109.0,2.5,18.0,Noon,Female,2020-02-21 12:30:00,12,Meal,bread/pastry
+48,1.0,2020-02-21,9,19:50,Cheese Pita,5.0,,640.0,95.0,0.0,30.0,Night,Female,2020-02-21 19:50:00,19,Meal,cheese
+49,1.0,2020-02-21,9,20:00,Spinach Smoothie,20.0,fluid ounce,308.0,69.0,38.0,7.2,Night,Female,2020-02-21 20:00:00,20,Beverage,smoothie
+50,2.0,2020-02-21,1,10:09,Mello Yello,12.0,fluid ounce,180.0,48.0,48.0,0.0,Morning,Male,2020-02-21 10:09:00,10,Beverage,soda
+51,2.0,2020-02-21,1,10:11,(Jimmy Dean) Chicken Biscuit,1.0,,280.0,32.0,3.0,13.0,Morning,Male,2020-02-21 10:11:00,10,Meal,sandwich
+52,2.0,2020-02-21,1,12:12,(Gatorade) Fierce Grape,12.0,fluid ounce,84.0,21.6,20.4,0.0,Noon,Male,2020-02-21 12:12:00,12,Beverage,sports drink
+53,2.0,2020-02-21,1,14:02,Banquet Chicken Pot Pie,198.0,gram,700.0,66.0,4.0,24.0,Afternoon,Male,2020-02-21 14:02:00,14,Meal,poultry
+54,2.0,2020-02-21,1,18:00,(Red Baron) Brick Oven Pepperoni Pizza,1.0,,1360.0,144.0,28.0,52.0,Night,Male,2020-02-21 18:00:00,18,Meal,pizza
+55,2.0,2020-02-21,1,20:19,M & M ,0.5,cup,400.0,62.0,56.0,4.0,Night,Male,2020-02-21 20:19:00,20,Meal,candy
+56,2.0,2020-02-22,2,05:39,Natrel Lactose Free 2 Percent,8.0,fluid ounce,120.0,9.0,8.0,12.0,Early Morning,Male,2020-02-22 05:39:00,5,Beverage,milk
+57,2.0,2020-02-22,2,05:39,Corn Flakes,0.75,cup,110.0,26.0,10.0,1.0,Early Morning,Male,2020-02-22 05:39:00,5,Meal,cereal
+58,2.0,2020-02-22,2,06:30,Mello Yello,12.0,fluid ounce,180.0,48.0,48.0,0.0,Early Morning,Male,2020-02-22 06:30:00,6,Beverage,soda
+59,2.0,2020-02-22,2,13:46,(Powerade) Grape,20.0,fluid ounce,130.0,35.0,34.0,0.0,Noon,Male,2020-02-22 13:46:00,13,Beverage,sports drink
+60,2.0,2020-02-22,2,16:08,(Powerade) Grape,20.0,fluid ounce,130.0,35.0,34.0,0.0,Afternoon,Male,2020-02-22 16:08:00,16,Beverage,sports drink
+61,2.0,2020-02-22,2,17:50,Stouffers Salisbury Steak Family Size ,0.5,,175.0,12.0,2.0,11.5,Afternoon,Male,2020-02-22 17:50:00,17,Meal,tea
+62,2.0,2020-02-22,2,17:50,Mashed Potato,1.0,cup,300.0,40.0,2.0,4.0,Afternoon,Male,2020-02-22 17:50:00,17,Meal,potato
+63,2.0,2020-02-22,2,18:22,Chocolate Milk,8.0,fluid ounce,241.0,36.0,34.0,11.0,Night,Male,2020-02-22 18:22:00,18,Beverage,milk
+64,2.0,2020-02-22,2,20:45,Frozen Pop,1.0,,41.1,10.0,7.1,0.0,Night,Male,2020-02-22 20:45:00,20,Meal,desserts
+65,2.0,2020-02-23,3,10:34,"Omelet (3 Egg, Bacon 3 Strip, Cheese 2 Tsp)",1.0,,566.0,3.1,1.4,45.0,Morning,Male,2020-02-23 10:34:00,10,Meal,omelet
+66,2.0,2020-02-23,3,10:36,Chocolate Milk,8.0,fluid ounce,241.0,36.0,34.0,11.0,Morning,Male,2020-02-23 10:36:00,10,Beverage,milk
+67,2.0,2020-02-23,3,13:00,Mello Yello,5.0,fluid ounce,72.5,19.0,19.0,0.0,Noon,Male,2020-02-23 13:00:00,13,Beverage,soda
+68,2.0,2020-02-23,3,15:00,(Arby'S) Classic Roast Beef Ff,1.0,,360.0,37.0,5.0,23.0,Afternoon,Male,2020-02-23 15:00:00,15,Meal,beef
+69,2.0,2020-02-23,3,15:00,Mello Yello,12.0,fluid ounce,180.0,48.0,48.0,0.0,Afternoon,Male,2020-02-23 15:00:00,15,Beverage,soda
+70,2.0,2020-02-23,3,18:48,Mello Yello,10.0,fluid ounce,145.0,38.0,38.0,0.0,Night,Male,2020-02-23 18:48:00,18,Beverage,soda
+71,2.0,2020-02-23,3,20:59,Chip,2.0,cup,302.0,43.0,0.5,4.5,Night,Male,2020-02-23 20:59:00,20,Snack,chips
+72,2.0,2020-02-23,3,20:59,Salsa,0.25,cup,19.0,4.3,2.6,1.0,Night,Male,2020-02-23 20:59:00,20,Snack,mexican food
+73,2.0,2020-02-24,4,00:33,(Powerade) Grape,10.0,fluid ounce,65.0,17.5,17.0,0.0,Late Night,Male,2020-02-24 00:33:00,0,Beverage,sports drink
+74,2.0,2020-02-24,4,09:30,Natrel Lactose Free 2 Percent,8.0,fluid ounce,120.0,9.0,8.0,12.0,Morning,Male,2020-02-24 09:30:00,9,Beverage,milk
+75,2.0,2020-02-24,4,09:30,Corn Flakes,0.75,cup,110.0,26.0,10.0,1.0,Morning,Male,2020-02-24 09:30:00,9,Meal,cereal
+76,2.0,2020-02-24,4,12:12,Moutain Dew,10.0,fluid ounce,80.0,22.0,22.0,0.0,Noon,Male,2020-02-24 12:12:00,12,Beverage,soda
+77,2.0,2020-02-24,4,15:59,Gatorade,10.0,fluid ounce,79.3,19.6,16.0,0.0,Afternoon,Male,2020-02-24 15:59:00,15,Beverage,sports drink
+78,2.0,2020-02-24,4,15:59,"Cheeseburger (Mayo , Mustard, Chili)",0.75,lb,677.0,47.0,8.5,39.0,Afternoon,Male,2020-02-24 15:59:00,15,Meal,burger
+79,2.0,2020-02-24,4,15:59,Tater Tots,10.0,,161.0,23.0,0.2,1.8,Afternoon,Male,2020-02-24 15:59:00,15,Meal,potato
+80,2.0,2020-02-24,4,15:59,Onion Rings,5.0,,133.6,14.2,1.8,1.3,Afternoon,Male,2020-02-24 15:59:00,15,Meal,onion rings
+81,2.0,2020-02-24,4,15:59,Sweet Tea,20.0,fluid ounce,199.0,52.0,50.0,0.0,Afternoon,Male,2020-02-24 15:59:00,15,Beverage,tea
+82,2.0,2020-02-24,4,20:21,Gatorade,10.0,fluid ounce,79.3,19.6,16.0,0.0,Night,Male,2020-02-24 20:21:00,20,Beverage,sports drink
+83,2.0,2020-02-24,4,21:38,Fig Newton,7.0,,350.0,73.5,42.0,3.5,Night,Male,2020-02-24 21:38:00,21,Snack,snack bar
+84,2.0,2020-02-25,5,04:49,Mello Yello,12.0,fluid ounce,180.0,48.0,48.0,0.0,Late Night,Male,2020-02-25 04:49:00,4,Beverage,soda
+85,2.0,2020-02-25,5,14:00,Water ,20.0,fluid ounce,0.0,0.0,0.0,0.0,Afternoon,Male,2020-02-25 14:00:00,14,Beverage,water 
+86,2.0,2020-02-25,5,15:00,Gatorade,20.0,fluid ounce,140.0,36.0,34.0,0.0,Afternoon,Male,2020-02-25 15:00:00,15,Beverage,sports drink
+87,2.0,2020-02-25,5,16:59,Gatorade,12.0,fluid ounce,80.0,22.0,21.0,0.0,Afternoon,Male,2020-02-25 16:59:00,16,Beverage,sports drink
+88,2.0,2020-02-25,5,19:59,Chocolate Milk,8.0,fluid ounce,241.0,36.0,34.0,11.0,Night,Male,2020-02-25 19:59:00,19,Beverage,milk
+89,2.0,2020-02-26,6,10:05,Natrel Lactose Free 2 Percent,8.0,fluid ounce,120.0,9.0,8.0,12.0,Morning,Male,2020-02-26 10:05:00,10,Beverage,milk
+90,2.0,2020-02-26,6,10:05,Corn Flakes,0.75,cup,110.0,26.0,10.0,1.0,Morning,Male,2020-02-26 10:05:00,10,Meal,cereal
+91,2.0,2020-02-26,6,13:35,Gatorade,20.0,fluid ounce,140.0,36.0,34.0,0.0,Noon,Male,2020-02-26 13:35:00,13,Beverage,sports drink
+92,2.0,2020-02-26,6,14:32,Lance Toast Chee,40.0,gram,100.0,24.0,4.0,3.0,Afternoon,Male,2020-02-26 14:32:00,14,Meal,bread/pastry
+93,2.0,2020-02-26,6,14:45,Tootsie Roll,10.0,,108.0,22.0,15.0,0.8,Afternoon,Male,2020-02-26 14:45:00,14,Meal,candy
+94,2.0,2020-02-26,6,19:00,Fried Potato,1.0,,365.0,48.0,0.3,4.0,Night,Male,2020-02-26 19:00:00,19,Meal,potato
+95,2.0,2020-02-26,6,20:00,Ice Cream,1.0,cup,273.0,31.0,28.0,4.6,Night,Male,2020-02-26 20:00:00,20,Meal,desserts
+96,2.0,2020-02-27,7,08:42,Jd Sausage Biscuit,1.0,,410.0,26.0,4.0,12.0,Early Morning,Male,2020-02-27 08:42:00,8,Meal,sandwich
+97,2.0,2020-02-27,7,08:42,Mello Yello,12.0,fluid ounce,180.0,48.0,48.0,0.0,Early Morning,Male,2020-02-27 08:42:00,8,Beverage,soda
+98,2.0,2020-02-27,7,13:30,Chex Mix,1.0,cup,242.0,44.0,4.2,4.4,Noon,Male,2020-02-27 13:30:00,13,Snack,chips
+99,2.0,2020-02-27,7,14:54,Fig Bar,7.0,,392.0,77.0,51.8,4.1,Afternoon,Male,2020-02-27 14:54:00,14,Snack,snack bar
+100,2.0,2020-02-27,7,19:15,Mash Potato,1.0,cup,237.0,36.0,3.0,4.1,Night,Male,2020-02-27 19:15:00,19,Meal,potato
+101,2.0,2020-02-27,7,19:15,Sweet Tea,16.0,fluid ounce,160.0,41.0,40.0,0.0,Night,Male,2020-02-27 19:15:00,19,Beverage,tea
+102,2.0,2020-02-27,7,21:30,Cake,1.0,piece,262.0,38.0,28.0,2.0,Night,Male,2020-02-27 21:30:00,21,Meal,desserts
+103,2.0,2020-02-27,7,21:30,Ice Cream,1.0,cup,273.0,31.0,28.0,4.6,Night,Male,2020-02-27 21:30:00,21,Meal,desserts
+104,2.0,2020-02-28,8,08:37,Natrel Lactose Free 2 Percent,8.0,fluid ounce,120.0,9.0,8.0,12.0,Early Morning,Male,2020-02-28 08:37:00,8,Beverage,milk
+105,2.0,2020-02-28,8,08:37,Corn Flakes,0.75,cup,110.0,26.0,10.0,1.0,Early Morning,Male,2020-02-28 08:37:00,8,Meal,cereal
+106,2.0,2020-02-28,8,13:32,Powerade,20.0,fluid ounce,130.0,35.0,34.0,0.0,Noon,Male,2020-02-28 13:32:00,13,Beverage,sports drink
+107,2.0,2020-02-28,8,17:22,Rice Krispies,1.3,ounce,140.0,31.0,3.6,2.5,Afternoon,Male,2020-02-28 17:22:00,17,Snack,rice
+108,2.0,2020-02-28,8,19:00,(Hamburger Helper) Deluxe Cheeseburger Macaroni,1.5,cup,660.0,132.0,18.0,18.0,Night,Male,2020-02-28 19:00:00,19,Meal,pasta
+109,2.0,2020-02-28,8,19:00,Mello Yello,12.0,fluid ounce,180.0,48.0,48.0,0.0,Night,Male,2020-02-28 19:00:00,19,Beverage,soda
+110,2.0,2020-02-28,8,21:30,Chocolate Cake,1.0,piece,424.0,58.0,44.0,3.8,Night,Male,2020-02-28 21:30:00,21,Snack,candy
+111,2.0,2020-02-28,8,21:30,Ice Cream,1.0,cup,273.0,31.0,28.0,4.6,Night,Male,2020-02-28 21:30:00,21,Meal,desserts
+112,3.0,2020-02-22,1,10:30,Chicken Nuggets,8.0,piece,393.0,19.0,20.0,,Morning,Female,2020-02-22 10:30:00,10,Meal,poultry
+113,3.0,2020-02-22,1,10:30,Superfood Salad,4.0,fluid ounce,170.0,14.0,5.0,,Morning,Female,2020-02-22 10:30:00,10,Meal,salad
+114,3.0,2020-02-22,1,14:30,Dots Gumdrops,11.0,piece,130.0,33.0,0.0,,Afternoon,Female,2020-02-22 14:30:00,14,Snack,candy
+115,3.0,2020-02-22,1,18:55,Power Smoothie,9.0,fluid ounce,202.5,43.7,5.0,,Night,Female,2020-02-22 18:55:00,18,Beverage,smoothie
+116,3.0,2020-02-22,1,20:20,Salad,9.0,ounce,60.0,13.0,3.7,,Night,Female,2020-02-22 20:20:00,20,Meal,salad
+117,3.0,2020-02-22,1,20:20,French Dressing,1.0,fluid ounce,129.0,1.8,0.4,,Night,Female,2020-02-22 20:20:00,20,Meal,french dressing
+118,3.0,2020-02-22,1,20:20,Spaghetti,20.0,ounce,852.0,171.0,30.0,,Night,Female,2020-02-22 20:20:00,20,Meal,pasta
+119,3.0,2020-02-23,2,05:30,Milk,4.0,ounce,60.0,4.5,6.0,,Early Morning,Female,2020-02-23 05:30:00,5,Beverage,milk
+120,3.0,2020-02-23,2,05:30,Cornflakes,1.5,cup,220.0,52.0,2.0,,Early Morning,Female,2020-02-23 05:30:00,5,Meal,cereal
+121,3.0,2020-02-23,2,12:00,Spaghetti,12.0,ounce,511.2,102.6,18.0,,Noon,Female,2020-02-23 12:00:00,12,Meal,pasta
+122,3.0,2020-02-23,2,16:03,Tortilla Chips,2.0,ounce,268.0,38.0,4.0,,Afternoon,Female,2020-02-23 16:03:00,16,Snack,mexican food
+123,3.0,2020-02-23,2,16:03,Salsa,2.0,ounce,8.2,1.9,0.4,,Afternoon,Female,2020-02-23 16:03:00,16,Snack,mexican food
+124,3.0,2020-02-23,2,18:09,Crab Cakes,8.0,ounce,391.0,16.0,25.0,,Night,Female,2020-02-23 18:09:00,18,Meal,seafood
+125,3.0,2020-02-23,2,21:00,Tortilla Chips,2.0,ounce,268.0,38.0,4.0,,Night,Female,2020-02-23 21:00:00,21,Snack,mexican food
+126,3.0,2020-02-24,3,10:00,Greek Yogurt Power Smoothie,9.0,ounce,180.0,16.0,20.0,,Morning,Female,2020-02-24 10:00:00,10,Beverage,smoothie
+127,3.0,2020-02-24,3,13:00,Clam Chowder,8.0,ounce,201.0,21.0,6.6,,Noon,Female,2020-02-24 13:00:00,13,Meal,soup
+128,3.0,2020-02-24,3,20:00,Beans,2.0,ounce,53.0,12.0,2.7,,Night,Female,2020-02-24 20:00:00,20,Meal,bean
+129,3.0,2020-02-24,3,19:30,Tortilla Chips,4.0,ounce,535.0,77.0,8.1,,Night,Female,2020-02-24 19:30:00,19,Snack,mexican food
+130,3.0,2020-02-24,3,19:30,Salsa,4.0,ounce,33.0,7.5,1.7,,Night,Female,2020-02-24 19:30:00,19,Snack,mexican food
+131,3.0,2020-02-24,3,19:30,Merlot Wine,12.0,fluid ounce,293.0,8.9,0.3,,Night,Female,2020-02-24 19:30:00,19,Beverage,alcohol
+132,3.0,2020-02-25,4,06:50,Milk,4.0,ounce,60.0,4.5,6.0,,Early Morning,Female,2020-02-25 06:50:00,6,Beverage,milk
+133,3.0,2020-02-25,4,06:50,Cornflakes,1.5,cup,220.0,52.0,2.0,,Early Morning,Female,2020-02-25 06:50:00,6,Meal,cereal
+134,3.0,2020-02-25,4,09:00,Apples,2.0,ounce,29.0,7.8,0.1,,Morning,Female,2020-02-25 09:00:00,9,Snack,apples
+135,3.0,2020-02-25,4,11:50,Smartie Candy Roll,0.5,ounce,50.0,12.0,0.0,,Morning,Female,2020-02-25 11:50:00,11,Snack,candy
+136,3.0,2020-02-25,4,12:50,Salad,2.0,ounce,13.0,2.8,0.8,,Noon,Female,2020-02-25 12:50:00,12,Meal,salad
+137,3.0,2020-02-25,4,19:30,Crusted Parmesian Chicken,12.0,ounce,760.0,20.0,84.0,,Night,Female,2020-02-25 19:30:00,19,Meal,poultry
+138,3.0,2020-02-25,4,19:30,Salad With Ranch Dressing,10.0,ounce,654.9,48.2,17.0,,Night,Female,2020-02-25 19:30:00,19,Meal,salad
+139,3.0,2020-02-25,4,19:30,Sweet Potato With Butter And Brown Sugar,6.0,ounce,140.0,12.6,0.6,,Night,Female,2020-02-25 19:30:00,19,Meal,potato
+140,3.0,2020-02-25,4,19:30,Chocolate Lava Cake,1.5,ounce,182.0,18.0,2.8,,Night,Female,2020-02-25 19:30:00,19,Meal,candy
+141,3.0,2020-02-25,4,19:30,Vanilla Ice Cream,1.0,ounce,59.0,6.7,1.0,,Night,Female,2020-02-25 19:30:00,19,Meal,desserts
+142,3.0,2020-02-25,4,19:30,Lemon Drop Martini,12.0,ounce,678.0,65.0,0.4,,Night,Female,2020-02-25 19:30:00,19,Beverage,alcohol
+143,3.0,2020-02-26,5,10:00,French Toast With Syrup,8.0,ounce,560.0,124.0,10.0,,Morning,Female,2020-02-26 10:00:00,10,Meal,bread/pastry
+144,3.0,2020-02-26,5,18:30,Fried Rice,6.0,ounce,296.0,56.0,6.9,,Night,Female,2020-02-26 18:30:00,18,Meal,rice
+145,3.0,2020-02-26,5,18:30,Merlot Wine,6.0,ounce,146.0,4.4,0.1,,Night,Female,2020-02-26 18:30:00,18,Beverage,alcohol
+146,3.0,2020-02-27,6,05:30,Milk,4.0,ounce,60.0,4.5,6.0,,Early Morning,Female,2020-02-27 05:30:00,5,Beverage,milk
+147,3.0,2020-02-27,6,05:30,Cornflakes,1.5,cup,220.0,52.0,2.0,,Early Morning,Female,2020-02-27 05:30:00,5,Meal,cereal
+148,3.0,2020-02-27,6,12:15,Rice,0.5,ounce,18.0,4.0,0.4,,Noon,Female,2020-02-27 12:15:00,12,Meal,rice
+149,3.0,2020-02-27,6,13:00,Ham Sandwich,2.0,ounce,98.0,11.0,5.4,,Noon,Female,2020-02-27 13:00:00,13,Meal,sandwich
+150,3.0,2020-02-28,7,20:00,Lasagna,8.0,ounce,355.0,20.0,26.0,,Night,Female,2020-02-28 20:00:00,20,Meal,pasta
+151,3.0,2020-02-28,7,20:00,Salad,8.0,ounce,53.3,11.6,3.3,,Night,Female,2020-02-28 20:00:00,20,Meal,salad
+152,3.0,2020-02-28,7,20:00,French Dressing,1.0,fluid ounce,129.0,1.8,0.4,,Night,Female,2020-02-28 20:00:00,20,Meal,french dressing
+153,3.0,2020-02-29,8,08:15,Milk,4.0,ounce,60.0,4.5,6.0,,Early Morning,Female,2020-02-29 08:15:00,8,Beverage,milk
+154,3.0,2020-02-29,8,08:15,Cornflakes,1.5,cup,220.0,52.0,2.0,,Early Morning,Female,2020-02-29 08:15:00,8,Meal,cereal
+155,3.0,2020-02-29,8,14:15,Salad With Fried Chicken And Ranch Dressing,10.0,ounce,451.0,18.0,30.0,,Afternoon,Female,2020-02-29 14:15:00,14,Meal,salad
+156,3.0,2020-02-29,8,20:40,Hershey Kiss,0.5,ounce,70.0,7.7,1.0,,Night,Female,2020-02-29 20:40:00,20,Meal,candy
+157,3.0,2020-02-29,8,20:40,Reese Cup,0.55,ounce,80.3,8.6,1.6,,Night,Female,2020-02-29 20:40:00,20,Meal,candy
+158,4.0,2020-02-28,1,08:00,Milk,4.0,fluid ounce,60.0,4.5,4.0,6.0,Early Morning,Female,2020-02-28 08:00:00,8,Beverage,milk
+159,4.0,2020-02-28,1,08:00,Frosted Flakes,1.5,cup,220.0,52.0,20.0,2.0,Early Morning,Female,2020-02-28 08:00:00,8,Meal,cereal
+160,4.0,2020-02-28,1,12:45,Coffee,1.0,cup,358.0,70.0,1.3,13.0,Noon,Female,2020-02-28 12:45:00,12,Beverage,coffee
+161,4.0,2020-02-28,1,12:45,Creamers,3.0,,362.0,58.0,28.0,5.5,Noon,Female,2020-02-28 12:45:00,12,Beverage,coffee
+162,4.0,2020-02-29,2,08:30,Coffee,1.0,cup,358.0,70.0,1.3,13.0,Early Morning,Female,2020-02-29 08:30:00,8,Beverage,coffee
+163,4.0,2020-02-29,2,20:00,Popcorn,1.0,bag,485.0,48.0,0.5,6.5,Night,Female,2020-02-29 20:00:00,20,Snack,popcorn
+164,4.0,2020-02-29,2,20:00,Tea With Lemon,1.0,,2.2,0.7,0.0,0.0,Night,Female,2020-02-29 20:00:00,20,Beverage,tea
+165,4.0,2020-03-01,3,08:45,Milk,4.0,fluid ounce,60.0,4.5,4.0,6.0,Early Morning,Female,2020-03-01 08:45:00,8,Beverage,milk
+166,4.0,2020-03-01,3,08:45,Frosted Flakes,1.5,cup,220.0,52.0,20.0,2.0,Early Morning,Female,2020-03-01 08:45:00,8,Meal,cereal
+167,4.0,2020-03-01,3,13:15,Tea,1.0,,2.0,0.5,0.0,0.0,Noon,Female,2020-03-01 13:15:00,13,Beverage,tea
+168,4.0,2020-03-02,4,08:15,Coffee,1.0,cup,358.0,70.0,1.3,13.0,Early Morning,Female,2020-03-02 08:15:00,8,Beverage,coffee
+169,4.0,2020-03-02,4,16:30,(Chipotle) Bowl,1.0,,1008.0,117.0,5.6,49.0,Afternoon,Female,2020-03-02 16:30:00,16,Meal,mexican food
+170,4.0,2020-03-02,4,20:45,Peanut Butter,1.0,,94.0,3.9,1.1,3.5,Night,Female,2020-03-02 20:45:00,20,Meal,nuts
+171,4.0,2020-03-02,4,20:45,Spoon Biscotti,,,87.0,13.0,5.0,1.5,Night,Female,2020-03-02 20:45:00,20,Meal,bread/pastry
+172,4.0,2020-03-03,5,09:30,Milk,4.0,fluid ounce,60.0,4.5,4.0,6.0,Morning,Female,2020-03-03 09:30:00,9,Beverage,milk
+173,4.0,2020-03-03,5,09:30,Frosted Flakes,1.5,cup,220.0,52.0,20.0,2.0,Morning,Female,2020-03-03 09:30:00,9,Meal,cereal
+174,4.0,2020-03-03,5,15:30,Tea With Lemon,,,2.2,0.7,0.0,0.0,Afternoon,Female,2020-03-03 15:30:00,15,Beverage,tea
+175,4.0,2020-03-04,6,20:30,Mash Potatoes,,,237.0,36.0,3.0,4.1,Night,Female,2020-03-04 20:30:00,20,Meal,potato
+176,4.0,2020-03-04,6,11:30,Waffle With Syrup,,,218.0,25.0,0.0,5.9,Morning,Female,2020-03-04 11:30:00,11,Meal,desserts
+177,4.0,2020-03-04,6,11:30,Soda,2.0,cup,206.0,51.0,49.0,0.0,Morning,Female,2020-03-04 11:30:00,11,Beverage,soda
+178,4.0,2020-03-04,6,18:30,Small Bag Of Popcorn,1.0,,485.0,48.0,0.5,6.5,Night,Female,2020-03-04 18:30:00,18,Snack,popcorn
+179,4.0,2020-03-04,6,18:30,Cookies,3.0,,444.0,60.0,29.7,4.5,Night,Female,2020-03-04 18:30:00,18,Meal,desserts
+180,4.0,2020-03-04,6,18:30,Cheese Stick,,,85.0,0.6,0.3,6.3,Night,Female,2020-03-04 18:30:00,18,Snack,cheese
+181,4.0,2020-03-05,7,09:00,Milk,4.0,fluid ounce,60.0,4.5,4.0,6.0,Morning,Female,2020-03-05 09:00:00,9,Beverage,milk
+182,4.0,2020-03-05,7,09:00,Frosted Flakes,1.5,cup,220.0,52.0,20.0,2.0,Morning,Female,2020-03-05 09:00:00,9,Meal,cereal
+183,4.0,2020-03-05,7,13:15,Biscott Cookie,4.0,,348.0,52.0,20.0,6.0,Noon,Female,2020-03-05 13:15:00,13,Meal,bread/pastry
+184,5.0,2020-02-27,1,12:45,Fries,6.5,ounce,575.0,76.0,0.6,6.3,Noon,Female,2020-02-27 12:45:00,12,Meal,potato
+185,5.0,2020-02-27,1,12:45,Biscuit,1.0,,212.0,27.0,1.3,4.2,Noon,Female,2020-02-27 12:45:00,12,Meal,sandwich
+186,5.0,2020-02-27,1,15:45,Peppermint,3.0,,24.0,5.9,3.8,0.0,Afternoon,Female,2020-02-27 15:45:00,15,Meal,candy
+187,5.0,2020-02-27,1,19:00,Cereal,2.0,cup,211.0,41.0,2.4,6.8,Night,Female,2020-02-27 19:00:00,19,Meal,cereal
+188,5.0,2020-02-27,1,22:00,90% Cocoa Dark Chocolate,1.0,ounce,60.0,3.0,0.8,1.0,Late Night,Female,2020-02-27 22:00:00,22,Meal,candy
+189,5.0,2020-02-28,2,09:00,Milk,4.0,fluid ounce,60.0,4.5,4.0,6.0,Morning,Female,2020-02-28 09:00:00,9,Beverage,milk
+190,5.0,2020-02-28,2,09:00,Cornflakes,1.5,cup,220.0,52.0,20.0,2.0,Morning,Female,2020-02-28 09:00:00,9,Meal,cereal
+191,5.0,2020-02-28,2,14:00,6-Inch Turkey Sub,1.0,,456.0,36.0,4.5,28.0,Afternoon,Female,2020-02-28 14:00:00,14,Meal,sandwich
+192,5.0,2020-02-28,2,15:30,Dark Chocolate Toffee,2.0,ounce,77.0,8.7,8.0,0.6,Afternoon,Female,2020-02-28 15:30:00,15,Meal,candy
+193,5.0,2020-02-28,2,19:00,Ziti,8.0,ounce,358.0,70.0,1.3,13.0,Night,Female,2020-02-28 19:00:00,19,Meal,pasta
+194,5.0,2020-02-28,2,19:30,Slice Of Banana Bread,5.0,ounce,362.0,58.0,28.0,5.5,Night,Female,2020-02-28 19:30:00,19,Snack,bread/pastry
+195,5.0,2020-02-28,2,22:00,Cheese,1.0,ounce,113.0,0.9,0.1,6.4,Late Night,Female,2020-02-28 22:00:00,22,Snack,cheese
+196,5.0,2020-02-29,3,09:00,Coffee,12.0,fluid ounce,3.6,0.0,0.0,0.4,Morning,Female,2020-02-29 09:00:00,9,Beverage,coffee
+197,5.0,2020-02-29,3,09:00,Creamer,0.17,fluid ounce,7.7,0.7,0.0,0.1,Morning,Female,2020-02-29 09:00:00,9,Beverage,coffee
+198,5.0,2020-02-29,3,09:00,Sugar,0.33,fluid ounce,33.0,8.5,8.5,0.0,Morning,Female,2020-02-29 09:00:00,9,Beverage,coffee
+199,5.0,2020-02-29,3,10:30,Chicken Biscuit,1.0,,396.0,40.0,3.5,16.0,Morning,Female,2020-02-29 10:30:00,10,Meal,sandwich
+200,5.0,2020-02-29,3,11:00,Muffin,0.5,,424.0,60.0,36.0,5.1,Morning,Female,2020-02-29 11:00:00,11,Snack,bread/pastry
+201,5.0,2020-02-29,3,17:45,Salad,10.0,ounce,67.0,14.0,6.1,4.1,Afternoon,Female,2020-02-29 17:45:00,17,Meal,salad
+202,5.0,2020-02-29,3,17:45,Ranch Dressing,2.0,ounce,244.0,1.7,1.3,0.4,Afternoon,Female,2020-02-29 17:45:00,17,Meal,ranch dressing
+203,5.0,2020-02-29,3,17:45,Baked Potato,0.5,,80.5,18.3,1.0,2.2,Afternoon,Female,2020-02-29 17:45:00,17,Meal,potato
+204,5.0,2020-02-29,3,22:30,(Babybel) Cheese,1.0,,71.0,0.3,0.3,5.0,Late Night,Female,2020-02-29 22:30:00,22,Snack,cheese
+205,5.0,2020-03-01,4,08:00,Milk,4.0,fluid ounce,60.0,4.5,4.0,6.0,Early Morning,Female,2020-03-01 08:00:00,8,Beverage,milk
+206,5.0,2020-03-01,4,08:00,Cornflakes,1.5,cup,220.0,52.0,20.0,2.0,Early Morning,Female,2020-03-01 08:00:00,8,Meal,cereal
+207,5.0,2020-03-01,4,11:00,Baked Potato,0.5,,80.5,18.3,1.0,2.2,Morning,Female,2020-03-01 11:00:00,11,Meal,potato
+208,5.0,2020-03-01,4,18:00,Flour Tortilla,1.0,,159.0,27.0,0.0,4.3,Night,Female,2020-03-01 18:00:00,18,Meal,mexican food
+209,5.0,2020-03-01,4,18:00,Black Beans,0.5,cup,114.0,20.0,0.3,7.6,Night,Female,2020-03-01 18:00:00,18,Meal,bean
+210,5.0,2020-03-01,4,22:00,Babybel Cheese,1.0,,71.0,0.3,0.3,5.0,Late Night,Female,2020-03-01 22:00:00,22,Snack,cheese
+211,5.0,2020-03-02,5,16:00,Peanut Butter,1.0,ounce,167.0,6.8,1.8,6.2,Afternoon,Female,2020-03-02 16:00:00,16,Meal,nuts
+212,5.0,2020-03-02,5,18:00,Salad,13.0,ounce,87.0,18.0,7.9,5.3,Night,Female,2020-03-02 18:00:00,18,Meal,salad
+213,5.0,2020-03-02,5,18:00,Ranch Dressing,1.5,fluid ounce,183.0,2.5,2.0,0.6,Night,Female,2020-03-02 18:00:00,18,Meal,ranch dressing
+214,5.0,2020-03-02,5,22:30,Cheese,1.0,ounce,113.0,0.9,0.1,6.4,Late Night,Female,2020-03-02 22:30:00,22,Snack,cheese
+215,5.0,2020-03-03,6,09:40,Milk,4.0,fluid ounce,60.0,4.5,4.0,6.0,Morning,Female,2020-03-03 09:40:00,9,Beverage,milk
+216,5.0,2020-03-03,6,09:40,Cornflakes,1.5,cup,220.0,52.0,20.0,2.0,Morning,Female,2020-03-03 09:40:00,9,Meal,cereal
+217,5.0,2020-03-03,6,13:15,Pepperjack Cheese,2.0,ounce,211.0,0.4,0.3,14.0,Noon,Female,2020-03-03 13:15:00,13,Meal,cheese
+218,5.0,2020-03-03,6,14:00,90% Dark Chocolate,1.0,ounce,60.0,3.0,0.8,1.0,Afternoon,Female,2020-03-03 14:00:00,14,Meal,candy
+219,5.0,2020-03-03,6,18:00,Coffee,10.0,fluid ounce,3.0,0.0,0.0,0.4,Night,Female,2020-03-03 18:00:00,18,Beverage,coffee
+220,5.0,2020-03-03,6,18:00,Creamer,0.33,fluid ounce,12.0,1.0,0.0,0.1,Night,Female,2020-03-03 18:00:00,18,Beverage,coffee
+221,5.0,2020-03-03,6,18:00,Sugar,0.33,fluid ounce,33.0,8.5,8.5,0.0,Night,Female,2020-03-03 18:00:00,18,Beverage,coffee
+222,5.0,2020-03-03,6,19:30,Taco Salad,2.0,cup,503.0,45.0,3.1,22.0,Night,Female,2020-03-03 19:30:00,19,Meal,mexican food
+223,5.0,2020-03-03,6,19:30,Tortilla Chips,15.0,,212.0,31.0,0.3,3.2,Night,Female,2020-03-03 19:30:00,19,Snack,mexican food
+224,5.0,2020-03-03,6,19:30,Salsa,0.125,cup,7.5,1.7,1.0,0.4,Night,Female,2020-03-03 19:30:00,19,Snack,mexican food
+225,5.0,2020-03-03,6,22:45,Peanut Butter,0.5,ounce,83.0,3.4,0.9,3.1,Late Night,Female,2020-03-03 22:45:00,22,Meal,nuts
+226,5.0,2020-03-04,7,11:00,Cheese,1.0,ounce,113.0,0.9,0.1,6.4,Morning,Female,2020-03-04 11:00:00,11,Snack,cheese
+227,5.0,2020-03-04,7,11:00,Coffee,10.0,fluid ounce,3.0,0.0,0.0,0.4,Morning,Female,2020-03-04 11:00:00,11,Beverage,coffee
+228,5.0,2020-03-04,7,11:00,Creamer,0.33,fluid ounce,12.0,1.0,0.0,0.1,Morning,Female,2020-03-04 11:00:00,11,Beverage,coffee
+229,5.0,2020-03-04,7,11:00,Sugar,0.33,fluid ounce,33.0,8.5,8.5,0.0,Morning,Female,2020-03-04 11:00:00,11,Beverage,coffee
+230,5.0,2020-03-04,7,14:00,Tortilla Chips,10.0,,141.3,20.7,0.2,2.1,Afternoon,Female,2020-03-04 14:00:00,14,Snack,mexican food
+231,5.0,2020-03-04,7,14:00,Hummus,0.5,ounce,24.0,2.0,0.0,1.1,Afternoon,Female,2020-03-04 14:00:00,14,Meal,hummus
+232,5.0,2020-03-04,7,18:30,(Outback Steakhouse) Chicken Tacos,3.0,,1210.0,55.0,8.0,65.0,Night,Female,2020-03-04 18:30:00,18,Meal,mexican food
+233,5.0,2020-03-04,7,18:30,(Outback Steakhouse) Bread With Butter,1.0,,310.0,51.0,10.0,10.0,Night,Female,2020-03-04 18:30:00,18,Meal,tea
+234,5.0,2020-03-04,7,18:30,(Outback Steakhouse) Mixed Drink,20.0,ounce,601.0,44.0,44.0,0.0,Night,Female,2020-03-04 18:30:00,18,Beverage,tea
+235,5.0,2020-03-04,7,22:15,90% Dark Chocolate,1.0,ounce,60.0,3.0,0.8,1.0,Late Night,Female,2020-03-04 22:15:00,22,Meal,candy
+236,5.0,2020-03-05,8,08:30,Milk,4.0,fluid ounce,60.0,4.5,4.0,6.0,Early Morning,Female,2020-03-05 08:30:00,8,Beverage,milk
+237,5.0,2020-03-05,8,08:30,Cornflakes,1.5,cup,220.0,52.0,20.0,2.0,Early Morning,Female,2020-03-05 08:30:00,8,Meal,cereal
+238,5.0,2020-03-05,8,13:30,Pistachios,0.5,cup,350.0,17.0,4.8,13.0,Noon,Female,2020-03-05 13:30:00,13,Snack,nuts
+239,5.0,2020-03-05,8,17:00,Salad,10.0,ounce,67.0,14.0,6.1,4.1,Afternoon,Female,2020-03-05 17:00:00,17,Meal,salad
+240,5.0,2020-03-05,8,17:00,Ranch Dressing,1.0,ounce,122.0,1.7,1.3,0.4,Afternoon,Female,2020-03-05 17:00:00,17,Meal,ranch dressing
+241,5.0,2020-03-05,8,18:00,Yogurt,1.0,cup,143.0,16.0,16.0,12.0,Night,Female,2020-03-05 18:00:00,18,Meal,yogurt
+242,5.0,2020-03-05,8,22:00,Granola Bar,6.0,ounce,711.0,119.0,49.0,9.6,Late Night,Female,2020-03-05 22:00:00,22,Snack,snack bar
+243,5.0,2020-03-06,9,08:00,Coffee,12.0,fluid ounce,3.6,0.0,0.0,0.4,Early Morning,Female,2020-03-06 08:00:00,8,Beverage,coffee
+244,5.0,2020-03-06,9,08:00,Creamer,0.33,fluid ounce,12.0,1.0,0.0,0.1,Early Morning,Female,2020-03-06 08:00:00,8,Beverage,coffee
+245,5.0,2020-03-06,9,08:00,Sugar,0.33,fluid ounce,33.0,8.5,8.5,0.0,Early Morning,Female,2020-03-06 08:00:00,8,Beverage,coffee
+246,5.0,2020-03-06,9,09:00,Cheese,1.0,ounce,113.0,0.9,0.1,6.4,Morning,Female,2020-03-06 09:00:00,9,Snack,cheese
+247,5.0,2020-03-06,9,13:30,Egg Salad,0.5,cup,236.0,2.7,1.2,9.1,Noon,Female,2020-03-06 13:30:00,13,Meal,salad
+248,5.0,2020-03-06,9,21:00,Multigrain Chips,20.0,,280.0,36.0,0.0,6.0,Night,Female,2020-03-06 21:00:00,21,Snack,chips
+249,5.0,2020-03-06,9,21:00,Hummus,1.5,ounce,71.0,6.1,0.0,3.4,Night,Female,2020-03-06 21:00:00,21,Meal,hummus
+250,6.0,2020-02-28,1,08:10,Quest Bar Cookie Dough,quarter,bar,45.0,5.8,0.1,5.0,Early Morning,Female,2020-02-28 08:10:00,8,Snack,snack bar
+251,6.0,2020-02-28,1,09:15,Quest Bar Cookie Dough,rest of bar,,135.0,17.3,0.4,15.0,Morning,Female,2020-02-28 09:15:00,9,Snack,snack bar
+252,6.0,2020-02-28,1,15:30,4 Small Pizza Slices Everything,,,626.0,70.0,7.2,26.0,Afternoon,Female,2020-02-28 15:30:00,15,Meal,pizza
+253,6.0,2020-02-28,1,19:30,Chocolate Chip Cookies,2,,296.0,40.0,19.8,3.0,Night,Female,2020-02-28 19:30:00,19,Meal,candy
+254,6.0,2020-02-28,1,23:00,Baked Cheetos,3,servings,420.0,60.0,3.0,6.0,Late Night,Female,2020-02-28 23:00:00,23,Snack,chips
+255,6.0,2020-02-28,1,23:50,Oreo Shake,,,652.0,102.0,80.0,15.0,Late Night,Female,2020-02-28 23:50:00,23,Meal,smoothie
+256,6.0,2020-02-29,2,11:50,Std Breakfast,,,280.0,56.5,24.0,8.0,Morning,Female,2020-02-29 11:50:00,11,Meal,standard breakfast
+257,6.0,2020-02-29,2,16:00,4 Small Pizza Slices Everything,,,626.0,70.0,7.2,26.0,Afternoon,Female,2020-02-29 16:00:00,16,Meal,pizza
+258,6.0,2020-02-29,2,23:30,Fruit Smoothie,30,fluid oz,606.0,126.0,90.0,21.0,Late Night,Female,2020-02-29 23:30:00,23,Beverage,smoothie
+259,6.0,2020-02-29,2,23:30,Baked Cheetos,3,servings,420.0,60.0,3.0,6.0,Late Night,Female,2020-02-29 23:30:00,23,Snack,chips
+260,6.0,2020-03-01,3,11:00,Fruit Smoothie,10,fluid oz,202.0,42.0,30.0,7.0,Morning,Female,2020-03-01 11:00:00,11,Beverage,smoothie
+261,6.0,2020-03-01,3,14:00,4 Small Pizza Slices Everything,,,626.0,70.0,7.2,26.0,Afternoon,Female,2020-03-01 14:00:00,14,Meal,pizza
+262,6.0,2020-03-01,3,23:00,Fruit Smoothie,35,fluid oz,606.0,126.0,90.0,21.0,Late Night,Female,2020-03-01 23:00:00,23,Beverage,smoothie
+263,6.0,2020-03-01,3,23:00,Baked Cheetos,3,servings,420.0,60.0,3.0,6.0,Late Night,Female,2020-03-01 23:00:00,23,Snack,chips
+264,6.0,2020-03-02,4,01:30,Fruit Smoothie,6,fluid oz,202.0,42.0,30.0,7.0,Late Night,Female,2020-03-02 01:30:00,1,Beverage,smoothie
+265,6.0,2020-03-02,4,01:30,Baked Cheetos,1,servings,140.0,20.0,1.0,2.0,Late Night,Female,2020-03-02 01:30:00,1,Snack,chips
+266,6.0,2020-03-02,4,05:15,Std Breakfast,,,280.0,56.5,24.0,8.0,Early Morning,Female,2020-03-02 05:15:00,5,Meal,standard breakfast
+267,6.0,2020-03-02,4,15:00,Fun Size Snickers Bar,,,74.0,9.2,7.6,1.1,Afternoon,Female,2020-03-02 15:00:00,15,Meal,snack bar
+268,6.0,2020-03-02,4,22:00,Fruit Smoothie,30,fluid oz,606.0,126.0,90.0,21.0,Late Night,Female,2020-03-02 22:00:00,22,Beverage,smoothie
+269,6.0,2020-03-02,4,22:00,Baked Cheetos,5,servings,700.0,100.0,5.0,10.0,Late Night,Female,2020-03-02 22:00:00,22,Snack,chips
+270,6.0,2020-03-03,5,13:55,Mac And Cheese,0.75,cup,376.0,47.0,8.5,9.7,Noon,Female,2020-03-03 13:55:00,13,Meal,pasta
+271,6.0,2020-03-03,5,14:40,Blue Bunny Fudge Bar,,,62.0,12.0,9.0,2.2,Afternoon,Female,2020-03-03 14:40:00,14,Meal,snack bar
+272,6.0,2020-03-03,5,18:25,Fruit Smoothie,26,fluid oz,606.0,126.0,90.0,21.0,Night,Female,2020-03-03 18:25:00,18,Beverage,smoothie
+273,6.0,2020-03-03,5,18:25,Chex Mix Cheddar,2,servings,260.0,44.0,6.0,4.0,Night,Female,2020-03-03 18:25:00,18,Snack,chips
+274,6.0,2020-03-03,5,20:00,Fritos Single Serving Bag,,,452.0,48.0,0.2,5.1,Night,Female,2020-03-03 20:00:00,20,Snack,chips
+275,6.0,2020-03-03,5,23:45,Veggie Omelet,half,omelet,310.0,9.5,3.9,18.5,Late Night,Female,2020-03-03 23:45:00,23,Meal,omelet
+276,6.0,2020-03-03,5,23:45,Cinnamon Raisin Bagel,half,,180.0,36.0,3.9,6.5,Late Night,Female,2020-03-03 23:45:00,23,Meal,bread/pastry
+277,6.0,2020-03-03,5,23:45,Fritos Single Serving Bag,,,452.0,48.0,0.2,5.1,Late Night,Female,2020-03-03 23:45:00,23,Snack,chips
+278,6.0,2020-03-04,6,00:45,Blue Bunny Fudge Bar,2,,124.0,24.0,18.0,4.4,Late Night,Female,2020-03-04 00:45:00,0,Meal,snack bar
+279,6.0,2020-03-04,6,02:00,2 Small Fruit Bars,,,240.0,52.0,22.0,3.4,Late Night,Female,2020-03-04 02:00:00,2,Snack,snack bar
+280,6.0,2020-03-04,6,08:25,Std Breakfast,,,280.0,56.5,24.0,8.0,Early Morning,Female,2020-03-04 08:25:00,8,Meal,standard breakfast
+281,6.0,2020-03-04,6,13:20,Veggie Omelet,half,omelet,310.0,9.5,3.9,18.5,Noon,Female,2020-03-04 13:20:00,13,Meal,omelet
+282,6.0,2020-03-04,6,13:20,Cinnamon Raisin Bagel,half,,180.0,36.0,3.9,6.5,Noon,Female,2020-03-04 13:20:00,13,Meal,bread/pastry
+283,6.0,2020-03-04,6,20:25,Lean Cuisine Mushroom Ravioli Box Meal,,,270.0,40.0,8.0,10.0,Night,Female,2020-03-04 20:25:00,20,Meal,pasta
+284,6.0,2020-03-05,7,00:05,M&Ms,,,236.0,34.0,31.0,2.1,Late Night,Female,2020-03-05 00:05:00,0,Meal,candy
+285,6.0,2020-03-05,7,23:30,Fruit Smoothie,30,fluid oz,606.0,126.0,90.0,21.0,Late Night,Female,2020-03-05 23:30:00,23,Beverage,smoothie
+286,6.0,2020-03-05,7,23:30,Baked Cheetos,5,servings,700.0,100.0,5.0,10.0,Late Night,Female,2020-03-05 23:30:00,23,Snack,chips
+287,6.0,2020-03-06,8,13:00,Std Breakfast,,,280.0,56.5,24.0,8.0,Noon,Female,2020-03-06 13:00:00,13,Meal,standard breakfast
+288,6.0,2020-03-06,8,18:15,Nutrigrain Bar,,,130.0,25.0,13.0,2.0,Night,Female,2020-03-06 18:15:00,18,Snack,snack bar
+289,6.0,2020-03-06,8,20:35,Fruit Smoothie,28,fluid oz,606.0,126.0,90.0,21.0,Night,Female,2020-03-06 20:35:00,20,Beverage,smoothie
+290,6.0,2020-03-06,8,20:35,Baked Cheetos,6,servings,840.0,120.0,6.0,12.0,Night,Female,2020-03-06 20:35:00,20,Snack,chips
+291,6.0,2020-03-07,9,08:20,1/4 Blueberry Pancake,,,84.0,11.0,0.0,2.3,Early Morning,Female,2020-03-07 08:20:00,8,Meal,desserts
+292,6.0,2020-03-07,9,08:20,Grits,1,bowl,151.0,32.0,0.2,2.9,Early Morning,Female,2020-03-07 08:20:00,8,Meal,oat/grains
+293,6.0,2020-03-07,9,11:45,1 Snack Size Baby Ruth,,,83.0,12.0,9.7,1.0,Morning,Female,2020-03-07 11:45:00,11,Meal,candy
+294,6.0,2020-03-07,9,13:15,1 Snack Size Baby Ruth,,,83.0,12.0,9.7,1.0,Noon,Female,2020-03-07 13:15:00,13,Meal,candy
+295,6.0,2020-03-07,9,14:35,Ritz Pb Crackers,4,crackers,200.0,22.0,5.0,4.0,Afternoon,Female,2020-03-07 14:35:00,14,Snack,crackers
+296,6.0,2020-03-07,9,18:45,Baked Cheetos,1.5,servings,210.0,30.0,1.5,3.0,Night,Female,2020-03-07 18:45:00,18,Snack,chips
+297,6.0,2020-03-07,9,19:15,Totinos Pizza,,,1320.0,148.0,16.0,44.0,Night,Female,2020-03-07 19:15:00,19,Meal,pizza
+298,6.0,2020-03-07,9,20:00,Baked Cheetos,1.5,servings,140.0,20.0,1.0,2.0,Night,Female,2020-03-07 20:00:00,20,Snack,chips
+299,6.0,2020-03-08,10,10:50,Std Breakfast,,,280.0,56.5,24.0,8.0,Morning,Female,2020-03-08 10:50:00,10,Meal,standard breakfast
+300,6.0,2020-03-08,10,12:30,Lemon Risotto,,,165.0,25.0,3.0,5.0,Noon,Female,2020-03-08 12:30:00,12,Meal,pasta
+301,6.0,2020-03-08,10,12:30,Cheesecake,3,bites,80.0,6.4,5.4,1.4,Noon,Female,2020-03-08 12:30:00,12,Meal,cheese
+302,6.0,2020-03-08,10,19:50,3/4 Large Blueberry Pancake,,,84.0,11.0,0.0,2.3,Night,Female,2020-03-08 19:50:00,19,Meal,desserts
+303,6.0,2020-03-08,10,19:50,Baked Cheetos,5,servings,700.0,100.0,5.0,10.0,Night,Female,2020-03-08 19:50:00,19,Snack,chips
+304,7.0,2019-10-16,1,13:44,(Costco) Seafood Stuffed Salmon,129.0,gram,201.0,1.5,0.2,24.0,Noon,Female,2019-10-16 13:44:00,13,Meal,seafood
+305,7.0,2019-10-16,1,13:44,(Green Giant) Rice Cauliflower - Plain,58.0,gram,15.0,2.9,1.1,1.1,Noon,Female,2019-10-16 13:44:00,13,Meal,rice
+306,7.0,2019-10-16,1,17:55,Salad - Butter Lettuce,171.0,gram,171.0,8.5,3.7,2.5,Afternoon,Female,2019-10-16 17:55:00,17,Meal,salad
+307,7.0,2019-10-16,1,17:55,Chickpeas,71.0,gram,116.0,19.0,3.4,6.3,Afternoon,Female,2019-10-16 17:55:00,17,Meal,bean
+308,7.0,2019-10-16,1,17:55,(Toast) Red Wine Vinegrette,1.0,tablespoon,35.0,1.8,1.6,0.1,Afternoon,Female,2019-10-16 17:55:00,17,Meal,alcohol
+309,7.0,2019-10-16,1,20:30,(Jolly Time) Select Yellow Pop Corn - Air Popped,0.25,cup,200.0,48.0,0.0,8.0,Night,Female,2019-10-16 20:30:00,20,Snack,popcorn
+310,7.0,2019-10-16,1,20:30,Virgil'S Zero Sugar Black Cherry Soda,12.0,ounce,0.0,0.0,0.0,0.0,Night,Female,2019-10-16 20:30:00,20,Beverage,soda
+311,7.0,2019-10-16,1,22:25,(Peppridge Farm) Whole Wheat Hamburger Bun,1.0,,130.0,22.0,3.0,7.0,Late Night,Female,2019-10-16 22:25:00,22,Meal,burger
+312,7.0,2019-10-16,1,22:25,(Jif) Extra Crunchy Peanut Butter,2.0,tablespoon,190.0,8.0,3.0,7.0,Late Night,Female,2019-10-16 22:25:00,22,Meal,nuts
+313,7.0,2019-10-17,2,10:05,(Quaker) Old Fashioned Oats,1.0,,150.0,27.0,1.0,5.0,Morning,Female,2019-10-17 10:05:00,10,Meal,oat/grains
+314,7.0,2019-10-17,2,10:05,Ground Flaxseeds,1.0,tablespoon,55.0,3.0,0.2,1.9,Morning,Female,2019-10-17 10:05:00,10,Meal,oat/grains
+315,7.0,2019-10-17,2,10:05,(Harris Teeter) Fat Free Organic Milk,1.0,cup,80.0,13.0,12.0,8.0,Morning,Female,2019-10-17 10:05:00,10,Beverage,milk
+316,7.0,2019-10-17,2,13:00,(Peppridge Farm) Whole Wheat Hamburger Bun,1.0,,130.0,22.0,3.0,7.0,Noon,Female,2019-10-17 13:00:00,13,Meal,burger
+317,7.0,2019-10-17,2,13:00,(Jif) Extra Crunchy Peanut Butter,2.0,tablespoon,190.0,8.0,3.0,7.0,Noon,Female,2019-10-17 13:00:00,13,Meal,nuts
+318,7.0,2019-10-17,2,16:35,"Homemade Chicken Noodle Soup With Chicken, Onion, Celery, (Kirkland) Organic Chicken Stock, And (Amish Kitchens) Wide Egg Noodles",2.0,cup,124.0,15.0,1.3,6.3,Afternoon,Female,2019-10-17 16:35:00,16,Meal,soup
+319,7.0,2019-10-17,2,19:05,(Harris Teeter) Charleston Crabcake,52.0,gram,90.0,3.7,0.7,5.8,Night,Female,2019-10-17 19:05:00,19,Meal,seafood
+320,7.0,2019-10-17,2,19:05,(Green Giant) Rice Cauliflower - Plain,42.0,gram,10.5,2.1,0.8,0.8,Night,Female,2019-10-17 19:05:00,19,Meal,rice
+321,7.0,2019-10-17,2,19:05,Lemon Juice,1.0,teaspoon,0.8,0.3,0.1,0.0,Night,Female,2019-10-17 19:05:00,19,Meal,juice
+322,7.0,2019-10-17,2,20:50,(Jolly Time) Select Yellow Pop Corn - Air Popped,0.25,cup,200.0,48.0,0.0,8.0,Night,Female,2019-10-17 20:50:00,20,Snack,popcorn
+323,7.0,2019-10-17,2,20:50,Virgil'S Zero Sugar Black Cherry Soda,12.0,ounce,0.0,0.0,0.0,0.0,Night,Female,2019-10-17 20:50:00,20,Beverage,soda
+324,7.0,2019-10-18,3,09:45,Std Bfast,,,280.0,56.5,24.0,8.0,Morning,Female,2019-10-18 09:45:00,9,Meal,standard breakfast
+325,7.0,2019-10-18,3,13:00,(Firebirds Wood Fired Grill) Steak Sandwich With Lettuce And Onion,0.5,,315.0,26.5,4.5,20.5,Noon,Female,2019-10-18 13:00:00,13,Meal,tea
+326,7.0,2019-10-18,3,13:00,(Firebirds Wood Fired Grill) Seasoned Steak Fries,0.75,,457.5,59.3,0.8,6.8,Noon,Female,2019-10-18 13:00:00,13,Meal,tea
+327,7.0,2019-10-18,3,13:00,(Alex'S) Lemonade,8.0,ounce,99.0,26.0,25.0,0.2,Noon,Female,2019-10-18 13:00:00,13,Beverage,soda
+328,7.0,2019-10-18,3,18:10,(Toast) Red Wine Vinegrette,1.0,teaspoon,12.0,0.6,0.5,0.0,Night,Female,2019-10-18 18:10:00,18,Meal,alcohol
+329,7.0,2019-10-18,3,18:10,(Harris Teeter) Charleston Crabcake,29.0,gram,50.2,2.1,0.4,3.2,Night,Female,2019-10-18 18:10:00,18,Meal,seafood
+330,7.0,2019-10-18,3,18:10,Lemon Juice,1.0,teaspoon,0.8,0.3,0.1,0.0,Night,Female,2019-10-18 18:10:00,18,Meal,juice
+331,7.0,2019-10-18,3,18:40,Pecans,30.0,gram,207.0,4.2,1.2,2.8,Night,Female,2019-10-18 18:40:00,18,Meal,nuts
+332,7.0,2019-10-18,3,21:00,(Jolly Time) Select Yellow Pop Corn - Air Popped,0.25,cup,200.0,48.0,0.0,8.0,Night,Female,2019-10-18 21:00:00,21,Snack,popcorn
+333,7.0,2019-10-18,3,22:30,(Peppridge Farm) Whole Wheat Hamburger Bun,1.0,,130.0,22.0,3.0,7.0,Late Night,Female,2019-10-18 22:30:00,22,Meal,burger
+334,7.0,2019-10-18,3,22:30,Smart Balance,7.0,gram,41.0,0.0,0.0,0.0,Late Night,Female,2019-10-18 22:30:00,22,Meal,smart balance
+335,7.0,2019-10-19,4,12:10,(Quaker) Old Fashioned Oats,1.0,,150.0,27.0,1.0,5.0,Noon,Female,2019-10-19 12:10:00,12,Meal,oat/grains
+336,7.0,2019-10-19,4,12:10,Ground Flaxseeds,1.0,tablespoon,55.0,3.0,0.2,1.9,Noon,Female,2019-10-19 12:10:00,12,Meal,oat/grains
+337,7.0,2019-10-19,4,12:10,Cinnamon,2.0,teaspoon,13.0,4.2,0.1,0.2,Noon,Female,2019-10-19 12:10:00,12,Meal,cinnamon
+338,7.0,2019-10-19,4,12:10,(Harris Teeter) Fat Free Organic Milk,1.0,cup,80.0,13.0,12.0,8.0,Noon,Female,2019-10-19 12:10:00,12,Beverage,milk
+339,7.0,2019-10-19,4,16:15,Chicken Breaded With (Progesso) Italian Bread Crumbs,143.0,gram,323.0,24.0,1.5,35.0,Afternoon,Female,2019-10-19 16:15:00,16,Meal,poultry
+340,7.0,2019-10-19,4,16:15,Potato,100.0,gram,93.0,21.0,1.2,2.5,Afternoon,Female,2019-10-19 16:15:00,16,Meal,potato
+341,7.0,2019-10-19,4,16:15,Extra Virgin Olive Oil,1.0,tablespoon,119.0,0.0,0.0,0.0,Afternoon,Female,2019-10-19 16:15:00,16,Meal,extra virgin olive oil
+342,7.0,2019-10-19,4,16:15,(Crosse And Blackwell) Old Fashioned English Fish And Chip  Vinegar,1.0,tablespoon,0.0,0.0,0.0,0.0,Afternoon,Female,2019-10-19 16:15:00,16,Meal,seafood
+343,7.0,2019-10-19,4,20:25,"Homemade Soup With Hot Italian Sausage, Kale, Cannolli Beans, Onion, Garlic, (Kirkland) Organic Chicken Stock, White Wine",3.0,cup,600.0,48.0,8.3,22.5,Night,Female,2019-10-19 20:25:00,20,Meal,bean
+344,7.0,2019-10-19,4,21:30,"Homemade Soup With Hot Italian Sausage, Kale, Cannolli Beans, Onion, Garlic, (Kirkland) Organic Chicken Stock, White Wine",1.0,cup,200.0,16.0,2.8,7.5,Night,Female,2019-10-19 21:30:00,21,Meal,bean
+345,7.0,2019-10-20,5,10:40,Std Bfast,,,280.0,56.5,24.0,8.0,Morning,Female,2019-10-20 10:40:00,10,Meal,standard breakfast
+346,7.0,2019-10-20,5,13:40,"Homemade Soup With Hot Italian Sausage, Kale, Cannolli Beans, Onion, Garlic, (Kirkland) Organic Chicken Stock, White Wine",1.0,cup,200.0,16.0,2.8,7.5,Noon,Female,2019-10-20 13:40:00,13,Meal,bean
+347,7.0,2019-10-20,5,18:35,Chicken Breaded With (Progesso) Italian Bread Crumbs,122.0,gram,275.6,20.5,1.3,29.9,Night,Female,2019-10-20 18:35:00,18,Meal,poultry
+348,7.0,2019-10-20,5,18:35,Potato,54.0,gram,50.2,11.3,0.6,1.4,Night,Female,2019-10-20 18:35:00,18,Meal,potato
+349,7.0,2019-10-20,5,18:35,Extra Virgin Olive Oil,1.0,tablespoon,119.0,0.0,0.0,0.0,Night,Female,2019-10-20 18:35:00,18,Meal,extra virgin olive oil
+350,7.0,2019-10-20,5,18:35,(Crosse And Blackwell) Old Fashioned English Fish And Chip  Vinegar,1.0,tablespoon,0.0,0.0,0.0,0.0,Night,Female,2019-10-20 18:35:00,18,Meal,seafood
+351,7.0,2019-10-20,5,21:20,(Jolly Time) Select Yellow Pop Corn - Air Popped,0.25,cup,200.0,48.0,0.0,8.0,Night,Female,2019-10-20 21:20:00,21,Snack,popcorn
+352,7.0,2019-10-20,5,21:20,Virgil'S Zero Sugar Black Cherry Soda,12.0,ounce,0.0,0.0,0.0,0.0,Night,Female,2019-10-20 21:20:00,21,Beverage,soda
+353,7.0,2019-10-21,6,10:30,Std Bfast,,,280.0,56.5,24.0,8.0,Morning,Female,2019-10-21 10:30:00,10,Meal,standard breakfast
+354,7.0,2019-10-21,6,13:45,(Quaker) Old Fashioned Oats,1.0,,150.0,27.0,1.0,5.0,Noon,Female,2019-10-21 13:45:00,13,Meal,oat/grains
+355,7.0,2019-10-21,6,13:45,Ground Flaxseeds,1.0,tablespoon,55.0,3.0,0.2,1.9,Noon,Female,2019-10-21 13:45:00,13,Meal,oat/grains
+356,7.0,2019-10-21,6,13:45,Cinnamon,2.0,teaspoon,13.0,4.2,0.1,0.2,Noon,Female,2019-10-21 13:45:00,13,Meal,cinnamon
+357,7.0,2019-10-21,6,13:45,(Harris Teeter) Fat Free Organic Milk,1.0,cup,80.0,13.0,12.0,8.0,Noon,Female,2019-10-21 13:45:00,13,Beverage,milk
+358,7.0,2019-10-21,6,19:05,Chickpeas,90.0,gram,147.0,24.1,4.3,8.0,Night,Female,2019-10-21 19:05:00,19,Meal,bean
+359,7.0,2019-10-21,6,19:05,(Toast) Red Wine Vinegrette,1.0,tablespoon,35.0,1.8,1.6,0.1,Night,Female,2019-10-21 19:05:00,19,Meal,alcohol
+360,7.0,2019-10-22,7,10:00,(Quaker) Old Fashioned Oats,1.0,,150.0,27.0,1.0,5.0,Morning,Female,2019-10-22 10:00:00,10,Meal,oat/grains
+361,7.0,2019-10-22,7,10:00,Ground Flaxseeds,1.0,tablespoon,55.0,3.0,0.2,1.9,Morning,Female,2019-10-22 10:00:00,10,Meal,oat/grains
+362,7.0,2019-10-22,7,10:00,Cinnamon,2.0,teaspoon,13.0,4.2,0.1,0.2,Morning,Female,2019-10-22 10:00:00,10,Meal,cinnamon
+363,7.0,2019-10-22,7,10:00,(Harris Teeter) Fat Free Organic Milk,1.0,cup,80.0,13.0,12.0,8.0,Morning,Female,2019-10-22 10:00:00,10,Beverage,milk
+364,7.0,2019-10-22,7,16:10,"Homemade Beef And Barley Soup With Onion, Celery, Kale, (Simple Truth) Fat Free Organic Beef Stock, And (Pacific) Low Sodium Organic Vegetable Broth",3.0,cup,324.0,49.5,7.6,18.0,Afternoon,Female,2019-10-22 16:10:00,16,Meal,soup
+365,7.0,2019-10-22,7,19:05,Chickpeas,53.0,gram,86.6,14.2,2.5,4.7,Night,Female,2019-10-22 19:05:00,19,Meal,bean
+366,7.0,2019-10-22,7,19:05,Chicken Breaded With (Progesso) Italian Bread Crumbs,105.0,gram,237.2,17.6,1.1,25.7,Night,Female,2019-10-22 19:05:00,19,Meal,poultry
+367,7.0,2019-10-22,7,19:05,(Toast) Red Wine Vinegrette,2.0,teaspoon,24.0,1.2,1.1,0.0,Night,Female,2019-10-22 19:05:00,19,Meal,alcohol
+368,7.0,2019-10-22,7,19:05,Potato,42.0,gram,39.1,8.8,0.5,1.1,Night,Female,2019-10-22 19:05:00,19,Meal,potato
+369,7.0,2019-10-22,7,19:05,Extra Virgin Olive Oil,0.5,tablespoon,59.5,0.0,0.0,0.0,Night,Female,2019-10-22 19:05:00,19,Meal,extra virgin olive oil
+370,7.0,2019-10-22,7,19:05,(Crosse And Blackwell) Old Fashioned English Fish And Chip  Vinegar,1.0,tablespoon,0.0,0.0,0.0,0.0,Night,Female,2019-10-22 19:05:00,19,Meal,seafood
+371,7.0,2019-10-23,8,06:00,Std Bfast,,,280.0,56.5,24.0,8.0,Early Morning,Female,2019-10-23 06:00:00,6,Meal,standard breakfast
+372,7.0,2019-10-23,8,11:30,(Peppridge Farm) Whole Wheat Hamburger Bun,1.0,,130.0,22.0,3.0,7.0,Morning,Female,2019-10-23 11:30:00,11,Meal,burger
+373,7.0,2019-10-23,8,11:30,(Jif) Extra Crunchy Peanut Butter,2.0,tablespoon,190.0,8.0,3.0,7.0,Morning,Female,2019-10-23 11:30:00,11,Meal,nuts
+374,7.0,2019-10-23,8,13:20,(Nosh) Owen'S Crunchy Chicken Sandwich Without Dijonnaise,1.0,,468.0,39.0,6.8,30.0,Noon,Female,2019-10-23 13:20:00,13,Meal,sandwich
+375,7.0,2019-10-23,8,13:20,(Nosh) Veggie Slaw Side Order,1.0,,174.0,14.0,10.0,1.0,Noon,Female,2019-10-23 13:20:00,13,Meal,salad
+376,7.0,2019-10-23,8,16:00,Hershey'S Milk Chocolate Bar,43.0,gram,220.0,26.0,24.0,3.0,Afternoon,Female,2019-10-23 16:00:00,16,Meal,milk
+377,7.0,2019-10-23,8,19:15,Chickpeas,78.0,gram,127.4,20.9,3.7,6.9,Night,Female,2019-10-23 19:15:00,19,Meal,bean
+378,7.0,2019-10-23,8,19:15,(Toast) Red Wine Vinegrette,1.0,teaspoon,12.0,0.6,0.5,0.0,Night,Female,2019-10-23 19:15:00,19,Meal,alcohol
+379,7.0,2019-10-23,8,19:15,"Homemade Chicken Noodle Soup With Chicken, Onion, Celery, (Kirkland) Organic Chicken Stock, And (Amish Kitchens) Wide Egg Noodles",2.0,cup,124.0,15.0,1.3,6.3,Night,Female,2019-10-23 19:15:00,19,Meal,soup
+380,7.0,2019-10-23,8,20:55,(Jolly Time) Select Yellow Pop Corn - Air Popped,0.25,cup,200.0,48.0,0.0,8.0,Night,Female,2019-10-23 20:55:00,20,Snack,popcorn
+381,7.0,2019-10-23,8,20:55,Virgil'S Zero Sugar Black Cherry Soda,12.0,ounce,0.0,0.0,0.0,0.0,Night,Female,2019-10-23 20:55:00,20,Beverage,soda
+382,8.0,2020-03-14,1,14:15,Golden Crust Chicken Patil,4.0,gram,405.0,41.0,2.8,30.0,Afternoon,Female,2020-03-14 14:15:00,14,Meal,poultry
+383,8.0,2020-03-14,1,14:15,Pineapple And Ginger Juice,8.0,ounce,133.0,32.0,25.0,0.9,Afternoon,Female,2020-03-14 14:15:00,14,Beverage,juice
+384,8.0,2020-03-14,1,17:55,Potato,0.5,,80.0,18.0,1.0,2.2,Afternoon,Female,2020-03-14 17:55:00,17,Meal,potato
+385,8.0,2020-03-14,1,17:55,Moscato,8.0,fluid ounce,197.0,13.0,0.0,0.2,Afternoon,Female,2020-03-14 17:55:00,17,Beverage,alcohol
+386,8.0,2020-03-15,2,09:00,Milk,4.0,fluid ounce,60.0,4.5,4.0,6.0,Morning,Female,2020-03-15 09:00:00,9,Beverage,milk
+387,8.0,2020-03-15,2,09:00,Frosted Flakes,1.5,cup,220.0,52.0,20.0,2.0,Morning,Female,2020-03-15 09:00:00,9,Meal,cereal
+388,8.0,2020-03-15,2,12:40,Mini Croissants,2.0,,227.0,26.0,6.3,4.6,Noon,Female,2020-03-15 12:40:00,12,Snack,bread/pastry
+389,8.0,2020-03-15,2,12:40,Coffee,0.5,cup,1.2,0.0,0.0,0.1,Noon,Female,2020-03-15 12:40:00,12,Beverage,coffee
+390,8.0,2020-03-15,2,16:50,Baked Potato,0.5,,80.0,18.0,1.0,2.2,Afternoon,Female,2020-03-15 16:50:00,16,Meal,potato
+391,8.0,2020-03-15,2,16:50,"Salad - Tomato, Cheese, Lettuce, Tortilla Strips",12.0,ounce,80.0,17.0,7.3,4.9,Afternoon,Female,2020-03-15 16:50:00,16,Meal,mexican food
+392,8.0,2020-03-15,2,16:50,Air Fried Chicken Wings,,,324.0,11.0,0.0,20.0,Afternoon,Female,2020-03-15 16:50:00,16,Meal,poultry
+393,8.0,2020-03-16,3,08:56,Mini Croissants,2.0,,227.0,26.0,6.3,4.6,Early Morning,Female,2020-03-16 08:56:00,8,Snack,bread/pastry
+394,8.0,2020-03-16,3,08:56,Coffee,1.0,cup,1.2,0.0,0.0,0.1,Early Morning,Female,2020-03-16 08:56:00,8,Beverage,coffee
+395,8.0,2020-03-16,3,14:30,Granola Oats And Honey,4.0,ounce,555.0,61.0,22.0,16.0,Afternoon,Female,2020-03-16 14:30:00,14,Meal,oat/grains
+396,8.0,2020-03-16,3,19:00,Pizza Triangles,4.0,,1138.0,143.0,15.0,49.0,Night,Female,2020-03-16 19:00:00,19,Meal,pizza
+397,8.0,2020-03-16,3,19:00,Brownie,1.0,ounce,132.0,14.0,0.0,1.8,Night,Female,2020-03-16 19:00:00,19,Meal,desserts
+398,8.0,2020-03-16,3,19:00,Tomato And Mozzarella Toothpick,3.0,,220.0,4.7,2.8,13.0,Night,Female,2020-03-16 19:00:00,19,Meal,cheese
+399,8.0,2020-03-16,3,19:00,Corona,12.0,ounce,148.0,14.0,0.0,0.0,Night,Female,2020-03-16 19:00:00,19,Beverage,alcohol
+400,8.0,2020-03-17,4,09:03,Milk,4.0,fluid ounce,60.0,4.5,4.0,6.0,Morning,Female,2020-03-17 09:03:00,9,Beverage,milk
+401,8.0,2020-03-17,4,09:03,Frosted Flakes,1.5,cup,220.0,52.0,20.0,2.0,Morning,Female,2020-03-17 09:03:00,9,Meal,cereal
+402,8.0,2020-03-17,4,12:41,"Avocado Sandwich - White Bread, With Mayo",,,378.0,35.0,1.6,13.0,Noon,Female,2020-03-17 12:41:00,12,Meal,sandwich
+403,8.0,2020-03-17,4,14:30,Granola Oats And Honey,2.0,ounce,277.0,31.0,11.0,7.8,Afternoon,Female,2020-03-17 14:30:00,14,Meal,oat/grains
+404,8.0,2020-03-17,4,20:15,Large Baked Potato,1.0,,278.0,63.0,3.5,7.5,Night,Female,2020-03-17 20:15:00,20,Meal,potato
+405,8.0,2020-03-17,4,20:15,Mojito,12.0,ounce,343.0,48.0,43.0,0.6,Night,Female,2020-03-17 20:15:00,20,Beverage,alcohol
+406,8.0,2020-03-18,5,09:55,Oatmeal Margarine,7.0,ounce,141.0,24.0,0.5,5.0,Morning,Female,2020-03-18 09:55:00,9,Meal,oat/grains
+407,8.0,2020-03-18,5,09:55,Splenda/Sugar Blend,,,3.4,0.9,0.8,0.0,Morning,Female,2020-03-18 09:55:00,9,Beverage,coffee
+408,8.0,2020-03-18,5,09:55,Coffee,10.0,fluid ounce,3.0,0.0,0.0,0.4,Morning,Female,2020-03-18 09:55:00,9,Beverage,coffee
+409,8.0,2020-03-18,5,09:55,Creamer,,,20.0,1.7,0.0,0.1,Morning,Female,2020-03-18 09:55:00,9,Beverage,coffee
+410,8.0,2020-03-18,5,14:55,"Salad - Shrimp, Lettuce, Tomato, Cheese, Avocado",,,495.0,16.0,5.7,42.0,Afternoon,Female,2020-03-18 14:55:00,14,Meal,salad
+411,8.0,2020-03-18,5,14:55,Low Sugar Apple Juice,8.0,ounce,114.0,28.0,24.0,0.3,Afternoon,Female,2020-03-18 14:55:00,14,Beverage,juice
+412,8.0,2020-03-18,5,15:55,Handfull Of Oats And Honey Granola,,,555.0,61.0,22.0,16.0,Afternoon,Female,2020-03-18 15:55:00,15,Snack,oat/grains
+413,8.0,2020-03-18,5,19:18,Air Fried French Fries,5.0,ounce,442.0,59.0,0.4,4.9,Night,Female,2020-03-18 19:18:00,19,Meal,potato
+414,8.0,2020-03-18,5,19:18,Moscato,8.0,ounce,197.0,13.0,0.0,0.2,Night,Female,2020-03-18 19:18:00,19,Beverage,alcohol
+415,8.0,2020-03-19,6,09:45,Milk,4.0,fluid ounce,60.0,4.5,4.0,6.0,Morning,Female,2020-03-19 09:45:00,9,Beverage,milk
+416,8.0,2020-03-19,6,09:45,Frosted Flakes,1.5,cup,220.0,52.0,20.0,2.0,Morning,Female,2020-03-19 09:45:00,9,Meal,cereal
+417,8.0,2020-03-19,6,13:28,(Wheat Thins) Ranch Crackers,25.0,,233.3,35.0,8.3,3.3,Noon,Female,2020-03-19 13:28:00,13,Snack,crackers
+418,8.0,2020-03-19,6,18:25,Air Fried Chicken Loingettes ,,,377.0,4.4,0.0,40.0,Night,Female,2020-03-19 18:25:00,18,Meal,poultry
+419,8.0,2020-03-19,6,18:25,"Salad - Tomato, Cheese, Lettuce, Tortilla Strips",,,80.0,17.0,7.3,4.9,Night,Female,2020-03-19 18:25:00,18,Meal,mexican food
+420,8.0,2020-03-20,7,06:35,Mini Croissants,2.0,,227.0,26.0,6.3,4.6,Early Morning,Female,2020-03-20 06:35:00,6,Snack,bread/pastry
+421,8.0,2020-03-20,7,11:58,"Sandwich - White Bread, Lettuce, Chicken, Cheese",,,468.0,39.0,6.8,30.0,Morning,Female,2020-03-20 11:58:00,11,Meal,sandwich
+422,8.0,2020-03-20,7,11:58,Vanilla Cookies,6.0,,104.0,16.0,7.1,0.9,Morning,Female,2020-03-20 11:58:00,11,Meal,desserts
+423,8.0,2020-03-20,7,11:58,Low Sugar Apple Juice,10.0,fluid ounce,143.0,35.0,30.0,0.3,Morning,Female,2020-03-20 11:58:00,11,Beverage,juice
+424,8.0,2020-03-20,7,17:32,"Burger Salad - Lettuce, Tomato, Cheese, Tortilla Strips, Burger, Thousand Island Dressing",8.0,ounce,471.0,13.0,8.7,28.0,Afternoon,Female,2020-03-20 17:32:00,17,Meal,mexican food
+425,8.0,2020-03-21,8,09:00,Milk,4.0,fluid ounce,60.0,4.5,4.0,6.0,Morning,Female,2020-03-21 09:00:00,9,Beverage,milk
+426,8.0,2020-03-21,8,09:00,Frosted Flakes,1.5,cup,220.0,52.0,20.0,2.0,Morning,Female,2020-03-21 09:00:00,9,Meal,cereal
+427,8.0,2020-03-21,8,13:25,"Chicken And Cheese Sandwich - White Bread, Mayo",,,468.0,39.0,6.8,30.0,Noon,Female,2020-03-21 13:25:00,13,Meal,sandwich
+428,8.0,2020-03-21,8,13:25,Lemon Cookies,3.0,,413.0,67.0,38.0,4.5,Noon,Female,2020-03-21 13:25:00,13,Meal,desserts
+429,8.0,2020-03-21,8,13:25,Low Sugar Apple Juice,8.0,fluid ounce,114.0,28.0,24.0,0.3,Noon,Female,2020-03-21 13:25:00,13,Beverage,juice
+430,8.0,2020-03-21,8,17:00,Baked Sweet Potato,1.0,,103.0,24.0,7.4,2.3,Afternoon,Female,2020-03-21 17:00:00,17,Meal,potato
+431,8.0,2020-03-21,8,17:00,Lemon Cookies,4.0,,550.7,89.3,50.7,6.0,Afternoon,Female,2020-03-21 17:00:00,17,Meal,desserts
+432,8.0,2020-03-21,8,17:00,Moscato,8.0,ounce,197.0,13.0,0.0,0.2,Afternoon,Female,2020-03-21 17:00:00,17,Beverage,alcohol
+433,8.0,2020-03-22,9,08:50,Mini Croissants,2.0,,227.0,26.0,6.3,4.6,Early Morning,Female,2020-03-22 08:50:00,8,Snack,bread/pastry
+434,8.0,2020-03-22,9,08:50,Coffee,8.0,fluid ounce,1.2,0.0,0.0,0.1,Early Morning,Female,2020-03-22 08:50:00,8,Beverage,coffee
+435,8.0,2020-03-22,9,14:10,Lemon Cookies,6.0,,826.0,134.0,76.0,9.0,Afternoon,Female,2020-03-22 14:10:00,14,Meal,desserts
+436,8.0,2020-03-22,9,19:00,Medium Baked Potato,0.5,,80.0,18.0,1.0,2.2,Night,Female,2020-03-22 19:00:00,19,Meal,potato
+437,9.0,2020-03-21,1,09:15,(Dunkin Coffee) Coffee,12.0,fluid ounce,3.6,0.0,0.0,0.4,Morning,Male,2020-03-21 09:15:00,9,Beverage,coffee
+438,9.0,2020-03-21,1,11:15,(Blue Diamond) Almonds Lightly Salted,15.0,,91.1,2.7,0.5,3.2,Morning,Male,2020-03-21 11:15:00,11,Snack,nuts
+439,9.0,2020-03-21,1,13:15,Swiss Cheese Thinly Sliced,3.0,slice,330.0,1.2,0.0,22.5,Noon,Male,2020-03-21 13:15:00,13,Snack,cheese
+440,9.0,2020-03-21,1,13:15,Coleslaw With Almond And Cranberry,3.0,ounce,135.0,11.0,8.1,0.8,Noon,Male,2020-03-21 13:15:00,13,Meal,salad
+441,9.0,2020-03-21,1,16:15,Coffee,8.0,fluid ounce,2.4,0.0,0.0,0.3,Afternoon,Male,2020-03-21 16:15:00,16,Beverage,coffee
+442,9.0,2020-03-21,1,16:15,Cream,,,57.0,0.8,1.1,0.9,Afternoon,Male,2020-03-21 16:15:00,16,Beverage,coffee
+443,9.0,2020-03-21,1,16:15,(Equal) Sweetner Bag,1.0,,0.0,0.3,0.3,0.0,Afternoon,Male,2020-03-21 16:15:00,16,Beverage,coffee
+444,9.0,2020-03-21,1,19:30,Ham Biscuit,1.0,,299.0,27.0,4.1,9.1,Night,Male,2020-03-21 19:30:00,19,Meal,sandwich
+445,9.0,2020-03-21,1,19:30,Hot Dog,0.5,,77.0,0.6,0.3,2.8,Night,Male,2020-03-21 19:30:00,19,Meal,burger
+446,9.0,2020-03-22,2,08:20,Coffee,16.0,fluid ounce,4.8,0.0,0.0,0.6,Early Morning,Male,2020-03-22 08:20:00,8,Beverage,coffee
+447,9.0,2020-03-22,2,08:20,Cream,,,57.0,0.8,1.1,0.9,Early Morning,Male,2020-03-22 08:20:00,8,Beverage,coffee
+448,9.0,2020-03-22,2,08:20,(Equal) Sweetner Bag,0.5,,0.0,0.3,0.3,0.0,Early Morning,Male,2020-03-22 08:20:00,8,Beverage,coffee
+449,9.0,2020-03-22,2,08:40,Milk,4.0,fluid ounce,60.0,4.5,4.0,6.0,Early Morning,Male,2020-03-22 08:40:00,8,Beverage,milk
+450,9.0,2020-03-22,2,08:40,Frosted Flakes,1.5,cups,220.0,52.0,20.0,2.0,Early Morning,Male,2020-03-22 08:40:00,8,Meal,cereal
+451,9.0,2020-03-22,2,09:35,(Florida'S Natural) Orange Juice,8.0,fluid ounce,110.0,26.0,22.0,2.0,Morning,Male,2020-03-22 09:35:00,9,Beverage,juice
+452,9.0,2020-03-22,2,15:15,Coffee,2.0,,4.8,0.0,0.0,0.6,Afternoon,Male,2020-03-22 15:15:00,15,Beverage,coffee
+453,9.0,2020-03-22,2,15:15,Walnut,12.0,,159.0,3.3,0.6,3.7,Afternoon,Male,2020-03-22 15:15:00,15,Snack,nuts
+454,9.0,2020-03-22,2,18:15,"Smoothie (Spinach, Celery, Banana, And Strawberry)",16.0,ounce,323.0,68.0,48.0,11.0,Night,Male,2020-03-22 18:15:00,18,Beverage,smoothie
+455,9.0,2020-03-22,2,21:15,California Roll,12.0,,523.0,57.0,11.0,12.0,Night,Male,2020-03-22 21:15:00,21,Meal,sushi
+456,9.0,2020-03-22,2,21:25,Townhouse Cracker,4.0,,67.2,7.7,0.8,0.7,Night,Male,2020-03-22 21:25:00,21,Snack,crackers
+457,9.0,2020-03-22,2,21:30,2% Milk,8.0,fluid ounce,122.0,12.0,12.0,8.1,Night,Male,2020-03-22 21:30:00,21,Beverage,milk
+458,9.0,2020-03-23,3,08:00,Coffee,16.0,fluid ounce,4.8,0.0,0.0,0.6,Early Morning,Male,2020-03-23 08:00:00,8,Beverage,coffee
+459,9.0,2020-03-23,3,08:00,Cream,,,57.0,0.8,1.1,0.9,Early Morning,Male,2020-03-23 08:00:00,8,Beverage,coffee
+460,9.0,2020-03-23,3,08:00,(Equal) Sweetner Bag,0.5,,0.0,0.3,0.3,0.0,Early Morning,Male,2020-03-23 08:00:00,8,Beverage,coffee
+461,9.0,2020-03-23,3,11:00,(Blue Diamond) Almonds Lightly Salted,12.0,,72.9,2.1,0.4,2.6,Morning,Male,2020-03-23 11:00:00,11,Snack,nuts
+462,9.0,2020-03-23,3,11:00,(Sunkist) Orange,1.0,,190.0,52.0,50.0,0.0,Morning,Male,2020-03-23 11:00:00,11,Beverage,soda
+463,9.0,2020-03-23,3,13:15,Greek Isle Salad,6.0,ounce,40.0,8.4,3.7,2.5,Noon,Male,2020-03-23 13:15:00,13,Meal,salad
+464,9.0,2020-03-23,3,13:15,Small Spinach Salad,1.0,,134.0,3.2,1.4,6.8,Noon,Male,2020-03-23 13:15:00,13,Meal,salad
+465,9.0,2020-03-23,3,17:30,Peanut Butter,,,188.0,7.7,2.1,7.0,Afternoon,Male,2020-03-23 17:30:00,17,Meal,nuts
+466,9.0,2020-03-23,3,19:50,Cream Of Wheat Instant Hot Cereal,2.0,ounce,146.7,32.0,1.3,5.3,Night,Male,2020-03-23 19:50:00,19,Meal,coffee
+467,9.0,2020-03-23,3,19:50,2% Milk,8.0,fluid ounce,122.0,12.0,12.0,8.1,Night,Male,2020-03-23 19:50:00,19,Beverage,milk
+468,9.0,2020-03-24,4,07:20,Coffee,16.0,fluid ounce,4.8,0.0,0.0,0.6,Early Morning,Male,2020-03-24 07:20:00,7,Beverage,coffee
+469,9.0,2020-03-24,4,07:20,Cream,,,57.0,0.8,1.1,0.9,Early Morning,Male,2020-03-24 07:20:00,7,Beverage,coffee
+470,9.0,2020-03-24,4,07:20,(Equal) Sweetner Bag,0.5,,0.0,0.3,0.3,0.0,Early Morning,Male,2020-03-24 07:20:00,7,Beverage,coffee
+471,9.0,2020-03-24,4,12:30,Baked Potato Salad With Cheese,8.0,ounce,520.0,44.0,2.0,0.0,Noon,Male,2020-03-24 12:30:00,12,Meal,salad
+472,9.0,2020-03-24,4,13:00,Milk,4.0,fluid ounce,60.0,4.5,4.0,6.0,Noon,Male,2020-03-24 13:00:00,13,Beverage,milk
+473,9.0,2020-03-24,4,13:00,Frosted Flakes,1.5,cups,220.0,52.0,20.0,2.0,Noon,Male,2020-03-24 13:00:00,13,Meal,cereal
+474,9.0,2020-03-24,4,14:00,Swiss Cheese Thinly Sliced,2.0,slice,220.0,0.8,0.0,15.0,Afternoon,Male,2020-03-24 14:00:00,14,Snack,cheese
+475,9.0,2020-03-24,4,14:30,Coffee,16.0,fluid ounce,4.8,0.0,0.0,0.6,Afternoon,Male,2020-03-24 14:30:00,14,Beverage,coffee
+476,9.0,2020-03-24,4,14:30,Cream,,,57.0,0.8,1.1,0.9,Afternoon,Male,2020-03-24 14:30:00,14,Beverage,coffee
+477,9.0,2020-03-24,4,14:30,(Equal) Sweetner Bag,0.5,,0.0,0.3,0.3,0.0,Afternoon,Male,2020-03-24 14:30:00,14,Beverage,coffee
+478,9.0,2020-03-24,4,17:30,Peanut Butter,,,188.0,7.7,2.1,7.0,Afternoon,Male,2020-03-24 17:30:00,17,Meal,nuts
+479,9.0,2020-03-24,4,20:00,Boiled Chicken With Cherry Tomatoes And Taco Shell Pieces,8.0,ounce,498.7,0.1,0.0,54.3,Night,Male,2020-03-24 20:00:00,20,Meal,mexican food
+480,9.0,2020-03-25,5,08:10,Coffee,16.0,fluid ounce,4.8,0.0,0.0,0.6,Early Morning,Male,2020-03-25 08:10:00,8,Beverage,coffee
+481,9.0,2020-03-25,5,08:10,Cream,,,57.0,0.8,1.1,0.9,Early Morning,Male,2020-03-25 08:10:00,8,Beverage,coffee
+482,9.0,2020-03-25,5,08:10,(Equal) Sweetner Bag,0.5,,0.0,0.3,0.3,0.0,Early Morning,Male,2020-03-25 08:10:00,8,Beverage,coffee
+483,9.0,2020-03-25,5,08:10,Whole Wheat Toast,2.0,slice,153.0,26.0,2.9,8.1,Early Morning,Male,2020-03-25 08:10:00,8,Meal,bread/pastry
+484,9.0,2020-03-25,5,09:00,(Florida'S Natural) Orange Juice,8.0,fluid ounce,110.0,26.0,22.0,2.0,Morning,Male,2020-03-25 09:00:00,9,Beverage,juice
+485,9.0,2020-03-25,5,14:35,"Smoothie (Spinach, Celery Stick, Banana)",20.0,fluid ounce,404.0,84.0,60.0,14.0,Afternoon,Male,2020-03-25 14:35:00,14,Beverage,smoothie
+486,9.0,2020-03-25,5,20:00,Pita Bread,,,165.0,33.0,0.8,5.5,Night,Male,2020-03-25 20:00:00,20,Meal,bread/pastry
+487,9.0,2020-03-25,5,20:00,Barbecue Sauce,,,58.0,14.0,11.0,0.3,Night,Male,2020-03-25 20:00:00,20,Meal,barbecue sauce
+488,9.0,2020-03-25,5,20:30,2% Milk,8.0,fluid ounce,122.0,12.0,12.0,8.1,Night,Male,2020-03-25 20:30:00,20,Beverage,milk
+489,9.0,2020-03-26,6,08:40,Milk,4.0,fluid ounce,60.0,4.5,4.0,6.0,Early Morning,Male,2020-03-26 08:40:00,8,Beverage,milk
+490,9.0,2020-03-26,6,08:40,Frosted Flakes,1.5,cups,220.0,52.0,20.0,2.0,Early Morning,Male,2020-03-26 08:40:00,8,Meal,cereal
+491,9.0,2020-03-26,6,14:00,"Salad (Spinach, Broccoli, Blueberry, Soy, Ranch Dressing)",8.0,ounce,151.0,11.0,5.0,2.6,Afternoon,Male,2020-03-26 14:00:00,14,Meal,salad
+492,9.0,2020-03-26,6,16:00,(Blue Diamond) Almonds Lightly Salted,20.0,,121.4,3.6,0.7,4.3,Afternoon,Male,2020-03-26 16:00:00,16,Snack,nuts
+493,9.0,2020-03-26,6,19:15,Swiss Cheese Thinly Sliced,1.0,,110.0,0.4,0.0,7.5,Night,Male,2020-03-26 19:15:00,19,Snack,cheese
+494,9.0,2020-03-26,6,19:15,Cream Of Wheat Instant Hot Cereal,2.0,ounce,146.7,32.0,1.3,5.3,Night,Male,2020-03-26 19:15:00,19,Meal,coffee
+495,9.0,2020-03-27,7,19:15,2% Milk,1.0,cup,122.0,12.0,12.0,8.1,Night,Male,2020-03-27 19:15:00,19,Beverage,milk
+496,9.0,2020-03-27,7,08:00,Coffee,16.0,fluid ounce,4.8,0.0,0.0,0.6,Early Morning,Male,2020-03-27 08:00:00,8,Beverage,coffee
+497,9.0,2020-03-27,7,08:00,Cream,,,57.0,0.8,1.1,0.9,Early Morning,Male,2020-03-27 08:00:00,8,Beverage,coffee
+498,9.0,2020-03-27,7,08:00,(Equal) Sweetner Bag,0.5,,0.0,0.3,0.3,0.0,Early Morning,Male,2020-03-27 08:00:00,8,Beverage,coffee
+499,9.0,2020-03-27,7,09:00,(Blue Diamond) Almonds Lightly Salted,12.0,,72.9,2.1,0.4,2.6,Morning,Male,2020-03-27 09:00:00,9,Snack,nuts
+500,9.0,2020-03-27,7,12:00,Salmon Salad,3.0,ounce,81.0,1.5,0.7,8.8,Noon,Male,2020-03-27 12:00:00,12,Meal,salad
+501,9.0,2020-03-27,7,17:40,Peanut Butter,,,188.0,7.7,2.1,7.0,Afternoon,Male,2020-03-27 17:40:00,17,Meal,nuts
+502,9.0,2020-03-27,7,17:40,Swiss Cheese Thinly Sliced,2.0,,220.0,0.8,0.0,15.0,Afternoon,Male,2020-03-27 17:40:00,17,Snack,cheese
+503,9.0,2020-03-27,7,19:30,Cream Of Wheat Instant Hot Cereal,2.0,ounce,146.7,32.0,1.3,5.3,Night,Male,2020-03-27 19:30:00,19,Meal,coffee
+504,9.0,2020-03-28,8,19:30,2% Milk ,1.0,cup,122.0,12.0,12.0,8.1,Night,Male,2020-03-28 19:30:00,19,Beverage,milk
+505,9.0,2020-03-28,8,09:00,Coffee,16.0,fluid ounce,4.8,0.0,0.0,0.6,Morning,Male,2020-03-28 09:00:00,9,Beverage,coffee
+506,9.0,2020-03-28,8,09:00,Cream,,,57.0,0.8,1.1,0.9,Morning,Male,2020-03-28 09:00:00,9,Beverage,coffee
+507,9.0,2020-03-28,8,09:00,(Equal) Sweetner Bag,0.5,,0.0,0.3,0.3,0.0,Morning,Male,2020-03-28 09:00:00,9,Beverage,coffee
+508,9.0,2020-03-28,8,10:45,Milk,4.0,fluid ounce,60.0,4.5,4.0,6.0,Morning,Male,2020-03-28 10:45:00,10,Beverage,milk
+509,9.0,2020-03-28,8,10:45,Frosted Flakes,1.5,cups,220.0,52.0,20.0,2.0,Morning,Male,2020-03-28 10:45:00,10,Meal,cereal
+510,9.0,2020-03-28,8,10:45,(Florida'S Natural) Orange Juice,6.0,fluid ounce,82.5,19.5,16.5,1.5,Morning,Male,2020-03-28 10:45:00,10,Beverage,juice
+511,9.0,2020-03-28,8,13:45,Walnut,8.0,,106.0,2.2,0.4,2.5,Noon,Male,2020-03-28 13:45:00,13,Snack,nuts
+512,9.0,2020-03-28,8,17:11,Townhouse Cracker,4.0,,67.2,7.7,0.8,0.7,Afternoon,Male,2020-03-28 17:11:00,17,Snack,crackers
+513,9.0,2020-03-28,8,17:25,Peanut Buttter,,,188.0,7.7,2.1,7.0,Afternoon,Male,2020-03-28 17:25:00,17,Meal,nuts
+514,9.0,2020-03-28,8,18:45,Salmon With Butter And Asparagus,10.0,ounce,660.0,1.8,0.2,56.0,Night,Male,2020-03-28 18:45:00,18,Meal,seafood
+515,9.0,2020-03-28,8,19:15,(Florida'S Natural) Orange Juice,8.0,ounce,110.0,26.0,22.0,2.0,Night,Male,2020-03-28 19:15:00,19,Beverage,juice
+516,10.0,2020-03-22,1,10:32,Diet Coke,12.0,fluid ounce,0.0,0.4,0.0,0.0,Morning,Female,2020-03-22 10:32:00,10,Beverage,soda
+517,10.0,2020-03-22,1,12:30,(Hannah) Tatziki Sauce,4.0,tablespoon,80.0,4.0,0.0,2.0,Noon,Female,2020-03-22 12:30:00,12,Meal,(hannah) tatziki sauce
+518,10.0,2020-03-22,1,13:20,2% Milk,0.667,cup,82.0,7.8,8.3,5.4,Noon,Female,2020-03-22 13:20:00,13,Beverage,milk
+519,10.0,2020-03-22,1,13:20,Coffee,1.0,cup,2.4,0.0,0.0,0.3,Noon,Female,2020-03-22 13:20:00,13,Beverage,coffee
+520,10.0,2020-03-22,1,15:30,2% Cottage Cheese,0.5,cup,106.5,3.7,2.9,12.0,Afternoon,Female,2020-03-22 15:30:00,15,Meal,cheese
+521,10.0,2020-03-22,1,17:55,Potato,1.0,cup,154.0,35.0,2.0,4.2,Afternoon,Female,2020-03-22 17:55:00,17,Meal,potato
+522,10.0,2020-03-22,1,18:55,Kombucha Gts Cosmic Cranberry,1.0,cup,30.0,7.0,2.0,0.0,Night,Female,2020-03-22 18:55:00,18,Beverage,juice
+523,10.0,2020-03-22,1,18:55,(Blue Diamond) Almond Nut Thins,12.0,,130.0,24.0,0.0,3.0,Night,Female,2020-03-22 18:55:00,18,Snack,nuts
+524,10.0,2020-03-22,1,19:40,Kombucha Gts Cosmic Cranberry,0.75,cup,22.5,5.3,1.5,0.0,Night,Female,2020-03-22 19:40:00,19,Beverage,juice
+525,10.0,2020-03-22,1,20:20,Gin-Soaked Raisins,10.0,,129.0,34.0,25.0,1.3,Night,Female,2020-03-22 20:20:00,20,Snack,gin-soaked raisins
+526,10.0,2020-03-23,2,04:32,Milk,4.0,fluid ounce,60.0,4.5,4.0,6.0,Late Night,Female,2020-03-23 04:32:00,4,Beverage,milk
+527,10.0,2020-03-23,2,04:32,Frosted Flakes,1.5,cup,220.0,52.0,20.0,2.0,Late Night,Female,2020-03-23 04:32:00,4,Meal,cereal
+528,10.0,2020-03-23,2,05:47,2% Milk,0.33,cup,40.4,3.8,4.1,2.7,Early Morning,Female,2020-03-23 05:47:00,5,Beverage,milk
+529,10.0,2020-03-23,2,05:47,Coffee,1.0,cup,2.4,0.0,0.0,0.3,Early Morning,Female,2020-03-23 05:47:00,5,Beverage,coffee
+530,10.0,2020-03-23,2,08:05,"(Fage) Greek Yogurt, Plain Nonfat",1.0,cup,220.0,9.0,9.0,20.0,Early Morning,Female,2020-03-23 08:05:00,8,Meal,yogurt
+531,10.0,2020-03-23,2,08:05,(Kashi) Go Rise Cereal,0.5,cup,72.0,16.0,3.2,4.8,Early Morning,Female,2020-03-23 08:05:00,8,Meal,cereal
+532,10.0,2020-03-23,2,09:15,Coffee,2.0,cup,4.8,0.0,0.0,0.6,Morning,Female,2020-03-23 09:15:00,9,Beverage,coffee
+533,10.0,2020-03-23,2,09:15,Half And Half,2.0,tablespoon,18.0,0.7,0.6,0.5,Morning,Female,2020-03-23 09:15:00,9,Beverage,coffee
+534,10.0,2020-03-23,2,11:30,"Homemade Potato Cauliflower Soup With Potato, Cauliflower, Chicken Broth, Onions",1.5,cup,450.0,41.0,1.9,23.0,Morning,Female,2020-03-23 11:30:00,11,Meal,soup
+535,10.0,2020-03-23,2,11:30,Oil,1.0,teaspoon,41.0,0.0,0.0,0.0,Morning,Female,2020-03-23 11:30:00,11,Meal,oil
+536,10.0,2020-03-23,2,11:30,Cheddar Cheese,10.0,ounce,1145.0,8.8,1.4,65.0,Morning,Female,2020-03-23 11:30:00,11,Meal,cheese
+537,10.0,2020-03-23,2,13:30,(Dove) Promises Dark Chocolate,1.0,piece,42.0,4.8,3.8,0.4,Noon,Female,2020-03-23 13:30:00,13,Meal,candy
+538,10.0,2020-03-23,2,13:40,Coffee,1.0,cup,2.4,0.0,0.0,0.3,Noon,Female,2020-03-23 13:40:00,13,Beverage,coffee
+539,10.0,2020-03-23,2,13:40,2% Milk,0.33,cup,40.4,3.8,4.1,2.7,Noon,Female,2020-03-23 13:40:00,13,Beverage,milk
+540,10.0,2020-03-23,2,16:00,2% Cottage Cheese,0.5,cup,106.5,3.7,2.9,12.0,Afternoon,Female,2020-03-23 16:00:00,16,Meal,cheese
+541,10.0,2020-03-23,2,18:05,(Hannah) Tatziki Sauce,4.0,tablespoon,80.0,4.0,0.0,2.0,Night,Female,2020-03-23 18:05:00,18,Meal,(hannah) tatziki sauce
+542,10.0,2020-03-23,2,18:05,Balsamic Vinegar,2.0,tablespoon,28.0,5.4,4.8,0.2,Night,Female,2020-03-23 18:05:00,18,Meal,balsamic vinegar
+543,10.0,2020-03-23,2,19:25,Chardonnay Wine,1.0,cup,197.0,5.1,2.3,0.2,Night,Female,2020-03-23 19:25:00,19,Beverage,alcohol
+544,10.0,2020-03-23,2,20:20,Pistachios,50.0,,200.0,9.5,2.5,7.5,Night,Female,2020-03-23 20:20:00,20,Snack,nuts
+545,10.0,2020-03-23,2,20:20,Chardonnay Wine,1.0,cup,197.0,5.1,2.3,0.2,Night,Female,2020-03-23 20:20:00,20,Beverage,alcohol
+546,10.0,2020-03-24,3,08:50,Coffee,3.0,cup,7.2,0.0,0.0,0.8,Early Morning,Female,2020-03-24 08:50:00,8,Beverage,coffee
+547,10.0,2020-03-24,3,08:50,2% Milk,1.0,cup,122.4,11.6,12.4,8.1,Early Morning,Female,2020-03-24 08:50:00,8,Beverage,milk
+548,10.0,2020-03-24,3,10:20,"(Fage) Greek Yogurt, Plain Nonfat",1.0,cup,220.0,9.0,9.0,20.0,Morning,Female,2020-03-24 10:20:00,10,Meal,yogurt
+549,10.0,2020-03-24,3,10:20,(Kashi) Go Rise Cereal,0.5,cup,72.0,16.0,3.2,4.8,Morning,Female,2020-03-24 10:20:00,10,Meal,cereal
+550,10.0,2020-03-24,3,12:51,"Homemade Potato Cauliflower Soup With Potato, Cauliflower, Chicken Broth, Onions",2.0,cup,450.0,41.0,1.9,23.0,Noon,Female,2020-03-24 12:51:00,12,Meal,soup
+551,10.0,2020-03-24,3,13:25,Diet Coke,12.0,ounce,0.0,0.7,0.0,0.0,Noon,Female,2020-03-24 13:25:00,13,Beverage,soda
+552,10.0,2020-03-24,3,15:07,2% Cottage Cheese,0.5,cup,106.5,3.7,2.9,12.0,Afternoon,Female,2020-03-24 15:07:00,15,Meal,cheese
+553,10.0,2020-03-24,3,17:15,Chardonnay Wine,6.0,ounce,148.0,3.8,1.7,0.1,Afternoon,Female,2020-03-24 17:15:00,17,Beverage,alcohol
+554,10.0,2020-03-24,3,18:00,Faro,1.0,cup,337.0,71.0,7.8,15.0,Night,Female,2020-03-24 18:00:00,18,Meal,oat/grains
+555,10.0,2020-03-24,3,18:32,(Dove) Promises Dark Chocolate,4.0,piece,168.0,19.2,15.2,1.6,Night,Female,2020-03-24 18:32:00,18,Meal,candy
+556,10.0,2020-03-25,4,05:34,Milk,4.0,fluid ounce,60.0,4.5,4.0,6.0,Early Morning,Female,2020-03-25 05:34:00,5,Beverage,milk
+557,10.0,2020-03-25,4,05:34,Frosted Flakes,1.5,cup,220.0,52.0,20.0,2.0,Early Morning,Female,2020-03-25 05:34:00,5,Meal,cereal
+558,10.0,2020-03-25,4,06:57,Coffee,2.0,cup,4.8,0.0,0.0,0.6,Early Morning,Female,2020-03-25 06:57:00,6,Beverage,coffee
+559,10.0,2020-03-25,4,06:57,2% Milk,0.67,cup,82.0,7.8,8.3,5.4,Early Morning,Female,2020-03-25 06:57:00,6,Beverage,milk
+560,10.0,2020-03-25,4,08:45,"(Fage) Greek Yogurt, Plain Nonfat",1.0,cup,220.0,9.0,9.0,20.0,Early Morning,Female,2020-03-25 08:45:00,8,Meal,yogurt
+561,10.0,2020-03-25,4,08:45,(Kashi) Go Rise Cereal,0.5,cup,72.0,16.0,3.2,4.8,Early Morning,Female,2020-03-25 08:45:00,8,Meal,cereal
+562,10.0,2020-03-25,4,10:15,Coffee,1.0,cup,2.4,0.0,0.0,0.3,Morning,Female,2020-03-25 10:15:00,10,Beverage,coffee
+563,10.0,2020-03-25,4,10:15,2% Milk,0.25,cup,30.6,2.9,3.1,2.0,Morning,Female,2020-03-25 10:15:00,10,Beverage,milk
+564,10.0,2020-03-25,4,12:53,Diet Coke,24.0,fluid ounce,0.0,0.7,0.0,0.0,Noon,Female,2020-03-25 12:53:00,12,Beverage,soda
+565,10.0,2020-03-25,4,13:05,Homemade Potato Chips,1.0,serving,138.0,2.2,0.1,0.3,Noon,Female,2020-03-25 13:05:00,13,Snack,potato
+566,10.0,2020-03-25,4,17:11,Kombucha Gts Cosmic Cranberry,8.0,fluid ounce,30.0,7.0,2.0,0.0,Afternoon,Female,2020-03-25 17:11:00,17,Beverage,juice
+567,10.0,2020-03-25,4,17:11,Faro,1.0,cup,337.0,71.0,7.8,15.0,Afternoon,Female,2020-03-25 17:11:00,17,Meal,oat/grains
+568,10.0,2020-03-25,4,17:30,(Dove) Promises Dark Chocolate,2.0,piece,84.0,9.6,7.6,0.8,Afternoon,Female,2020-03-25 17:30:00,17,Meal,candy
+569,10.0,2020-03-26,5,04:29,Coffee,2.0,cup,4.8,0.0,0.0,0.6,Late Night,Female,2020-03-26 04:29:00,4,Beverage,coffee
+570,10.0,2020-03-26,5,04:29,2% Milk,0.67,cup,82.0,7.8,8.3,5.4,Late Night,Female,2020-03-26 04:29:00,4,Beverage,milk
+571,10.0,2020-03-26,5,05:17,Eggo Waffle,1.0,,70.0,14.0,1.5,2.0,Early Morning,Female,2020-03-26 05:17:00,5,Meal,desserts
+572,10.0,2020-03-26,5,05:17,Peanut Butter,1.0,tablespoon,94.0,3.9,1.1,3.5,Early Morning,Female,2020-03-26 05:17:00,5,Meal,nuts
+573,10.0,2020-03-26,5,08:12,"(Fage) Greek Yogurt, Plain Nonfat",1.0,cup,220.0,9.0,9.0,20.0,Early Morning,Female,2020-03-26 08:12:00,8,Meal,yogurt
+574,10.0,2020-03-26,5,08:12,(Kashi) Go Rise Cereal,0.5,cup,72.0,16.0,3.2,4.8,Early Morning,Female,2020-03-26 08:12:00,8,Meal,cereal
+575,10.0,2020-03-26,5,10:44,Diet Coke,12.0,fluid ounce,0.0,0.4,0.0,0.0,Morning,Female,2020-03-26 10:44:00,10,Beverage,soda
+576,10.0,2020-03-26,5,11:52,"Homemade Potato Cauliflower Soup With Potato, Cauliflower, Chicken Broth, Onions",1.5,cup,450.0,41.0,1.9,23.0,Morning,Female,2020-03-26 11:52:00,11,Meal,soup
+577,10.0,2020-03-26,5,12:26,Coffee,1.0,cup,2.4,0.0,0.0,0.3,Noon,Female,2020-03-26 12:26:00,12,Beverage,coffee
+578,10.0,2020-03-26,5,12:26,2% Milk,0.33,cup,40.4,3.8,4.1,2.7,Noon,Female,2020-03-26 12:26:00,12,Beverage,milk
+579,10.0,2020-03-26,5,12:26,(Dove) Promises Dark Chocolate,2.0,piece,84.0,9.6,7.6,0.8,Noon,Female,2020-03-26 12:26:00,12,Meal,candy
+580,10.0,2020-03-26,5,15:11,2% Cottage Cheese,0.5,cup,106.5,3.7,2.9,12.0,Afternoon,Female,2020-03-26 15:11:00,15,Meal,cheese
+581,10.0,2020-03-26,5,17:12,(Hannah) Tatziki Sauce,4.0,tablespoon,80.0,4.0,0.0,2.0,Afternoon,Female,2020-03-26 17:12:00,17,Meal,(hannah) tatziki sauce
+582,10.0,2020-03-26,5,17:12,Balsamic Vinegar,2.0,tablespoon,28.0,5.4,4.8,0.2,Afternoon,Female,2020-03-26 17:12:00,17,Meal,balsamic vinegar
+583,10.0,2020-03-26,5,19:39,Kombucha Gts Cosmic Cranberry,1.0,cup,30.0,7.0,2.0,0.0,Night,Female,2020-03-26 19:39:00,19,Beverage,juice
+584,10.0,2020-03-27,6,04:33,Milk,4.0,fluid ounce,60.0,4.5,4.0,6.0,Late Night,Female,2020-03-27 04:33:00,4,Beverage,milk
+585,10.0,2020-03-27,6,04:33,Frosted Flakes,1.5,cup,220.0,52.0,20.0,2.0,Late Night,Female,2020-03-27 04:33:00,4,Meal,cereal
+586,10.0,2020-03-27,6,05:38,Coffee,,,2.4,0.0,0.0,0.3,Early Morning,Female,2020-03-27 05:38:00,5,Beverage,coffee
+587,10.0,2020-03-27,6,08:43,"(Fage) Greek Yogurt, Plain Nonfat",1.0,cup,220.0,9.0,9.0,20.0,Early Morning,Female,2020-03-27 08:43:00,8,Meal,yogurt
+588,10.0,2020-03-27,6,08:43,(Kashi) Go Rise Cereal,0.5,cup,72.0,16.0,3.2,4.8,Early Morning,Female,2020-03-27 08:43:00,8,Meal,cereal
+589,10.0,2020-03-27,6,08:43,Diet Coke,12.0,fluid ounce,0.0,0.4,0.0,0.0,Early Morning,Female,2020-03-27 08:43:00,8,Beverage,soda
+590,10.0,2020-03-27,6,09:44,Plain Bagel,1.0,,277.0,55.0,8.9,11.0,Morning,Female,2020-03-27 09:44:00,9,Meal,bread/pastry
+591,10.0,2020-03-27,6,09:44,Cream Cheese,1.0,tablespoon,51.0,0.8,0.6,0.9,Morning,Female,2020-03-27 09:44:00,9,Meal,cheese
+592,10.0,2020-03-27,6,11:00,Hershey Kiss,3.0,,67.0,8.3,7.7,1.0,Morning,Female,2020-03-27 11:00:00,11,Meal,candy
+593,10.0,2020-03-27,6,13:43,(Hannah) Tatziki Sauce,4.0,tablespoon,80.0,4.0,0.0,2.0,Noon,Female,2020-03-27 13:43:00,13,Meal,(hannah) tatziki sauce
+594,10.0,2020-03-27,6,13:43,Balsamic Vinegar,2.0,tablespoon,28.0,5.4,4.8,0.2,Noon,Female,2020-03-27 13:43:00,13,Meal,balsamic vinegar
+595,10.0,2020-03-27,6,14:27,Coffee,1.0,cup,2.4,0.0,0.0,0.3,Afternoon,Female,2020-03-27 14:27:00,14,Beverage,coffee
+596,10.0,2020-03-27,6,14:27,2% Milk,0.33,cup,40.4,3.8,4.1,2.7,Afternoon,Female,2020-03-27 14:27:00,14,Beverage,milk
+597,10.0,2020-03-27,6,15:52,2% Cottage Cheese,0.5,cup,106.5,3.7,2.9,12.0,Afternoon,Female,2020-03-27 15:52:00,15,Meal,cheese
+598,10.0,2020-03-27,6,18:07,"Homemade Potato Cauliflower Soup With Potato, Cauliflower, Chicken Broth, Onions",1.5,cup,450.0,41.0,1.9,23.0,Night,Female,2020-03-27 18:07:00,18,Meal,soup
+599,10.0,2020-03-28,7,04:45,Coffee,2.0,cup,4.8,0.0,0.0,0.6,Late Night,Female,2020-03-28 04:45:00,4,Beverage,coffee
+600,10.0,2020-03-28,7,04:45,2% Milk,0.67,cup,82.0,7.8,8.3,5.4,Late Night,Female,2020-03-28 04:45:00,4,Beverage,milk
+601,10.0,2020-03-28,7,05:12,Eggo Waffle,1.0,,70.0,14.0,1.5,2.0,Early Morning,Female,2020-03-28 05:12:00,5,Meal,desserts
+602,10.0,2020-03-28,7,05:12,Peanut Butter,1.0,tablespoon,94.0,3.9,1.1,3.5,Early Morning,Female,2020-03-28 05:12:00,5,Meal,nuts
+603,10.0,2020-03-28,7,08:40,"(Fage) Greek Yogurt, Plain Nonfat",1.0,cup,220.0,9.0,9.0,20.0,Early Morning,Female,2020-03-28 08:40:00,8,Meal,yogurt
+604,10.0,2020-03-28,7,08:40,(Kashi) Go Rise Cereal,0.5,cup,72.0,16.0,3.2,4.8,Early Morning,Female,2020-03-28 08:40:00,8,Meal,cereal
+605,10.0,2020-03-28,7,09:00,Diet Coke,12.0,ounce,0.0,0.4,0.0,0.0,Morning,Female,2020-03-28 09:00:00,9,Beverage,soda
+606,10.0,2020-03-28,7,13:00,Balsamic Vinegar,2.0,tablespoon,28.0,5.4,4.8,0.2,Noon,Female,2020-03-28 13:00:00,13,Meal,balsamic vinegar
+607,10.0,2020-03-28,7,13:40,Coffee,1.0,cup,2.4,0.0,0.0,0.3,Noon,Female,2020-03-28 13:40:00,13,Beverage,coffee
+608,10.0,2020-03-28,7,13:40,2% Milk,0.33,cup,40.4,3.8,4.1,2.7,Noon,Female,2020-03-28 13:40:00,13,Beverage,milk
+609,10.0,2020-03-28,7,16:20,2% Cottage Cheese,0.5,cup,106.5,3.7,2.9,12.0,Afternoon,Female,2020-03-28 16:20:00,16,Meal,cheese
+610,10.0,2020-03-28,7,18:04,"Homemade Potato Cauliflower Soup With Potato, Cauliflower, Chicken Broth, Onions",1.5,cup,450.0,41.0,1.9,23.0,Night,Female,2020-03-28 18:04:00,18,Meal,soup
+611,10.0,2020-03-28,7,19:22,Kombucha Gts Cosmic Cranberry,8.0,ounce,30.0,7.0,2.0,0.0,Night,Female,2020-03-28 19:22:00,19,Beverage,juice
+612,10.0,2020-03-29,8,04:32,Milk,4.0,fluid ounce,60.0,4.5,4.0,6.0,Late Night,Female,2020-03-29 04:32:00,4,Beverage,milk
+613,10.0,2020-03-29,8,04:32,Frosted Flakes,1.5,cup,220.0,52.0,20.0,2.0,Late Night,Female,2020-03-29 04:32:00,4,Meal,cereal
+614,10.0,2020-03-29,8,05:45,Coffee,2.0,cup,4.8,0.0,0.0,0.6,Early Morning,Female,2020-03-29 05:45:00,5,Beverage,coffee
+615,10.0,2020-03-29,8,05:45,2% Milk,0.67,cup,82.0,7.8,8.3,5.4,Early Morning,Female,2020-03-29 05:45:00,5,Beverage,milk
+616,10.0,2020-03-29,8,08:07,(Kashi) Go Rise Cereal,0.5,cup,72.0,16.0,3.2,4.8,Early Morning,Female,2020-03-29 08:07:00,8,Meal,cereal
+617,10.0,2020-03-29,8,08:07,"(Fage) Greek Yogurt, Plain Nonfat",1.0,cup,220.0,9.0,9.0,20.0,Early Morning,Female,2020-03-29 08:07:00,8,Meal,yogurt
+618,10.0,2020-03-29,8,08:30,Diet Coke,12.0,fluid ounce,0.0,0.4,0.0,0.0,Early Morning,Female,2020-03-29 08:30:00,8,Beverage,soda
+619,10.0,2020-03-29,8,12:50,Chicken Gyro,1.0,,466.0,44.0,6.5,44.0,Noon,Female,2020-03-29 12:50:00,12,Meal,poultry
+620,10.0,2020-03-29,8,12:50,Medium French Fries,1.0,serving,365.0,48.0,0.3,4.0,Noon,Female,2020-03-29 12:50:00,12,Meal,potato
+621,10.0,2020-03-29,8,12:50,Diet Pepsi,16.0,fluid ounce,0.0,0.0,0.0,0.0,Noon,Female,2020-03-29 12:50:00,12,Beverage,soda
+622,10.0,2020-03-29,8,15:36,Coffee,1.0,cup,2.4,0.0,0.0,0.3,Afternoon,Female,2020-03-29 15:36:00,15,Beverage,coffee
+623,10.0,2020-03-29,8,17:30,"Sausage, Kale, Sweet Potato Soup",2.0,cup             ,300.0,46.0,26.0,5.4,Afternoon,Female,2020-03-29 17:30:00,17,Meal,soup
+624,11.0,2020-04-06,1,11:40,Cheese Steak,,,573.0,42.0,4.0,32.5,Morning,Male,2020-04-06 11:40:00,11,Meal,tea
+625,11.0,2020-04-06,1,11:40,Tortilla,8.0,ounce,737.0,126.0,0.0,20.0,Morning,Male,2020-04-06 11:40:00,11,Meal,mexican food
+626,11.0,2020-04-06,1,11:40,Rice,1.0,cup,205.0,45.0,0.1,4.3,Morning,Male,2020-04-06 11:40:00,11,Meal,rice
+627,11.0,2020-04-06,1,11:40,Refried Beans,,,214.0,32.0,1.3,12.0,Morning,Male,2020-04-06 11:40:00,11,Meal,bean
+628,11.0,2020-04-06,1,19:00,Pizza,2.5,slice,712.0,89.0,9.6,30.0,Night,Male,2020-04-06 19:00:00,19,Meal,pizza
+629,11.0,2020-04-06,1,19:00,Salad,1.5,cup,10.0,2.1,0.9,0.6,Night,Male,2020-04-06 19:00:00,19,Meal,salad
+630,11.0,2020-04-06,1,19:00,Mountain Dew,16.0,ounce,230.0,62.0,62.0,0.0,Night,Male,2020-04-06 19:00:00,19,Beverage,soda
+631,11.0,2020-04-06,1,23:35,Diet Mountain Dew,6.0,ounce,0.0,0.0,0.0,0.0,Late Night,Male,2020-04-06 23:35:00,23,Beverage,soda
+632,11.0,2020-04-06,1,23:35,Oreo Cookie,2.0,,200.0,32.0,18.0,2.0,Late Night,Male,2020-04-06 23:35:00,23,Meal,desserts
+633,11.0,2020-04-07,2,05:30,Std Bfast,,,280.0,56.5,24.0,8.0,Early Morning,Male,2020-04-07 05:30:00,5,Meal,standard breakfast
+634,11.0,2020-04-07,2,12:30,Pizza,3.0,slice,854.0,107.0,11.0,37.0,Noon,Male,2020-04-07 12:30:00,12,Meal,pizza
+635,11.0,2020-04-07,2,12:30,Mountain Dew,16.0,ounce,230.0,62.0,62.0,0.0,Noon,Male,2020-04-07 12:30:00,12,Beverage,soda
+636,11.0,2020-04-07,2,15:00,Mountain Dew,4.0,ounce,55.0,14.5,14.5,0.0,Afternoon,Male,2020-04-07 15:00:00,15,Beverage,soda
+637,11.0,2020-04-07,2,16:30,Oreo Cookie,2.0,,200.0,32.0,18.0,2.0,Afternoon,Male,2020-04-07 16:30:00,16,Meal,desserts
+638,11.0,2020-04-07,2,16:30,Mountain Dew,8.0,ounce,110.0,31.0,31.0,0.0,Afternoon,Male,2020-04-07 16:30:00,16,Beverage,soda
+639,11.0,2020-04-07,2,19:20,Hamburger,2.0,,1080.0,81.0,0.0,69.0,Night,Male,2020-04-07 19:20:00,19,Meal,burger
+640,11.0,2020-04-07,2,19:20,Chips,6.0,ounce,894.0,90.0,0.5,10.8,Night,Male,2020-04-07 19:20:00,19,Snack,chips
+641,11.0,2020-04-07,2,19:20,Mountain Dew,8.0,ounce,110.0,31.0,31.0,0.0,Night,Male,2020-04-07 19:20:00,19,Beverage,soda
+642,11.0,2020-04-07,2,19:50,Candy Bar,2.0,ounce,280.0,35.0,29.0,4.3,Night,Male,2020-04-07 19:50:00,19,Meal,candy
+643,11.0,2020-04-08,3,06:00,Breakfast Essential Drink,8.0,ounce,214.0,37.0,37.0,16.0,Early Morning,Male,2020-04-08 06:00:00,6,Beverage,smoothie
+644,11.0,2020-04-08,3,08:00,Toast,3.0,piece,192.0,36.0,4.2,6.0,Early Morning,Male,2020-04-08 08:00:00,8,Meal,bread/pastry
+645,11.0,2020-04-08,3,08:00,Mountain Dew,8.0,ounce,110.0,31.0,31.0,0.0,Early Morning,Male,2020-04-08 08:00:00,8,Beverage,soda
+646,11.0,2020-04-08,3,13:30,Brunswick Stew,1.0,pt(?),574.0,34.0,19.0,48.0,Noon,Male,2020-04-08 13:30:00,13,Meal,soup
+647,11.0,2020-04-08,3,13:30,Slaw,,,174.0,14.0,10.0,1.0,Noon,Male,2020-04-08 13:30:00,13,Meal,salad
+648,11.0,2020-04-08,3,13:30,Mountain Dew,8.0,ounce,110.0,31.0,31.0,0.0,Noon,Male,2020-04-08 13:30:00,13,Beverage,soda
+649,11.0,2020-04-08,3,17:30,Reese'S Peanut Butter Cup,2.0,,210.0,24.0,21.0,5.0,Afternoon,Male,2020-04-08 17:30:00,17,Meal,candy
+650,11.0,2020-04-08,3,19:00,Popcorn,3.2,ounce,505.0,50.0,0.5,6.8,Night,Male,2020-04-08 19:00:00,19,Snack,popcorn
+651,11.0,2020-04-08,3,19:00,Nutty Bar,2.1,ounce,326.0,33.0,20.0,4.8,Night,Male,2020-04-08 19:00:00,19,Meal,snack bar
+652,11.0,2020-04-08,3,19:00,Mountain Dew,8.0,ounce,110.0,31.0,31.0,0.0,Night,Male,2020-04-08 19:00:00,19,Beverage,soda
+653,11.0,2020-04-09,4,05:50,Std Bfast,,,280.0,56.5,24.0,8.0,Early Morning,Male,2020-04-09 05:50:00,5,Meal,standard breakfast
+654,11.0,2020-04-09,4,11:50,Diet Mountain Dew,6.0,ounce,0.0,0.0,0.0,0.0,Morning,Male,2020-04-09 11:50:00,11,Beverage,soda
+655,11.0,2020-04-09,4,11:50,Pizza,3.0,slice,854.0,107.0,11.0,37.0,Morning,Male,2020-04-09 11:50:00,11,Meal,pizza
+656,11.0,2020-04-09,4,11:50,Nutty Bar,,,312.0,31.0,19.0,4.6,Morning,Male,2020-04-09 11:50:00,11,Meal,snack bar
+657,11.0,2020-04-09,4,19:20,Potato Salad,,,358.0,28.0,0.0,6.7,Night,Male,2020-04-09 19:20:00,19,Meal,salad
+658,11.0,2020-04-09,4,19:20,Baked Beans,,,239.0,54.0,20.0,12.0,Night,Male,2020-04-09 19:20:00,19,Meal,bean
+659,11.0,2020-04-09,4,19:20,Diet Mountain Dew,10.0,ounce,0.0,0.0,0.0,0.0,Night,Male,2020-04-09 19:20:00,19,Beverage,soda
+660,11.0,2020-04-10,5,05:50,Sausage Biscuit,2.0,,824.0,66.0,3.6,22.0,Early Morning,Male,2020-04-10 05:50:00,5,Meal,sandwich
+661,11.0,2020-04-10,5,05:50,Diet Mountain Dew,8.0,ounce,0.0,0.0,0.0,0.0,Early Morning,Male,2020-04-10 05:50:00,5,Beverage,soda
+662,11.0,2020-04-10,5,09:30,Sausage Biscuit,1.0,,412.0,33.0,1.8,11.0,Morning,Male,2020-04-10 09:30:00,9,Meal,sandwich
+663,11.0,2020-04-10,5,12:00,Diet Mountain Dew,16.0,ounce,0.0,0.0,0.0,0.0,Noon,Male,2020-04-10 12:00:00,12,Beverage,soda
+664,11.0,2020-04-10,5,12:00,Potato Salad,4.0,ounce,162.0,12.7,0.0,3.1,Noon,Male,2020-04-10 12:00:00,12,Meal,salad
+665,11.0,2020-04-10,5,12:00,Baked Beans,4.0,ounce,107.0,24.0,9.0,5.4,Noon,Male,2020-04-10 12:00:00,12,Meal,bean
+666,11.0,2020-04-10,5,19:00,Sausage Biscuit,2.0,,824.0,66.0,3.6,22.0,Night,Male,2020-04-10 19:00:00,19,Meal,sandwich
+667,11.0,2020-04-10,5,19:00,Scrambled Eggs With Jelly,4.0,ounce,169.0,1.8,1.6,11.0,Night,Male,2020-04-10 19:00:00,19,Meal,egg
+668,11.0,2020-04-11,6,05:45,Std Bfast,,,280.0,56.5,24.0,8.0,Early Morning,Male,2020-04-11 05:45:00,5,Meal,standard breakfast
+669,11.0,2020-04-11,6,09:45,Pecan Twirl,1.0,,100.0,16.0,7.0,1.0,Morning,Male,2020-04-11 09:45:00,9,Meal,bread/pastry
+670,11.0,2020-04-11,6,11:15,Donut,1.0,,253.0,29.0,14.0,3.7,Morning,Male,2020-04-11 11:15:00,11,Meal,bread/pastry
+671,11.0,2020-04-11,6,12:15,(Stouffers) Green Pepper Steak,10.5,ounce,270.0,34.0,5.0,16.0,Noon,Male,2020-04-11 12:15:00,12,Meal,tea
+672,11.0,2020-04-11,6,12:15,Pecan Twirl,1.0,,100.0,16.0,7.0,1.0,Noon,Male,2020-04-11 12:15:00,12,Meal,bread/pastry
+673,11.0,2020-04-11,6,18:00,Peanut Butter Cracker,6.0,,207.0,25.0,4.4,4.8,Night,Male,2020-04-11 18:00:00,18,Snack,crackers
+674,11.0,2020-04-11,6,19:30,Chicken Casserole,10.0,ounce,513.0,30.0,2.7,24.0,Night,Male,2020-04-11 19:30:00,19,Meal,poultry
+675,11.0,2020-04-11,6,19:30,Potato Salad,6.0,ounce,243.0,19.0,0.0,4.6,Night,Male,2020-04-11 19:30:00,19,Meal,salad
+676,11.0,2020-04-11,6,19:30,Apple Pie,,,269.0,39.0,18.0,2.2,Night,Male,2020-04-11 19:30:00,19,Meal,desserts
+677,11.0,2020-04-11,6,19:30,Diet Mountain Dew,8.0,ounce,0.0,0.0,0.0,0.0,Night,Male,2020-04-11 19:30:00,19,Beverage,soda
+678,11.0,2020-04-12,7,05:30,Honey Nut Cheerios,1.0,cup,140.0,30.0,12.0,3.3,Early Morning,Male,2020-04-12 05:30:00,5,Snack,cereal
+679,11.0,2020-04-12,7,05:30,2% Milk,8.0,ounce,122.0,12.0,12.0,8.1,Early Morning,Male,2020-04-12 05:30:00,5,Beverage,milk
+680,11.0,2020-04-12,7,12:00,Chicken Casserole,8.0,ounce,410.0,24.0,2.2,19.0,Noon,Male,2020-04-12 12:00:00,12,Meal,poultry
+681,11.0,2020-04-12,7,12:00,Potato Salad,4.0,ounce,162.0,12.7,0.0,3.1,Noon,Male,2020-04-12 12:00:00,12,Meal,salad
+682,11.0,2020-04-12,7,12:00,Apple Pie,4.0,ounce,269.0,39.0,18.0,2.2,Noon,Male,2020-04-12 12:00:00,12,Meal,desserts
+683,11.0,2020-04-12,7,12:00,Diet Mountain Dew,16.0,ounce,0.0,0.0,0.0,0.0,Noon,Male,2020-04-12 12:00:00,12,Beverage,soda
+684,11.0,2020-04-12,7,18:30,Chicken Pot Pie,8.0,ounce,463.0,44.0,5.1,12.0,Night,Male,2020-04-12 18:30:00,18,Meal,poultry
+685,11.0,2020-04-12,7,18:30,Mashed Potato,6.0,ounce,192.0,28.5,2.4,3.3,Night,Male,2020-04-12 18:30:00,18,Meal,potato
+686,11.0,2020-04-12,7,18:30,Diet Mountain Dew,8.0,ounce,0.0,0.0,0.0,0.0,Night,Male,2020-04-12 18:30:00,18,Beverage,soda
+687,11.0,2020-04-12,7,18:30,Peach Cobbler,4.0,ounce,226.0,40.0,32.0,2.3,Night,Male,2020-04-12 18:30:00,18,Meal,desserts
+688,11.0,2020-04-13,8,06:30,Std Bfast,,,280.0,56.5,24.0,8.0,Early Morning,Male,2020-04-13 06:30:00,6,Meal,standard breakfast
+689,11.0,2020-04-13,8,12:00,Chicken Casserole,10.0,ounce,513.0,30.0,2.7,24.0,Noon,Male,2020-04-13 12:00:00,12,Meal,poultry
+690,11.0,2020-04-13,8,12:00,Mashed Potato,4.0,ounce,128.0,19.0,1.6,2.2,Noon,Male,2020-04-13 12:00:00,12,Meal,potato
+691,11.0,2020-04-13,8,12:00,Cranberry Sauce,4.0,ounce,220.0,56.0,44.0,1.2,Noon,Male,2020-04-13 12:00:00,12,Meal,cranberry sauce
+692,11.0,2020-04-13,8,12:00,Diet Mountain Dew,8.0,ounce,0.0,0.0,0.0,0.0,Noon,Male,2020-04-13 12:00:00,12,Beverage,soda
+693,11.0,2020-04-13,8,12:00,Apple Pie,4.0,ounce,269.0,39.0,18.0,2.2,Noon,Male,2020-04-13 12:00:00,12,Meal,desserts
+694,11.0,2020-04-13,8,18:00,Chicken Casserole,10.0,ounce,513.0,30.0,2.7,24.0,Night,Male,2020-04-13 18:00:00,18,Meal,poultry
+695,11.0,2020-04-13,8,18:00,Mashed Potato,4.0,ounce,128.0,19.0,1.6,2.2,Night,Male,2020-04-13 18:00:00,18,Meal,potato
+696,11.0,2020-04-13,8,18:00,Cranberry Sauce,2.0,ounce,110.0,28.0,22.0,0.6,Night,Male,2020-04-13 18:00:00,18,Meal,cranberry sauce
+697,11.0,2020-04-13,8,18:00,Diet Mountain Dew,10.0,ounce,0.0,0.0,0.0,0.0,Night,Male,2020-04-13 18:00:00,18,Beverage,soda
+698,11.0,2020-04-13,8,18:00,Chocolate Pudding,6.0,ounce,242.0,39.0,29.0,3.6,Night,Male,2020-04-13 18:00:00,18,Meal,candy
+699,11.0,2020-04-14,9,08:00,Sausage Biscuit,3.0,,1235.0,100.0,5.3,32.0,Early Morning,Male,2020-04-14 08:00:00,8,Meal,sandwich
+700,11.0,2020-04-14,9,08:00,(Pillsbury) Cinammon Rolls ,24.0,ounce,2245.0,363.0,145.0,30.0,Early Morning,Male,2020-04-14 08:00:00,8,Meal,desserts
+701,11.0,2020-04-14,9,08:00,Diet Mountain Dew,8.0,ounce,0.0,0.0,0.0,0.0,Early Morning,Male,2020-04-14 08:00:00,8,Beverage,soda
+702,11.0,2020-04-14,9,15:00,Cheese And Crackers,10.0,,447.5,25.0,5.5,19.5,Afternoon,Male,2020-04-14 15:00:00,15,Snack,cheese
+703,11.0,2020-04-14,9,15:00,Coke,20.0,ounce,258.0,64.0,61.0,0.0,Afternoon,Male,2020-04-14 15:00:00,15,Beverage,soda
+704,11.0,2020-04-14,9,18:30,Baked Potato,4.0,ounce,105.0,24.0,1.3,2.8,Night,Male,2020-04-14 18:30:00,18,Meal,potato
+705,11.0,2020-04-14,9,18:30,Salad,1.5,cup,10.0,2.1,0.9,0.6,Night,Male,2020-04-14 18:30:00,18,Meal,salad
+706,11.0,2020-04-14,9,18:30,Toast,2.0,,128.0,24.0,2.7,4.0,Night,Male,2020-04-14 18:30:00,18,Meal,bread/pastry
+707,11.0,2020-04-14,9,18:30,Mountain Dew,8.0,ounce,110.0,31.0,31.0,0.0,Night,Male,2020-04-14 18:30:00,18,Beverage,soda
+708,11.0,2020-04-15,10,06:45,Std Bfast,,,280.0,56.5,24.0,8.0,Early Morning,Male,2020-04-15 06:45:00,6,Meal,standard breakfast
+709,11.0,2020-04-15,10,13:30,Chili,10.0,ounce,335.0,17.0,3.1,21.0,Noon,Male,2020-04-15 13:30:00,13,Meal,chili
+710,11.0,2020-04-15,10,13:30,Diet Mountain Dew,8.0,ounce,0.0,0.0,0.0,0.0,Noon,Male,2020-04-15 13:30:00,13,Beverage,soda
+711,11.0,2020-04-15,10,17:00,Oreo Cookie,2.0,,200.0,32.0,18.0,2.0,Afternoon,Male,2020-04-15 17:00:00,17,Meal,desserts
+712,11.0,2020-04-15,10,17:00,Peanuts,2.0,ounce,333.0,12.0,2.8,14.0,Afternoon,Male,2020-04-15 17:00:00,17,Snack,nuts
+713,11.0,2020-04-15,10,20:15,Banana Sandwich,1.0,,443.0,55.0,18.0,6.6,Night,Male,2020-04-15 20:15:00,20,Meal,sandwich
+714,11.0,2020-04-15,10,20:15,Cookies,3.0,,443.0,59.0,30.0,4.6,Night,Male,2020-04-15 20:15:00,20,Meal,desserts
+715,11.0,2020-04-15,10,20:15,Diet Mountain Dew,8.0,ounce,0.0,0.0,0.0,0.0,Night,Male,2020-04-15 20:15:00,20,Beverage,soda
+716,12.0,2020-05-03,1,19:00,Black Raspberry Chocolate Ice Cream,1.0,cup,600.0,60.0,54.0,6.0,Night,Male,2020-05-03 19:00:00,19,Meal,candy
+717,12.0,2020-05-03,1,19:17,Cheese And Crackers,4.0,,179.0,10.0,2.2,7.8,Night,Male,2020-05-03 19:17:00,19,Snack,cheese
+718,12.0,2020-05-03,1,21:44,(Utz) Cheese Puffs,1.5,cup,226.0,22.0,1.1,2.3,Night,Male,2020-05-03 21:44:00,21,Snack,cheese
+719,12.0,2020-05-04,2,05:24,Milk,4.0,ounce,60.0,4.5,4.0,6.0,Early Morning,Male,2020-05-04 05:24:00,5,Beverage,milk
+720,12.0,2020-05-04,2,05:24,Frosted Flake,1.5,cup,220.0,52.0,20.0,2.0,Early Morning,Male,2020-05-04 05:24:00,5,Meal,cereal
+721,12.0,2020-05-04,2,06:32,Coffee,1.0,cup,2.4,0.0,0.0,0.3,Early Morning,Male,2020-05-04 06:32:00,6,Beverage,coffee
+722,12.0,2020-05-04,2,06:32,Cream,1.0,,57.0,0.8,1.1,0.9,Early Morning,Male,2020-05-04 06:32:00,6,Beverage,coffee
+723,12.0,2020-05-04,2,06:32,Stevia,1.0,,0.0,3.3,0.0,0.0,Early Morning,Male,2020-05-04 06:32:00,6,Beverage,coffee
+724,12.0,2020-05-04,2,09:20,Coffee,1.0,,2.4,0.0,0.0,0.3,Morning,Male,2020-05-04 09:20:00,9,Beverage,coffee
+725,12.0,2020-05-04,2,09:20,Stevia,1.0,,0.0,3.3,0.0,0.0,Morning,Male,2020-05-04 09:20:00,9,Beverage,coffee
+726,12.0,2020-05-04,2,09:20,Half And Half,2.0,,37.0,1.4,1.2,0.9,Morning,Male,2020-05-04 09:20:00,9,Beverage,coffee
+727,12.0,2020-05-04,2,12:04,Diet Pepsi,1.0,,0.0,0.0,0.0,0.0,Noon,Male,2020-05-04 12:04:00,12,Beverage,soda
+728,12.0,2020-05-04,2,12:10,"(Jersey Mikes) Salad - Cheese, Steak, Ranch",1.0,,471.0,13.0,8.7,28.0,Noon,Male,2020-05-04 12:10:00,12,Meal,salad
+729,12.0,2020-05-04,2,16:32,Moon Cheddar Cheese,0.33,cup,151.0,1.2,0.2,8.5,Afternoon,Male,2020-05-04 16:32:00,16,Meal,cheese
+730,12.0,2020-05-04,2,16:50,"Sargento Cranberries Snack Pack Cheese, Cashews",1.0,pack,87.0,13.0,0.3,1.8,Afternoon,Male,2020-05-04 16:50:00,16,Snack,cheese
+731,12.0,2020-05-04,2,18:29,Cream Cheese,,,102.0,1.6,1.1,1.8,Night,Male,2020-05-04 18:29:00,18,Meal,cheese
+732,12.0,2020-05-04,2,18:45,Tea,,,1.8,0.5,0.0,0.0,Night,Male,2020-05-04 18:45:00,18,Beverage,tea
+733,12.0,2020-05-04,2,18:45,Stevia,1.0,,0.0,3.3,0.0,0.0,Night,Male,2020-05-04 18:45:00,18,Beverage,coffee
+734,12.0,2020-05-04,2,22:40,(Babybel) Cheese Bite,1.0,,71.0,0.3,0.3,5.0,Late Night,Male,2020-05-04 22:40:00,22,Snack,cheese
+735,12.0,2020-05-05,3,03:48,(Babybel) Cheese Bite,1.0,,71.0,0.3,0.3,5.0,Late Night,Male,2020-05-05 03:48:00,3,Snack,cheese
+736,12.0,2020-05-05,3,04:34,Coffee,,,2.4,0.0,0.0,0.3,Late Night,Male,2020-05-05 04:34:00,4,Beverage,coffee
+737,12.0,2020-05-05,3,04:34,Cream,,,57.0,0.8,1.1,0.9,Late Night,Male,2020-05-05 04:34:00,4,Beverage,coffee
+738,12.0,2020-05-05,3,04:34,Stevia,,,0.0,3.3,0.0,0.0,Late Night,Male,2020-05-05 04:34:00,4,Beverage,coffee
+739,12.0,2020-05-05,3,10:03,Coffee,,,2.4,0.0,0.0,0.3,Morning,Male,2020-05-05 10:03:00,10,Beverage,coffee
+740,12.0,2020-05-05,3,10:03,Cream,,,57.0,0.8,1.1,0.9,Morning,Male,2020-05-05 10:03:00,10,Beverage,coffee
+741,12.0,2020-05-05,3,10:03,Stevia,,,0.0,3.3,0.0,0.0,Morning,Male,2020-05-05 10:03:00,10,Beverage,coffee
+742,12.0,2020-05-05,3,12:00,Cream Cheese,,,102.0,1.6,1.1,1.8,Noon,Male,2020-05-05 12:00:00,12,Meal,cheese
+743,12.0,2020-05-05,3,12:47,Gatorade Zero,6.0,ounce,0.0,0.3,0.0,0.0,Noon,Male,2020-05-05 12:47:00,12,Beverage,sports drink
+744,12.0,2020-05-05,3,14:20,Moon Cheddar Cheese,0.5,cup,230.0,1.8,0.3,12.9,Afternoon,Male,2020-05-05 14:20:00,14,Meal,cheese
+745,12.0,2020-05-05,3,14:30,Peppermint Tea,1.0,cup,2.4,0.5,0.0,0.0,Afternoon,Male,2020-05-05 14:30:00,14,Beverage,tea
+746,12.0,2020-05-05,3,14:30,Stevia,,,0.0,3.3,0.0,0.0,Afternoon,Male,2020-05-05 14:30:00,14,Beverage,coffee
+747,12.0,2020-05-05,3,16:45,Coffee,,,2.4,0.0,0.0,0.3,Afternoon,Male,2020-05-05 16:45:00,16,Beverage,coffee
+748,12.0,2020-05-05,3,16:45,Stevia,,,0.0,3.3,0.0,0.0,Afternoon,Male,2020-05-05 16:45:00,16,Beverage,coffee
+749,12.0,2020-05-05,3,20:49,Moon Cheddar Cheese,0.5,cup,230.0,1.8,0.3,12.9,Night,Male,2020-05-05 20:49:00,20,Meal,cheese
+750,12.0,2020-05-06,4,05:56,Milk,4.0,ounce,60.0,4.5,4.0,6.0,Early Morning,Male,2020-05-06 05:56:00,5,Beverage,milk
+751,12.0,2020-05-06,4,05:56,Frosted Flake,1.5,cup,220.0,52.0,20.0,2.0,Early Morning,Male,2020-05-06 05:56:00,5,Meal,cereal
+752,12.0,2020-05-06,4,12:18,Jim Bean Bourbon,1.0,ounce,70.0,0.0,0.0,0.0,Noon,Male,2020-05-06 12:18:00,12,Beverage,bean
+753,12.0,2020-05-06,4,13:10,Cream Cheese,,,102.0,1.6,1.1,1.8,Noon,Male,2020-05-06 13:10:00,13,Meal,cheese
+754,12.0,2020-05-06,4,13:10,Coffee,,,2.4,0.0,0.0,0.3,Noon,Male,2020-05-06 13:10:00,13,Beverage,coffee
+755,12.0,2020-05-06,4,13:10,Cream,,,57.0,0.8,1.1,0.9,Noon,Male,2020-05-06 13:10:00,13,Beverage,coffee
+756,12.0,2020-05-06,4,13:10,Stevia,,,0.0,3.3,0.0,0.0,Noon,Male,2020-05-06 13:10:00,13,Beverage,coffee
+757,12.0,2020-05-06,4,14:23,Diet Coke,,,0.0,0.0,0.0,0.0,Afternoon,Male,2020-05-06 14:23:00,14,Beverage,soda
+758,12.0,2020-05-06,4,15:32,Fried Cheddar Cheese Bite,,,22.0,0.0,0.0,0.0,Afternoon,Male,2020-05-06 15:32:00,15,Meal,cheese
+759,12.0,2020-05-06,4,17:38,Mint Chocolate Cookies,6.0,,390.0,48.0,27.0,3.0,Afternoon,Male,2020-05-06 17:38:00,17,Meal,candy
+760,12.0,2020-05-06,4,19:01,Brownie,2.0,,466.0,50.0,0.0,6.2,Night,Male,2020-05-06 19:01:00,19,Meal,desserts
+761,12.0,2020-05-06,4,19:22,Dark Chocolate Chip,0.5,cup,458.0,52.0,40.0,4.0,Night,Male,2020-05-06 19:22:00,19,Meal,candy
+762,12.0,2020-05-06,4,19:30,Corn Cheese Puffs,1.0,cup,457.0,3.6,0.5,28.5,Night,Male,2020-05-06 19:30:00,19,Snack,cheese
+763,12.0,2020-05-06,4,19:42,Cheese And Crackers,4.0,,179.0,10.0,2.2,7.8,Night,Male,2020-05-06 19:42:00,19,Snack,cheese
+764,12.0,2020-05-07,5,05:25,Coffee,,,2.4,0.0,0.0,0.3,Early Morning,Male,2020-05-07 05:25:00,5,Beverage,coffee
+765,12.0,2020-05-07,5,05:25,Cream,,,57.0,0.8,1.1,0.9,Early Morning,Male,2020-05-07 05:25:00,5,Beverage,coffee
+766,12.0,2020-05-07,5,05:25,Stevia,,,0.0,3.3,0.0,0.0,Early Morning,Male,2020-05-07 05:25:00,5,Beverage,coffee
+767,12.0,2020-05-07,5,06:53,"Toast - Butter, Cheese, Mayo",2.0,,111.0,14.0,1.6,2.6,Early Morning,Male,2020-05-07 06:53:00,6,Meal,cheese
+768,12.0,2020-05-07,5,10:10,Coffee,,,2.4,0.0,0.0,0.3,Morning,Male,2020-05-07 10:10:00,10,Beverage,coffee
+769,12.0,2020-05-07,5,10:10,Stevia,,,0.0,3.3,0.0,0.0,Morning,Male,2020-05-07 10:10:00,10,Beverage,coffee
+770,12.0,2020-05-07,5,12:12,Pork Bbq,,,418.0,47.0,38.0,33.0,Noon,Male,2020-05-07 12:12:00,12,Meal,pork
+771,12.0,2020-05-07,5,12:12,Beans,,,239.0,54.0,20.0,12.0,Noon,Male,2020-05-07 12:12:00,12,Meal,bean
+772,12.0,2020-05-07,5,12:12,Potato,,,161.0,37.0,2.0,4.3,Noon,Male,2020-05-07 12:12:00,12,Meal,potato
+773,12.0,2020-05-07,5,14:10,"Chocolate, Peanut, Almond Bar",1.0,,343.0,33.0,24.0,5.0,Afternoon,Male,2020-05-07 14:10:00,14,Snack,candy
+774,12.0,2020-05-07,5,15:55,Peanut Butter Wafers,3.0,,450.0,48.0,30.0,6.0,Afternoon,Male,2020-05-07 15:55:00,15,Snack,crackers
+775,12.0,2020-05-07,5,17:45,Peanut M & M,,,103.0,12.0,10.0,1.9,Afternoon,Male,2020-05-07 17:45:00,17,Meal,candy
+776,12.0,2020-05-07,5,18:50,Grilled Cheese,2.0,,732.0,57.0,11.0,23.0,Night,Male,2020-05-07 18:50:00,18,Meal,cheese
+777,12.0,2020-05-07,5,19:40,Kashi Go Crunch With Milk,1.0,cup,253.3,50.7,17.3,12.0,Night,Male,2020-05-07 19:40:00,19,Meal,cereal
+778,12.0,2020-05-08,6,05:54,Milk,4.0,ounce,60.0,4.5,4.0,6.0,Early Morning,Male,2020-05-08 05:54:00,5,Beverage,milk
+779,12.0,2020-05-08,6,05:54,Frosted Flake,1.5,cup,220.0,52.0,20.0,2.0,Early Morning,Male,2020-05-08 05:54:00,5,Meal,cereal
+780,12.0,2020-05-08,6,07:40,Whole Wheat Toast,2.0,slices,153.0,26.0,2.9,8.1,Early Morning,Male,2020-05-08 07:40:00,7,Meal,bread/pastry
+781,12.0,2020-05-08,6,07:40,Butter,,,102.0,0.0,0.0,0.1,Early Morning,Male,2020-05-08 07:40:00,7,Meal,butter
+782,12.0,2020-05-08,6,07:40,Cream Cheese,,,102.0,1.6,1.1,1.8,Early Morning,Male,2020-05-08 07:40:00,7,Meal,cheese
+783,12.0,2020-05-08,6,07:55,Coffee,1.0,cup,2.4,0.0,0.0,0.3,Early Morning,Male,2020-05-08 07:55:00,7,Beverage,coffee
+784,12.0,2020-05-08,6,07:55,Cream,,,57.0,0.8,1.1,0.9,Early Morning,Male,2020-05-08 07:55:00,7,Beverage,coffee
+785,12.0,2020-05-08,6,07:55,Stevia,,,0.0,3.3,0.0,0.0,Early Morning,Male,2020-05-08 07:55:00,7,Beverage,coffee
+786,12.0,2020-05-08,6,08:51,Coffee,1.0,cup,2.4,0.0,0.0,0.3,Early Morning,Male,2020-05-08 08:51:00,8,Beverage,coffee
+787,12.0,2020-05-08,6,08:51,Half And Half,,,37.0,1.4,1.2,0.9,Early Morning,Male,2020-05-08 08:51:00,8,Beverage,coffee
+788,12.0,2020-05-08,6,08:51,Stevia,,,0.0,3.3,0.0,0.0,Early Morning,Male,2020-05-08 08:51:00,8,Beverage,coffee
+789,12.0,2020-05-08,6,10:30,(Smoke House) Almonds,1.5,ounce,255.0,9.0,2.1,8.9,Morning,Male,2020-05-08 10:30:00,10,Snack,nuts
+790,12.0,2020-05-08,6,12:41,"Salad - (Chicken, Tomato, Ranch)",,,576.0,22.0,5.9,43.0,Noon,Male,2020-05-08 12:41:00,12,Meal,salad
+791,12.0,2020-05-08,6,16:35,Diet Coke,,,0.0,0.4,0.0,0.0,Afternoon,Male,2020-05-08 16:35:00,16,Beverage,soda
+792,12.0,2020-05-08,6,17:45,Vodka Gray Goose,1.0,ounce,69.0,0.0,0.0,0.0,Afternoon,Male,2020-05-08 17:45:00,17,Beverage,alcohol
+793,12.0,2020-05-08,6,17:53,Mozzarella,,,85.0,0.6,0.3,6.3,Afternoon,Male,2020-05-08 17:53:00,17,Meal,cheese
+794,12.0,2020-05-08,6,17:53,Chicken Burger,,,535.0,57.0,6.5,29.0,Afternoon,Male,2020-05-08 17:53:00,17,Meal,burger
+795,12.0,2020-05-08,6,19:02,Whole Wheat Toast With Butter,2.0,slices,222.0,29.0,3.3,5.2,Night,Male,2020-05-08 19:02:00,19,Meal,bread/pastry
+796,12.0,2020-05-08,6,19:24,Angle Food Candy From Mother,6.0,pieces,292.0,58.0,55.7,1.5,Night,Male,2020-05-08 19:24:00,19,Meal,candy
+797,12.0,2020-05-09,7,05:30,Coffee,,,2.4,0.0,0.0,0.3,Early Morning,Male,2020-05-09 05:30:00,5,Beverage,coffee
+798,12.0,2020-05-09,7,05:30,Cream,,,57.0,0.8,1.1,0.9,Early Morning,Male,2020-05-09 05:30:00,5,Beverage,coffee
+799,12.0,2020-05-09,7,05:30,Stevia,,,0.0,3.3,0.0,0.0,Early Morning,Male,2020-05-09 05:30:00,5,Beverage,coffee
+800,12.0,2020-05-09,7,06:00,Yogurt,,,107.0,12.0,12.0,8.9,Early Morning,Male,2020-05-09 06:00:00,6,Meal,yogurt
+801,12.0,2020-05-09,7,06:00,Kashi,,,264.0,57.0,14.0,21.0,Early Morning,Male,2020-05-09 06:00:00,6,Meal,cereal
+802,12.0,2020-05-09,7,08:36,Coffee,1.0,cup,2.4,0.0,0.0,0.3,Early Morning,Male,2020-05-09 08:36:00,8,Beverage,coffee
+803,12.0,2020-05-09,7,08:36,Cream,,,57.0,0.8,1.1,0.9,Early Morning,Male,2020-05-09 08:36:00,8,Beverage,coffee
+804,12.0,2020-05-09,7,08:36,Stevia,,,0.0,3.3,0.0,0.0,Early Morning,Male,2020-05-09 08:36:00,8,Beverage,coffee
+805,12.0,2020-05-09,7,10:14,Coffee,1.0,cup,2.4,0.0,0.0,0.3,Morning,Male,2020-05-09 10:14:00,10,Beverage,coffee
+806,12.0,2020-05-09,7,10:14,Cream,,,57.0,0.8,1.1,0.9,Morning,Male,2020-05-09 10:14:00,10,Beverage,coffee
+807,12.0,2020-05-09,7,10:14,Stevia,,,0.0,3.3,0.0,0.0,Morning,Male,2020-05-09 10:14:00,10,Beverage,coffee
+808,12.0,2020-05-09,7,12:12,(Wendy'S) Southwest Salad,,,300.0,10.0,4.0,21.0,Noon,Male,2020-05-09 12:12:00,12,Meal,salad
+809,12.0,2020-05-09,7,14:45,Diet Coke,,,0.0,0.0,0.0,0.0,Afternoon,Male,2020-05-09 14:45:00,14,Beverage,soda
+810,12.0,2020-05-09,7,14:45,Fried Cheese Curds,1.0,cup,495.0,3.8,0.6,28.0,Afternoon,Male,2020-05-09 14:45:00,14,Meal,cheese
+811,12.0,2020-05-09,7,16:09,Biscuit Chicken Strips,4.0,pieces,448.0,28.4,0.4,28.0,Afternoon,Male,2020-05-09 16:09:00,16,Meal,sandwich
+812,12.0,2020-05-09,7,16:45,Angle Food Candy ,6.0,pieces,292.0,58.0,55.7,1.5,Afternoon,Male,2020-05-09 16:45:00,16,Meal,candy
+813,12.0,2020-05-09,7,18:40,Grilled Chicken Cheese Sandwich,,,511.0,31.0,4.6,39.0,Night,Male,2020-05-09 18:40:00,18,Meal,sandwich
+814,12.0,2020-05-09,7,19:49,Angle Food Candy ,3.0,pieces,292.0,58.0,55.7,1.5,Night,Male,2020-05-09 19:49:00,19,Meal,candy
+815,12.0,2020-05-09,7,21:28,(Garrett'S) Caramel Popcorn Cheddar,2.0,cup,362.0,66.0,44.0,3.2,Night,Male,2020-05-09 21:28:00,21,Snack,candy
+816,12.0,2020-05-10,8,06:05,Milk,4.0,ounce,60.0,4.5,4.0,6.0,Early Morning,Male,2020-05-10 06:05:00,6,Beverage,milk
+817,12.0,2020-05-10,8,06:05,Frosted Flake,1.5,cup,220.0,52.0,20.0,2.0,Early Morning,Male,2020-05-10 06:05:00,6,Meal,cereal
+818,12.0,2020-05-10,8,07:21,Cheese,,,113.0,0.9,0.1,6.4,Early Morning,Male,2020-05-10 07:21:00,7,Snack,cheese
+819,12.0,2020-05-10,8,07:21,"Toast - Butter, Cheese, Mayo",,,111.0,14.0,1.6,2.6,Early Morning,Male,2020-05-10 07:21:00,7,Meal,cheese
+820,12.0,2020-05-10,8,07:21,Coffee,,,2.4,0.0,0.0,0.3,Early Morning,Male,2020-05-10 07:21:00,7,Beverage,coffee
+821,12.0,2020-05-10,8,07:21,Cream,,,57.0,0.8,1.1,0.9,Early Morning,Male,2020-05-10 07:21:00,7,Beverage,coffee
+822,12.0,2020-05-10,8,07:21,Stevia,,,0.0,3.3,0.0,0.0,Early Morning,Male,2020-05-10 07:21:00,7,Beverage,coffee
+823,12.0,2020-05-10,8,08:10,Coffee,,,2.4,0.0,0.0,0.3,Early Morning,Male,2020-05-10 08:10:00,8,Beverage,coffee
+824,12.0,2020-05-10,8,08:10,Half And Half,,,37.0,1.4,1.2,0.9,Early Morning,Male,2020-05-10 08:10:00,8,Beverage,coffee
+825,12.0,2020-05-10,8,08:10,Stevia,,,0.0,3.3,0.0,0.0,Early Morning,Male,2020-05-10 08:10:00,8,Beverage,coffee
+826,12.0,2020-05-10,8,11:25,Coffee,,,2.4,0.0,0.0,0.3,Morning,Male,2020-05-10 11:25:00,11,Beverage,coffee
+827,12.0,2020-05-10,8,11:25,Half And Half,,,37.0,1.4,1.2,0.9,Morning,Male,2020-05-10 11:25:00,11,Beverage,coffee
+828,12.0,2020-05-10,8,11:25,Stevia,,,0.0,3.3,0.0,0.0,Morning,Male,2020-05-10 11:25:00,11,Beverage,coffee
+829,12.0,2020-05-10,8,12:20,Sushi,,,349.0,38.0,7.0,7.8,Noon,Male,2020-05-10 12:20:00,12,Meal,sushi
+830,12.0,2020-05-10,8,12:20,Soup,,,62.0,7.3,0.7,3.1,Noon,Male,2020-05-10 12:20:00,12,Meal,soup
+831,12.0,2020-05-10,8,12:20,Diet Coke,,,0.0,0.4,0.0,0.0,Noon,Male,2020-05-10 12:20:00,12,Beverage,soda
+832,12.0,2020-05-10,8,17:25,Chicken Salad Sandwich,1.0,,535.0,33.0,6.9,34.0,Afternoon,Male,2020-05-10 17:25:00,17,Meal,salad
+833,12.0,2020-05-10,8,17:45,Ginger Bread Cookie,6.0,,806.0,147.0,72.0,12.0,Afternoon,Male,2020-05-10 17:45:00,17,Meal,bread/pastry
+834,12.0,2020-05-10,8,19:40,Rice,,,205.0,45.0,0.1,4.3,Night,Male,2020-05-10 19:40:00,19,Meal,rice
+835,12.0,2020-05-10,8,19:40,Cheddar And Caramel Popcorn,1.0,cup,58.0,5.7,0.1,1.0,Night,Male,2020-05-10 19:40:00,19,Snack,candy
+836,12.0,2020-05-10,8,20:15,Peppermint Bark Candy,,,144.0,18.0,16.0,1.4,Night,Male,2020-05-10 20:15:00,20,Meal,candy
+837,12.0,2020-05-10,8,21:01,Tea,,,1.8,0.5,0.0,0.0,Night,Male,2020-05-10 21:01:00,21,Beverage,tea
+838,12.0,2020-05-10,8,21:01,Stevia,,,0.0,3.3,0.0,0.0,Night,Male,2020-05-10 21:01:00,21,Beverage,coffee
+839,12.0,2020-05-10,8,22:40,(Mich) Ultra Beer,1.0,,95.0,2.6,0.0,0.6,Late Night,Male,2020-05-10 22:40:00,22,Beverage,alcohol
+840,13.0,2019-12-30,1,16:30,Ice Cream Sandwich,4.23,fluid ounce,284.0,45.0,22.0,5.1,Afternoon,Male,2019-12-30 16:30:00,16,Meal,sandwich
+841,13.0,2019-12-30,1,18:57,Lasagna (Mostly Vegetables),335.0,gram,524.0,30.0,9.8,38.0,Night,Male,2019-12-30 18:57:00,18,Meal,pasta
+842,13.0,2019-12-30,1,18:57,Red Wine,0.25,cup,50.0,1.5,0.4,0.0,Night,Male,2019-12-30 18:57:00,18,Beverage,alcohol
+843,13.0,2019-12-30,1,19:02,Cashew Nut,6.0,,54.0,3.1,0.5,1.4,Night,Male,2019-12-30 19:02:00,19,Snack,nuts
+844,13.0,2019-12-30,1,19:27,Chocolate,10.0,gram,54.0,5.9,5.2,0.8,Night,Male,2019-12-30 19:27:00,19,Meal,candy
+845,13.0,2019-12-30,1,20:49,Herbal Tea,,,2.4,0.5,0.0,0.0,Night,Male,2019-12-30 20:49:00,20,Beverage,tea
+846,13.0,2019-12-30,1,20:49,Honey,1.0,teaspoon,21.0,5.8,5.8,0.0,Night,Male,2019-12-30 20:49:00,20,Meal,honey
+847,13.0,2019-12-31,2,00:19,Pretzel Rod,3.0,,115.0,24.0,0.7,3.0,Late Night,Male,2019-12-31 00:19:00,0,Snack,crackers
+848,13.0,2019-12-31,2,21:23,Frosted Flake,,,280.0,56.5,24.0,8.0,Night,Male,2019-12-31 21:23:00,21,Meal,cereal
+849,13.0,2019-12-31,2,21:38,Decaf Latte,,,189.0,19.0,19.0,12.0,Night,Male,2019-12-31 21:38:00,21,Beverage,coffee
+850,13.0,2019-12-31,2,21:38,Lactose Free Milk,7.0,ounce,409.0,11.0,0.0,7.4,Night,Male,2019-12-31 21:38:00,21,Beverage,milk
+851,13.0,2019-12-31,2,13:51,Potato Chip,10.0,gram,53.0,5.4,0.0,0.6,Noon,Male,2019-12-31 13:51:00,13,Snack,potato
+852,13.0,2019-12-31,2,14:00,Chicken Noodle Soup,1.5,cup,93.0,11.0,1.0,4.7,Afternoon,Male,2019-12-31 14:00:00,14,Meal,soup
+853,13.0,2019-12-31,2,14:55,(Caracara) Fresh Orange Juice,,,140.0,42.0,28.0,2.0,Afternoon,Male,2019-12-31 14:55:00,14,Beverage,juice
+854,13.0,2019-12-31,2,17:20,Small Sweet Potato,75.0,gram,54.0,12.0,3.9,1.2,Afternoon,Male,2019-12-31 17:20:00,17,Meal,potato
+855,13.0,2019-12-31,2,17:20,Stuffing,90.0,gram,176.0,17.0,1.8,2.5,Afternoon,Male,2019-12-31 17:20:00,17,Meal,stuffing
+856,13.0,2019-12-31,2,19:03,Ice Cream Sandwich,4.23,fluid ounce,284.0,45.0,22.0,5.1,Night,Male,2019-12-31 19:03:00,19,Meal,sandwich
+857,13.0,2019-12-31,2,20:38,Pound Cake,60.0,gram,212.0,32.0,20.0,3.0,Night,Male,2019-12-31 20:38:00,20,Meal,desserts
+858,13.0,2019-12-31,2,20:38,Ice Cream,2.0,scoop,273.0,31.0,28.0,4.6,Night,Male,2019-12-31 20:38:00,20,Meal,desserts
+859,13.0,2020-01-01,3,09:58,Small Blueberry Pancake,4.0,,336.0,44.0,0.0,9.2,Morning,Male,2020-01-01 09:58:00,9,Meal,desserts
+860,13.0,2020-01-01,3,09:58,Syrup,,,220.0,58.0,35.0,0.0,Morning,Male,2020-01-01 09:58:00,9,Meal,syrup
+861,13.0,2020-01-01,3,12:15,Decaf Latte,,,189.0,19.0,19.0,12.0,Noon,Male,2020-01-01 12:15:00,12,Beverage,coffee
+862,13.0,2020-01-01,3,12:15,Lactose Free Milk,7.0,ounce,409.0,11.0,0.0,7.4,Noon,Male,2020-01-01 12:15:00,12,Beverage,milk
+863,13.0,2020-01-01,3,15:30,Potato Chip,,,53.0,5.4,0.0,0.6,Afternoon,Male,2020-01-01 15:30:00,15,Snack,potato
+864,13.0,2020-01-01,3,15:35,Cashew Nut,,,54.0,3.1,0.5,1.4,Afternoon,Male,2020-01-01 15:35:00,15,Snack,nuts
+865,13.0,2020-01-01,3,15:53,Decaf Latte,,,189.0,19.0,19.0,12.0,Afternoon,Male,2020-01-01 15:53:00,15,Beverage,coffee
+866,13.0,2020-01-01,3,15:53,Lactose Free Milk,7.0,ounce,409.0,11.0,0.0,7.4,Afternoon,Male,2020-01-01 15:53:00,15,Beverage,milk
+867,13.0,2020-01-01,3,17:47,Toffee,2.0,,134.0,16.0,15.0,0.3,Afternoon,Male,2020-01-01 17:47:00,17,Meal,candy
+868,13.0,2020-01-01,3,19:40,Vegetable Lasagna,340.0,gram,392.0,24.0,5.1,24.0,Night,Male,2020-01-01 19:40:00,19,Meal,pasta
+869,13.0,2020-01-01,3,20:08,Ice Cream,1.0,cup,273.0,31.0,28.0,4.6,Night,Male,2020-01-01 20:08:00,20,Meal,desserts
+870,13.0,2020-01-02,4,10:19,Frosted Flake,,,280.0,56.5,24.0,8.0,Morning,Male,2020-01-02 10:19:00,10,Meal,cereal
+871,13.0,2020-01-02,4,10:30,Decaf Latte,,,189.0,19.0,19.0,12.0,Morning,Male,2020-01-02 10:30:00,10,Beverage,coffee
+872,13.0,2020-01-02,4,10:30,Lactose Free Milk,7.0,ounce,409.0,11.0,0.0,7.4,Morning,Male,2020-01-02 10:30:00,10,Beverage,milk
+873,13.0,2020-01-02,4,13:26,Low Fat Cottage Cheese,0.5,cup,81.0,3.1,3.1,14.0,Noon,Male,2020-01-02 13:26:00,13,Snack,cheese
+874,13.0,2020-01-02,4,16:16,Low Fat Cottage Cheese,0.25,cup,40.5,1.6,1.6,7.0,Afternoon,Male,2020-01-02 16:16:00,16,Snack,cheese
+875,13.0,2020-01-02,4,16:21,Greek Yogurt,5.3,ounce,532.0,32.0,29.0,92.0,Afternoon,Male,2020-01-02 16:21:00,16,Meal,yogurt
+876,13.0,2020-01-02,4,17:28,Ice Cream Sandwich,,,284.0,45.0,22.0,5.1,Afternoon,Male,2020-01-02 17:28:00,17,Meal,sandwich
+877,13.0,2020-01-02,4,17:32,Rice,,,205.0,45.0,0.1,4.3,Afternoon,Male,2020-01-02 17:32:00,17,Meal,rice
+878,13.0,2020-01-02,4,17:32,Bean,,,225.0,40.0,0.6,15.0,Afternoon,Male,2020-01-02 17:32:00,17,Meal,bean
+879,13.0,2020-01-02,4,17:32,Duck Burrito,,,434.0,56.0,5.1,17.0,Afternoon,Male,2020-01-02 17:32:00,17,Meal,mexican food
+880,13.0,2020-01-02,4,17:32,Salsa,,,10.0,2.4,1.4,0.6,Afternoon,Male,2020-01-02 17:32:00,17,Meal,mexican food
+881,13.0,2020-01-02,4,17:32,Corn Chips,,,151.0,16.0,0.1,1.7,Afternoon,Male,2020-01-02 17:32:00,17,Snack,chips
+882,13.0,2020-01-03,5,11:00,Low Fat Cottage Cheese,,,40.5,1.6,1.6,7.0,Morning,Male,2020-01-03 11:00:00,11,Snack,cheese
+883,13.0,2020-01-03,5,11:30,Skim Decaf Latte,,,189.0,19.0,19.0,12.0,Morning,Male,2020-01-03 11:30:00,11,Beverage,coffee
+884,13.0,2020-01-03,5,13:30,(Caracara) Fresh Orange Juice,2.0,oranges,140.0,42.0,28.0,2.0,Noon,Male,2020-01-03 13:30:00,13,Beverage,juice
+885,13.0,2020-01-03,5,17:30,Beer,1.0,,153.0,13.0,0.0,1.6,Afternoon,Male,2020-01-03 17:30:00,17,Beverage,alcohol
+886,13.0,2020-01-03,5,17:30,Duck Soup With Dumpling,,,129.0,23.0,7.5,7.0,Afternoon,Male,2020-01-03 17:30:00,17,Meal,soup
+887,13.0,2020-01-03,5,19:00,Potato Chip,5.0,,447.0,45.0,0.3,5.4,Night,Male,2020-01-03 19:00:00,19,Snack,potato
+888,13.0,2020-01-03,5,19:00,Ice Cream,,,273.0,31.0,28.0,4.6,Night,Male,2020-01-03 19:00:00,19,Meal,desserts
+889,13.0,2020-01-03,5,22:35,Ice Cream Sandwich,,,284.0,45.0,22.0,5.1,Late Night,Male,2020-01-03 22:35:00,22,Meal,sandwich
+890,13.0,2020-01-04,6,09:00,Frosted Flake,,,280.0,56.5,24.0,8.0,Morning,Male,2020-01-04 09:00:00,9,Meal,cereal
+891,13.0,2020-01-04,6,09:11,Decaf Latte,,,189.0,19.0,19.0,12.0,Morning,Male,2020-01-04 09:11:00,9,Beverage,coffee
+892,13.0,2020-01-04,6,12:59,Greek Yogurt,5.3,ounce,532.0,32.0,29.0,92.0,Noon,Male,2020-01-04 12:59:00,12,Meal,yogurt
+893,13.0,2020-01-04,6,13:11,Ham And Turkey Sandwich,0.5,,550.0,39.0,7.0,32.0,Noon,Male,2020-01-04 13:11:00,13,Meal,sandwich
+894,13.0,2020-01-04,6,14:12,Cheese Crackers,,,303.0,37.0,2.8,6.8,Afternoon,Male,2020-01-04 14:12:00,14,Snack,cheese
+895,13.0,2020-01-04,6,14:23,Decaf Latte,,,189.0,19.0,19.0,12.0,Afternoon,Male,2020-01-04 14:23:00,14,Beverage,coffee
+896,13.0,2020-01-04,6,18:13,Mixed Nuts,9.0,,153.0,6.5,1.2,4.4,Night,Male,2020-01-04 18:13:00,18,Snack,nuts
+897,13.0,2020-01-04,6,19:00,Pasta Salad With Vegetables,,,407.0,35.0,3.0,12.0,Night,Male,2020-01-04 19:00:00,19,Meal,salad
+898,13.0,2020-01-04,6,19:00,Salad Dressing,,,129.0,1.8,1.4,0.4,Night,Male,2020-01-04 19:00:00,19,Meal,salad
+899,13.0,2020-01-04,6,19:24,Toffee,2.0,,134.0,16.0,15.0,0.3,Night,Male,2020-01-04 19:24:00,19,Meal,candy
+900,13.0,2020-01-04,6,21:16,Ice Cream,1.0,cup,273.0,31.0,28.0,4.6,Night,Male,2020-01-04 21:16:00,21,Meal,desserts
+901,13.0,2020-01-04,6,21:25,Cookie,6.0,,886.0,118.0,59.0,9.2,Night,Male,2020-01-04 21:25:00,21,Meal,desserts
+902,13.0,2020-01-05,7,11:59,Oatmeal,0.75,cup,125.0,21.0,0.5,4.5,Morning,Male,2020-01-05 11:59:00,11,Meal,oat/grains
+903,13.0,2020-01-05,7,11:59,Maple Syrup,1.5,teaspoon,26.0,6.7,6.0,0.0,Morning,Male,2020-01-05 11:59:00,11,Meal,maple syrup
+904,13.0,2020-01-05,7,12:08,Tea With Milk,,,62.0,5.2,5.0,3.1,Noon,Male,2020-01-05 12:08:00,12,Beverage,tea
+905,13.0,2020-01-05,7,12:08,Honey,1.0,teaspoon,21.0,5.8,5.8,0.0,Noon,Male,2020-01-05 12:08:00,12,Meal,honey
+906,13.0,2020-01-05,7,14:30,Turkey And Brie Sandwich,0.5,,287.0,20.5,5.0,16.0,Afternoon,Male,2020-01-05 14:30:00,14,Meal,sandwich
+907,13.0,2020-01-05,7,14:38,Mixed Nuts,5.0,,85.0,3.6,0.7,2.4,Afternoon,Male,2020-01-05 14:38:00,14,Snack,nuts
+908,13.0,2020-01-05,7,14:45,Decaf Latte,,,189.0,19.0,19.0,12.0,Afternoon,Male,2020-01-05 14:45:00,14,Beverage,coffee
+909,13.0,2020-01-05,7,18:19,Soda,,,155.0,38.0,37.0,0.0,Night,Male,2020-01-05 18:19:00,18,Beverage,soda
+910,13.0,2020-01-05,7,19:45,Small Sweet Potato,1.0,,54.0,12.0,3.9,1.2,Night,Male,2020-01-05 19:45:00,19,Meal,potato
+911,13.0,2020-01-05,7,20:20,Tea,,,2.4,0.7,0.0,0.0,Night,Male,2020-01-05 20:20:00,20,Beverage,tea
+912,13.0,2020-01-05,7,20:20,Honey,1.0,teaspoon,21.0,5.8,5.8,0.0,Night,Male,2020-01-05 20:20:00,20,Meal,honey
+913,13.0,2020-01-05,7,20:40,Cookie,8.0,,1181.3,157.3,78.7,12.3,Night,Male,2020-01-05 20:40:00,20,Meal,desserts
+914,14.0,2020-06-05,1,16:00,Pepsi (Real Sugar),7.5,ounce,150.0,41.0,41.0,0.0,Afternoon,Male,2020-06-05 16:00:00,16,Beverage,soda
+915,14.0,2020-06-05,1,16:00,Simply Naked Pita Chips,1.0,ounce,130.0,19.0,0.5,3.0,Afternoon,Male,2020-06-05 16:00:00,16,Snack,chips
+916,14.0,2020-06-05,1,16:00,Roasted Red Pepper Hummus,2.25,tbsp,114.0,13.0,2.0,4.7,Afternoon,Male,2020-06-05 16:00:00,16,Meal,roasted red pepper hummus
+917,14.0,2020-06-05,1,16:00,Milk Chocolate Petit Beurre Biscuits,3.5,biscuits,123.0,18.2,5.3,1.6,Afternoon,Male,2020-06-05 16:00:00,16,Meal,sandwich
+918,14.0,2020-06-05,1,19:30,2% Milk,1.0,cup,122.0,12.0,12.0,8.0,Night,Male,2020-06-05 19:30:00,19,Beverage,milk
+919,14.0,2020-06-06,2,06:10,Standard Breakfast,,,280.0,56.5,24.0,8.0,Early Morning,Male,2020-06-06 06:10:00,6,Meal,standard breakfast
+920,14.0,2020-06-06,2,09:49,Quest Protein Bar Double Chocolate Chunk,30.0,g,160.0,25.0,1.0,20.0,Morning,Male,2020-06-06 09:49:00,9,Snack,candy
+921,14.0,2020-06-06,2,11:50,Chicken Parmesan With Tomato Sauce,2.0,ounce,324.0,17.0,4.4,26.0,Morning,Male,2020-06-06 11:50:00,11,Meal,poultry
+922,14.0,2020-06-06,2,11:50,Mashed Potatoes With Brown Gravy,1.0,scoop,265.0,39.0,3.1,4.5,Morning,Male,2020-06-06 11:50:00,11,Meal,potato
+923,14.0,2020-06-06,2,18:50,Thomas Blueberry English Muffins,2.0,muffin,300.0,56.0,2.0,10.0,Night,Male,2020-06-06 18:50:00,18,Meal,bread/pastry
+924,14.0,2020-06-06,2,18:50,Jimmy Dean Hot Premium Pork Sausage,4.0,ounce,150.0,0.7,0.5,8.5,Night,Male,2020-06-06 18:50:00,18,Meal,pork
+925,14.0,2020-06-06,2,18:50,Kerry Gold Butter,1.0,tbsp,100.0,0.0,0.0,0.0,Night,Male,2020-06-06 18:50:00,18,Meal,kerry gold butter
+926,14.0,2020-06-06,2,18:50,Lanad O Lakes Cinnamon Sugar,0.5,tbsp,60.0,17.0,15.0,0.0,Night,Male,2020-06-06 18:50:00,18,Meal,coffee
+927,14.0,2020-06-06,2,19:32,Asndes Cremede Menth Thin Mints,3.0,mints,75.0,8.4,7.2,1.1,Night,Male,2020-06-06 19:32:00,19,Meal,candy
+928,14.0,2020-06-07,3,09:20,Quest Protein Bar White Chocolate Raspberry Bar,0.5,bar,100.0,10.5,1.0,10.0,Morning,Male,2020-06-07 09:20:00,9,Snack,candy
+929,14.0,2020-06-07,3,10:19,V8 Low Sodium,5.5,ounce,40.0,7.5,6.0,1.5,Morning,Male,2020-06-07 10:19:00,10,Beverage,juice
+930,14.0,2020-06-07,3,12:20,"Club Sandwich With Turkey, Bacon, And Cheddar Cheese",1.0,,817.0,42.0,7.0,56.0,Noon,Male,2020-06-07 12:20:00,12,Meal,sandwich
+931,14.0,2020-06-07,3,13:25,Lifesaver Peppermint Breath Mint,1.0,mints,15.0,4.0,4.0,0.0,Noon,Male,2020-06-07 13:25:00,13,Meal,candy
+932,14.0,2020-06-07,3,17:30,Lu Petit Ecolier Milk Chocolate Biscuit Cookie,2.0,biscuits,123.0,18.2,5.3,1.6,Afternoon,Male,2020-06-07 17:30:00,17,Meal,sandwich
+933,14.0,2020-06-07,3,19:21,"Green Smoothie (With Avocado, Cotton Candy Green Grapes, Pear, Broccoli, Kale, Spinach, Banana)",18.0,ounce,123.0,28.0,15.0,3.0,Night,Male,2020-06-07 19:21:00,19,Beverage,smoothie
+934,14.0,2020-06-07,3,19:21,Lu Petit Ecolier Milk Chocolate Biscuit Cookie,3.0,biscuits,123.0,18.2,5.3,1.6,Night,Male,2020-06-07 19:21:00,19,Meal,sandwich
+935,14.0,2020-06-08,4,06:10,Standard Breakfast,,,280.0,56.5,24.0,8.0,Early Morning,Male,2020-06-08 06:10:00,6,Meal,standard breakfast
+936,14.0,2020-06-08,4,09:10,Pepsi,8.0,ounce,150.0,41.0,41.0,0.0,Morning,Male,2020-06-08 09:10:00,9,Beverage,soda
+937,14.0,2020-06-08,4,09:10,Lifesaver Gummies (Wild Berries),5.0,gummy,65.0,15.5,13.0,0.5,Morning,Male,2020-06-08 09:10:00,9,Meal,candy
+938,14.0,2020-06-08,4,09:10,Uncle Al'S Strawberry Cremes Cookies,5.0,cookie,120.0,19.0,9.0,1.0,Morning,Male,2020-06-08 09:10:00,9,Meal,desserts
+939,14.0,2020-06-08,4,11:25,Taco Bell Chicken Quesadilla,,,500.0,38.0,2.0,27.0,Morning,Male,2020-06-08 11:25:00,11,Meal,mexican food
+940,14.0,2020-06-08,4,11:25,Soft Taco,,,158.0,14.0,0.6,6.0,Morning,Male,2020-06-08 11:25:00,11,Meal,mexican food
+941,14.0,2020-06-08,4,15:05,Lifesaver Gummies (Wild Berries),4.0,gummy,65.0,15.5,13.0,0.5,Afternoon,Male,2020-06-08 15:05:00,15,Meal,candy
+942,14.0,2020-06-08,4,17:30,Sathers Caramel Creams,2.0,piece,94.0,17.0,9.0,0.7,Afternoon,Male,2020-06-08 17:30:00,17,Meal,candy
+943,14.0,2020-06-08,4,19:40,Thomas English Muffin Blueberry,1.0,muffin,150.0,28.0,1.0,5.0,Night,Male,2020-06-08 19:40:00,19,Meal,bread/pastry
+944,14.0,2020-06-08,4,19:40,Thomas English Muffin Cinnamon,1.0,muffin,150.0,28.0,1.0,5.0,Night,Male,2020-06-08 19:40:00,19,Meal,bread/pastry
+945,14.0,2020-06-08,4,19:40,2% Milk,1.0,cup,122.0,12.0,12.0,8.0,Night,Male,2020-06-08 19:40:00,19,Beverage,milk
+946,14.0,2020-06-08,4,19:40,Kerry Gold Butter,1.0,tbsp,100.0,0.0,0.0,0.0,Night,Male,2020-06-08 19:40:00,19,Meal,kerry gold butter
+947,14.0,2020-06-09,5,07:50,Special K With Strawberries,2.0,cup,220.0,54.0,18.0,4.0,Early Morning,Male,2020-06-09 07:50:00,7,Meal,cereal
+948,14.0,2020-06-09,5,07:50,2% Milk,1.25,cup,122.0,12.0,12.0,8.0,Early Morning,Male,2020-06-09 07:50:00,7,Beverage,milk
+949,14.0,2020-06-09,5,10:20,Uncle Al'S Strawberry Cremes Cookies,4.0,cookie,120.0,19.0,9.0,1.0,Morning,Male,2020-06-09 10:20:00,10,Meal,desserts
+950,14.0,2020-06-09,5,10:20,Pepsi,8.0,ounce,150.0,41.0,41.0,0.0,Morning,Male,2020-06-09 10:20:00,10,Beverage,soda
+951,14.0,2020-06-09,5,14:45,Goetzes Caramel Cremes,2.0,,94.0,17.0,9.0,0.7,Afternoon,Male,2020-06-09 14:45:00,14,Meal,candy
+952,14.0,2020-06-09,5,15:58,Quest Protein Bar Caramel Chocolate Chunk,0.5,bar,160.0,25.0,1.0,20.0,Afternoon,Male,2020-06-09 15:58:00,15,Snack,candy
+953,14.0,2020-06-09,5,18:30,Pizza Slice Of Ny Pepperoni,2.0,slice,626.0,70.0,7.0,26.0,Night,Male,2020-06-09 18:30:00,18,Meal,pizza
+954,14.0,2020-06-09,5,18:30,Mozarrella Sticks,2.5,stick,303.0,24.0,2.0,14.0,Night,Male,2020-06-09 18:30:00,18,Meal,cheese
+955,14.0,2020-06-09,5,18:30,Coca Cola,7.5,ounce,150.0,41.0,41.0,0.0,Night,Male,2020-06-09 18:30:00,18,Beverage,soda
+956,14.0,2020-06-10,6,06:15,Standard Breakfast,,,280.0,56.5,24.0,8.0,Early Morning,Male,2020-06-10 06:15:00,6,Meal,standard breakfast
+957,14.0,2020-06-10,6,09:28,Oreo'S Peppermint Bark,5.0,ounce,288.0,36.0,32.0,2.8,Morning,Male,2020-06-10 09:28:00,9,Meal,candy
+958,14.0,2020-06-10,6,11:50,Pizza Slice Of Ny Pepperoni,2.0,slice,626.0,70.0,7.0,26.0,Morning,Male,2020-06-10 11:50:00,11,Meal,pizza
+959,14.0,2020-06-10,6,11:50,Strawberry Scone,0.5,scone,424.0,32.0,1.2,7.3,Morning,Male,2020-06-10 11:50:00,11,Meal,bread/pastry
+960,14.0,2020-06-10,6,11:50,Coca Cola,7.5,ounce,150.0,41.0,41.0,0.0,Morning,Male,2020-06-10 11:50:00,11,Beverage,soda
+961,14.0,2020-06-10,6,15:27,Quest Protein Bar Caramel Chocolate Chunk,0.5,bar,160.0,25.0,1.0,20.0,Afternoon,Male,2020-06-10 15:27:00,15,Snack,candy
+962,14.0,2020-06-10,6,19:30,Kraft Mac And Cheese,3.8,ounce,376.0,47.0,8.5,9.7,Night,Male,2020-06-10 19:30:00,19,Meal,pasta
+963,14.0,2020-06-10,6,19:30,2% Milk,6.0,ounce,122.0,12.0,12.0,8.0,Night,Male,2020-06-10 19:30:00,19,Beverage,milk
+964,14.0,2020-06-11,7,06:00,Quest Protein Bar Birthday Cake,1.0,bar,160.0,25.0,1.0,20.0,Early Morning,Male,2020-06-11 06:00:00,6,Snack,snack bar
+965,14.0,2020-06-11,7,09:18,Sun Chips Garden Salsa,1.5,ounce,140.0,19.0,2.0,2.0,Morning,Male,2020-06-11 09:18:00,9,Snack,mexican food
+966,14.0,2020-06-11,7,11:45,Cottage Cheese,0.5,cup,107.0,4.0,3.0,12.0,Morning,Male,2020-06-11 11:45:00,11,Meal,cheese
+967,14.0,2020-06-11,7,11:45,Apple Pie ,8.0,ounce,296.0,43.0,20.0,2.4,Morning,Male,2020-06-11 11:45:00,11,Meal,desserts
+968,14.0,2020-06-11,7,17:50,Ghiradelli Peppermint Bark Square,1.0,,144.0,18.0,16.0,1.4,Afternoon,Male,2020-06-11 17:50:00,17,Meal,candy
+969,14.0,2020-06-11,7,18:15,Jimmy Dean Hot Premium Pork Sausage,4.5,ounce,150.0,0.7,0.5,8.5,Night,Male,2020-06-11 18:15:00,18,Meal,pork
+970,14.0,2020-06-11,7,18:15,Thomas English Muffin Cinnamon,2.0,muffin,300.0,56.0,2.0,10.0,Night,Male,2020-06-11 18:15:00,18,Meal,bread/pastry
+971,14.0,2020-06-11,7,18:15,Kerry Gold Butter,1.0,tbsp,100.0,0.0,0.0,0.0,Night,Male,2020-06-11 18:15:00,18,Meal,kerry gold butter
+972,14.0,2020-06-11,7,18:15,Land O Lakes Cinnamon Butter,1.0,tbsp,60.0,17.0,15.0,0.0,Night,Male,2020-06-11 18:15:00,18,Meal,land o lakes cinnamon butter
+973,14.0,2020-06-11,7,18:15,2% Milk,1.3333,cup,122.0,12.0,12.0,8.0,Night,Male,2020-06-11 18:15:00,18,Beverage,milk
+974,14.0,2020-06-12,8,06:05,Standard Breakfast,,,280.0,56.5,24.0,8.0,Early Morning,Male,2020-06-12 06:05:00,6,Meal,standard breakfast
+975,14.0,2020-06-12,8,09:10,Pepsi,10.0,ounce,150.0,41.0,41.0,0.0,Morning,Male,2020-06-12 09:10:00,9,Beverage,soda
+976,14.0,2020-06-12,8,09:10,Oreo'S Peppermint Bark,2.0,cookie,288.0,36.0,32.0,2.8,Morning,Male,2020-06-12 09:10:00,9,Meal,candy
+977,14.0,2020-06-12,8,09:10,Uncle Al'S Strawberry Cremes Cookies,4.0,cookie,120.0,19.0,9.0,1.0,Morning,Male,2020-06-12 09:10:00,9,Meal,desserts
+978,14.0,2020-06-12,8,09:10,M&M'S,12.0,piece,236.0,34.0,31.0,2.0,Morning,Male,2020-06-12 09:10:00,9,Meal,candy
+979,14.0,2020-06-12,8,09:10,Sathers Caramel Creams,3.0,piece,94.0,17.0,9.0,0.7,Morning,Male,2020-06-12 09:10:00,9,Meal,candy
+980,14.0,2020-06-12,8,12:45,Pepsi,6.0,ounce,150.0,41.0,41.0,0.0,Noon,Male,2020-06-12 12:45:00,12,Beverage,soda
+981,14.0,2020-06-12,8,12:45,M&M'S,12.0,piece,236.0,34.0,31.0,2.0,Noon,Male,2020-06-12 12:45:00,12,Meal,candy
+982,14.0,2020-06-12,8,12:45,"Milkyway ""Fun Size"" Candy Bar",1.0,piece,190.0,30.0,26.0,2.0,Noon,Male,2020-06-12 12:45:00,12,Meal,milk
+983,14.0,2020-06-12,8,12:45,Whoopers Malted Milk Balls,10.0,piece,108.0,18.0,13.0,0.4,Noon,Male,2020-06-12 12:45:00,12,Meal,milk
+984,14.0,2020-06-12,8,12:45,Uncle Al'S Strawberry Cremes Cookies,6.0,cookie,140.0,25.0,12.0,1.4,Noon,Male,2020-06-12 12:45:00,12,Meal,desserts
+985,14.0,2020-06-12,8,17:15,Sloppy Joe With 1 Bun,1.0,sandwich,399.0,37.0,13.0,27.0,Afternoon,Male,2020-06-12 17:15:00,17,Meal,sandwich
+986,14.0,2020-06-12,8,17:15,Lay'S Wavy Potato Chips,1.25,,298.0,30.0,0.2,3.6,Afternoon,Male,2020-06-12 17:15:00,17,Snack,potato
+987,14.0,2020-06-12,8,17:15,Lut Petit Ecolier Milk Chocolate Biscuit Cookie,2.0,biscuits,123.0,18.2,5.3,1.6,Afternoon,Male,2020-06-12 17:15:00,17,Meal,sandwich
+988,15.0,2020-02-17,1,10:00,Coffee + Skim Milk,10,fluid ounce,35.0,4.5,4.7,3.4,Morning,Female,2020-02-17 10:00:00,10,Beverage,milk
+989,15.0,2020-02-17,1,10:09,Glucerna Snack Bar,40,grams,160.0,20.0,4.0,10.0,Morning,Female,2020-02-17 10:09:00,10,Snack,snack bar
+990,15.0,2020-02-17,1,15:50,Small Pc Red Velvet Cake,,,368.0,36.0,25.0,4.2,Afternoon,Female,2020-02-17 15:50:00,15,Meal,desserts
+991,15.0,2020-02-17,1,17:50,Ruffles Chips,3,oz,447.0,45.0,0.3,5.4,Afternoon,Female,2020-02-17 17:50:00,17,Snack,chips
+992,15.0,2020-02-17,1,20:30,Panko Breaded Baked Fish ,8,oz,398.0,14.0,0.0,32.0,Night,Female,2020-02-17 20:30:00,20,Meal,seafood
+993,15.0,2020-02-18,2,05:45,Coffee + Skim Milk,10,fluid ounce,35.0,4.5,4.7,3.4,Early Morning,Female,2020-02-18 05:45:00,5,Beverage,milk
+994,15.0,2020-02-18,2,07:40,Coffee,10,fluid ounce,35.0,4.5,4.7,3.4,Early Morning,Female,2020-02-18 07:40:00,7,Beverage,coffee
+995,15.0,2020-02-18,2,07:59,Standard Breakfast,,,280.0,56.5,24.0,8.0,Early Morning,Female,2020-02-18 07:59:00,7,Meal,standard breakfast
+996,15.0,2020-02-18,2,10:40,Muffin,,,424.0,60.0,35.5,5.0,Morning,Female,2020-02-18 10:40:00,10,Snack,bread/pastry
+997,15.0,2020-02-18,2,13:50,Multigrain Cakes,5,crackers,200.0,28.0,5.0,3.0,Noon,Female,2020-02-18 13:50:00,13,Meal,desserts
+998,15.0,2020-02-18,2,18:10,Blt Salad,,,409.0,16.5,3.8,12.5,Night,Female,2020-02-18 18:10:00,18,Meal,salad
+999,15.0,2020-02-19,3,03:30,Coffee + Skim Milk,10,fluid ounce,35.0,4.5,4.7,3.4,Late Night,Female,2020-02-19 03:30:00,3,Beverage,milk
+1000,15.0,2020-02-19,3,04:45,Friendly Farm Cottage Cheese 1% Milkfat,1/3 cup,,70.0,2.4,1.9,7.9,Late Night,Female,2020-02-19 04:45:00,4,Meal,milk
+1001,15.0,2020-02-19,3,04:45,Harris Teeter Canned Sliced Peaches,3,slices,55.0,14.5,13.0,0.8,Late Night,Female,2020-02-19 04:45:00,4,Meal,harris teeter canned sliced peaches
+1002,15.0,2020-02-19,3,04:45,Peach Juice,3,Tbsp,25.0,6.6,5.7,0.1,Late Night,Female,2020-02-19 04:45:00,4,Beverage,juice
+1003,15.0,2020-02-19,3,06:20,Sarah Lee Honey Wheat Bread With Butter,1,slices,70.0,13.0,1.0,2.0,Early Morning,Female,2020-02-19 06:20:00,6,Meal,bread/pastry
+1004,15.0,2020-02-19,3,05:30,Coffee + Skim Milk,10,fluid ounce,35.0,4.5,4.7,3.4,Early Morning,Female,2020-02-19 05:30:00,5,Beverage,milk
+1005,15.0,2020-02-19,3,08:15,Muffin,1,,424.0,60.0,35.5,5.0,Early Morning,Female,2020-02-19 08:15:00,8,Snack,bread/pastry
+1006,15.0,2020-02-19,3,08:15,Butter,2,tsp,68.0,0.0,0.0,0.1,Early Morning,Female,2020-02-19 08:15:00,8,Meal,butter
+1007,15.0,2020-02-19,3,13:00,Chicken Cesear Salad Wrap,,,533.0,32.0,1.4,29.0,Noon,Female,2020-02-19 13:00:00,13,Meal,salad
+1008,15.0,2020-02-19,3,13:00,Salt And Vinegar Chips,1,pckg,745.0,75.0,0.4,9.0,Noon,Female,2020-02-19 13:00:00,13,Snack,chips
+1009,15.0,2020-02-19,3,13:00,Honest Organic Honey Green Tea,16.9,oz,70.0,19.0,19.0,0.0,Noon,Female,2020-02-19 13:00:00,13,Beverage,tea
+1010,15.0,2020-02-19,3,20:00,Taco Bell Nachos Grande,,,740.0,82.0,5.0,16.0,Night,Female,2020-02-19 20:00:00,20,Meal,mexican food
+1011,15.0,2020-02-19,3,20:00,Taco Bell Cinnamon Twists,,,170.0,27.0,13.0,1.0,Night,Female,2020-02-19 20:00:00,20,Meal,mexican food
+1012,15.0,2020-02-19,3,20:00,Crystal Light Lemonade,16,fluid ounce,198.0,51.0,49.0,0.3,Night,Female,2020-02-19 20:00:00,20,Beverage,soda
+1013,15.0,2020-02-20,4,06:00,Coffee + Skim Milk,10,fluid ounce,35.0,4.5,4.7,3.4,Early Morning,Female,2020-02-20 06:00:00,6,Beverage,milk
+1014,15.0,2020-02-20,4,06:30,Coffee + Skim Milk,10,fluid ounce,35.0,4.5,4.7,3.4,Early Morning,Female,2020-02-20 06:30:00,6,Beverage,milk
+1015,15.0,2020-02-20,4,07:42,Standard Breakfast,,,280.0,56.5,24.0,8.0,Early Morning,Female,2020-02-20 07:42:00,7,Meal,standard breakfast
+1016,15.0,2020-02-20,4,18:20,2/3 Bag Orville Redenbacher Butter Popcorn,,,255.0,26.0,1.0,4.0,Night,Female,2020-02-20 18:20:00,18,Snack,popcorn
+1017,15.0,2020-02-20,4,18:38,Coffee + Skim Milk,,,35.0,4.5,4.7,3.4,Night,Female,2020-02-20 18:38:00,18,Beverage,milk
+1018,15.0,2020-02-20,4,20:55,Chef Salad,,,675.0,26.5,9.5,28.0,Night,Female,2020-02-20 20:55:00,20,Meal,salad
+1019,15.0,2020-02-20,4,20:55,V8 Juice ,,,30.0,7.0,5.0,1.0,Night,Female,2020-02-20 20:55:00,20,Beverage,juice
+1020,15.0,2020-02-21,5,04:49,Slice Of Boar'S Head Swiss Cheese,1,slices,55.0,0.9,0.4,8.0,Late Night,Female,2020-02-21 04:49:00,4,Meal,cheese
+1021,15.0,2020-02-21,5,04:49,2 Muffins,2,muffins,848.0,120.0,70.0,10.0,Late Night,Female,2020-02-21 04:49:00,4,Meal,bread/pastry
+1022,15.0,2020-02-21,5,04:49,Coffee + Skim Milk,10,fluid ounce,35.0,4.5,4.7,3.4,Late Night,Female,2020-02-21 04:49:00,4,Beverage,milk
+1023,15.0,2020-02-21,5,08:00,2 Pieces Honey Wheat Toast With Butter,,,140.0,26.0,2.0,1.0,Early Morning,Female,2020-02-21 08:00:00,8,Meal,bread/pastry
+1024,15.0,2020-02-21,5,08:30,Coffee + Skim Milk,10,fluid ounce,35.0,4.5,4.7,3.4,Early Morning,Female,2020-02-21 08:30:00,8,Beverage,milk
+1025,15.0,2020-02-21,5,12:00,Sugg'S Coconut Greek Yogurt,,,140.0,15.0,15.0,12.5,Noon,Female,2020-02-21 12:00:00,12,Meal,yogurt
+1026,15.0,2020-02-21,5,15:30,Freddy'S Steakbuurger,,,540.0,40.5,0.0,34.5,Afternoon,Female,2020-02-21 15:30:00,15,Meal,tea
+1027,15.0,2020-02-21,5,15:30,Small Chocolate Shake (1/2),,,270.0,48.0,47.3,7.0,Afternoon,Female,2020-02-21 15:30:00,15,Meal,smoothie
+1028,15.0,2020-02-21,5,17:00,Coffee + Skim Milk,10,fluid ounce,35.0,4.5,4.7,3.4,Afternoon,Female,2020-02-21 17:00:00,17,Beverage,milk
+1029,15.0,2020-02-21,5,17:00,Small Chocolate Shake (1/2),,,270.0,48.0,47.3,7.0,Afternoon,Female,2020-02-21 17:00:00,17,Meal,smoothie
+1030,15.0,2020-02-21,5,17:00,Ham And Cheese Sandwhich,,,517.0,28.5,3.6,28.0,Afternoon,Female,2020-02-21 17:00:00,17,Meal,sandwich
+1031,15.0,2020-02-21,5,17:00,Coffee + Skim Milk,10,fluid ounce,35.0,4.5,4.7,3.4,Afternoon,Female,2020-02-21 17:00:00,17,Beverage,milk
+1032,15.0,2020-02-22,6,06:45,Coffee + Skim Milk,10,fluid ounce,35.0,4.5,4.7,3.4,Early Morning,Female,2020-02-22 06:45:00,6,Beverage,milk
+1033,15.0,2020-02-22,6,08:19,Standard Breakfast,,,280.0,56.5,24.0,8.0,Early Morning,Female,2020-02-22 08:19:00,8,Meal,standard breakfast
+1034,15.0,2020-02-22,6,11:00,1/2 Cup Cottge Cheese,1/2 cup,,70.0,2.4,1.9,7.9,Morning,Female,2020-02-22 11:00:00,11,Meal,cheese
+1035,15.0,2020-02-22,6,08:19,Chai Tea,,,5.0,1.4,0.0,0.1,Early Morning,Female,2020-02-22 08:19:00,8,Beverage,tea
+1036,15.0,2020-02-22,6,11:00,Coffee + Skim Milk,,,35.0,4.5,4.7,3.4,Morning,Female,2020-02-22 11:00:00,11,Beverage,milk
+1037,15.0,2020-02-22,6,15:45,Old El Priso Burrito 2 Taco Shells,,,126.0,16.8,0.4,1.7,Afternoon,Female,2020-02-22 15:45:00,15,Meal,mexican food
+1038,15.0,2020-02-22,6,15:45,Cheese,1,oz,113.0,0.9,0.1,6.4,Afternoon,Female,2020-02-22 15:45:00,15,Meal,cheese
+1039,15.0,2020-02-22,6,15:45,Rice + Beans,2,Tbsp,55.0,9.0,0.3,1.7,Afternoon,Female,2020-02-22 15:45:00,15,Meal,bean
+1040,15.0,2020-02-22,6,15:45,Diet Soda,12,fluid ounce,0.0,0.4,0.0,0.0,Afternoon,Female,2020-02-22 15:45:00,15,Beverage,soda
+1041,15.0,2020-02-22,6,20:00,Outback Cobb Salad With Salmon,,,577.0,15.0,5.7,43.0,Night,Female,2020-02-22 20:00:00,20,Meal,salad
+1042,15.0,2020-02-22,6,20:00,Blue Cheese Dressing,8,oz,146.0,1.4,1.0,0.4,Night,Female,2020-02-22 20:00:00,20,Meal,cheese
+1043,15.0,2020-02-22,6,22:00,Outback Cheesecake With Chocolate Sauce,,,480.0,45.0,37.0,7.1,Late Night,Female,2020-02-22 22:00:00,22,Meal,cheese
+1044,15.0,2020-02-23,7,06:50,Coffee + Skim Milk,10,fluid ounce,35.0,4.5,4.7,3.4,Early Morning,Female,2020-02-23 06:50:00,6,Beverage,milk
+1045,15.0,2020-02-23,7,08:15,Coffee + Skim Milk,10,fluid ounce,35.0,4.5,4.7,3.4,Early Morning,Female,2020-02-23 08:15:00,8,Beverage,milk
+1046,15.0,2020-02-23,7,08:15,Muffin,1,,424.0,60.0,35.5,5.0,Early Morning,Female,2020-02-23 08:15:00,8,Snack,bread/pastry
+1047,15.0,2020-02-23,7,12:45,Coffee + Skim Milk,10,fluid ounce,35.0,4.5,4.7,3.4,Noon,Female,2020-02-23 12:45:00,12,Beverage,milk
+1048,15.0,2020-02-23,7,12:30,2 Leftover Burritos,,,578.0,75.0,6.7,23.0,Noon,Female,2020-02-23 12:30:00,12,Meal,mexican food
+1049,15.0,2020-02-23,7,17:30,Pecans,2,oz,100.0,2.1,0.6,1.4,Afternoon,Female,2020-02-23 17:30:00,17,Meal,nuts
+1050,15.0,2020-02-23,7,18:00,Outback Bread Loaf (1/2) + Butter,,,320.0,60.0,0.7,11.2,Night,Female,2020-02-23 18:00:00,18,Meal,bread/pastry
+1051,16.0,2020-02-21,1,06:30,Salmon Cakes,2,,736.0,58.0,3.8,32.0,Early Morning,Male,2020-02-21 06:30:00,6,Meal,seafood
+1052,16.0,2020-02-21,1,06:30,Large Coffee With Heavy Cream,,,84.0,2.6,2.6,2.4,Early Morning,Male,2020-02-21 06:30:00,6,Beverage,coffee
+1053,16.0,2020-02-21,1,08:30,Standard Breakfast,,,280.0,56.5,24.0,8.0,Early Morning,Male,2020-02-21 08:30:00,8,Meal,standard breakfast
+1054,16.0,2020-02-21,1,13:15,Ham And Cheese Sandwhich,,,517.0,28.0,3.6,28.0,Noon,Male,2020-02-21 13:15:00,13,Meal,sandwich
+1055,16.0,2020-02-21,1,13:15,Brownies,2 small,,466.0,50.0,28.0,6.2,Noon,Male,2020-02-21 13:15:00,13,Meal,desserts
+1056,16.0,2020-02-21,1,13:15,Peanut Butter,1,Tbsp,94.0,3.9,1.1,3.5,Noon,Male,2020-02-21 13:15:00,13,Meal,nuts
+1057,16.0,2020-02-21,1,16:30,Two Slices Of Bread,2,slices,154.0,28.0,3.2,5.2,Afternoon,Male,2020-02-21 16:30:00,16,Meal,bread/pastry
+1058,16.0,2020-02-21,1,16:30,Butter,2,Tbsp,204.0,0.0,0.0,0.2,Afternoon,Male,2020-02-21 16:30:00,16,Meal,butter
+1059,16.0,2020-02-21,1,19:30,"Chipotle Burrito Bowl Chicken And Steak, Black Beans, Cheese, Lettuce, Salsa, Sour Cream",,,1008.0,117.0,5.6,49.0,Night,Male,2020-02-21 19:30:00,19,Meal,mexican food
+1060,16.0,2020-02-21,1,19:30,2 Yuengling Beers,2,12oz bears,312.0,26.4,0.0,3.4,Night,Male,2020-02-21 19:30:00,19,Beverage,alcohol
+1061,16.0,2020-02-22,2,08:00,2 Cups Coffee W/ Heavy Cream,2, cups,168.0,5.0,5.0,5.0,Early Morning,Male,2020-02-22 08:00:00,8,Beverage,coffee
+1062,16.0,2020-02-22,2,12:45,Elmo'S Diner Breakfast Burrito 2 Eggs/Sausage/Black Beans/Sour Cream,,,657.0,72.0,1.4,29.0,Noon,Male,2020-02-22 12:45:00,12,Meal,mexican food
+1063,16.0,2020-02-22,2,12:45,Side Of Home Fried Potatoes,,,235.0,45.0,0.0,6.9,Noon,Male,2020-02-22 12:45:00,12,Meal,potato
+1064,16.0,2020-02-22,2,12:45,1 Cup Coffee,,,84.0,2.6,2.6,2.4,Noon,Male,2020-02-22 12:45:00,12,Beverage,coffee
+1065,16.0,2020-02-23,3,08:00,Standard Breakfast,,,280.0,56.5,24.0,8.0,Early Morning,Male,2020-02-23 08:00:00,8,Meal,standard breakfast
+1066,16.0,2020-02-23,3,10:00,Brown Rice,1,cup,218.0,46.0,0.0,4.6,Morning,Male,2020-02-23 10:00:00,10,Meal,rice
+1067,16.0,2020-02-23,3,11:00,French Bread,2,slices,348.0,66.0,6.0,13.8,Morning,Male,2020-02-23 11:00:00,11,Meal,bread/pastry
+1068,16.0,2020-02-23,3,11:00,Swiss Cheese,4,slices,424.0,1.6,0.0,29.0,Morning,Male,2020-02-23 11:00:00,11,Meal,cheese
+1069,16.0,2020-02-23,3,18:00,Chicken Soup,,,168.0,24.0,5.2,10.0,Night,Male,2020-02-23 18:00:00,18,Meal,soup
+1070,16.0,2020-02-23,3,18:00,"Crostinis (Slice Of French Bread, Swiss, Tomato)",3,,522.0,99.0,9.0,20.7,Night,Male,2020-02-23 18:00:00,18,Meal,bread/pastry
+1071,16.0,2020-02-24,4,08:00,Chicken Soup,,,168.0,24.0,5.2,10.0,Early Morning,Male,2020-02-24 08:00:00,8,Meal,soup
+1072,16.0,2020-02-24,4,19:30,"Chicken Enchiladas With Black Beans, Spanish Rice, Salsa",,,536.0,60.0,4.8,28.0,Night,Male,2020-02-24 19:30:00,19,Meal,mexican food
+1073,16.0,2020-02-24,4,19:30,Beer,1,pint,204.0,17.0,0.0,2.2,Night,Male,2020-02-24 19:30:00,19,Beverage,alcohol
+1074,16.0,2020-02-25,5,06:30,Standard Breakfast,,,280.0,56.5,24.0,8.0,Early Morning,Male,2020-02-25 06:30:00,6,Meal,standard breakfast
+1075,16.0,2020-02-25,5,08:00,1 Bagel With Cream Cheese,,,379.0,57.0,9.9,13.0,Early Morning,Male,2020-02-25 08:00:00,8,Meal,cheese
+1076,16.0,2020-02-25,5,08:00,1 Coffee With Cream,,,84.0,2.6,2.6,2.4,Early Morning,Male,2020-02-25 08:00:00,8,Beverage,coffee
+1077,16.0,2020-02-25,5,17:00,"12"" Italian Bmt Subway Whole Wheat Mayo",,,1064.0,60.0,8.0,50.0,Afternoon,Male,2020-02-25 17:00:00,17,Meal,sandwich
+1078,16.0,2020-02-25,5,20:00,Bojangles Chicken Thigh,3,piece,714.0,23.4,0.0,57.0,Night,Male,2020-02-25 20:00:00,20,Meal,poultry
+1079,16.0,2020-02-25,5,20:00,Sweat Tea Ice,32,fluid oz,320.0,84.0,80.0,0.0,Night,Male,2020-02-25 20:00:00,20,Beverage,tea
+1080,16.0,2020-02-26,6,09:30,Chicken Soup,,,168.0,24.0,5.2,10.0,Morning,Male,2020-02-26 09:30:00,9,Meal,soup
+1081,16.0,2020-02-26,6,10:15,Peanut Butter,1,Tbsp,94.0,3.9,1.1,3.5,Morning,Male,2020-02-26 10:15:00,10,Meal,nuts
+1082,16.0,2020-02-26,6,18:30,Plain Cheese Pizza,4,slices,1808.0,228.0,24.4,76.0,Night,Male,2020-02-26 18:30:00,18,Meal,pizza
+1083,16.0,2020-02-26,6,18:30,Salad,1,cup,7.0,1.4,0.6,0.4,Night,Male,2020-02-26 18:30:00,18,Meal,salad
+1084,16.0,2020-02-26,6,18:30,Blue Cheese Dressing,2,Tbsp,146.0,1.4,1.0,0.4,Night,Male,2020-02-26 18:30:00,18,Meal,cheese
+1085,16.0,2020-02-26,6,18:30,Lemonade,32,oz,99.0,26.0,25.0,0.2,Night,Male,2020-02-26 18:30:00,18,Beverage,soda
+1086,16.0,2020-02-27,7,10:30,Standard Breakfast,,,280.0,56.5,24.0,8.0,Morning,Male,2020-02-27 10:30:00,10,Meal,standard breakfast
+1087,16.0,2020-02-27,7,11:30,Plain Cheese Pizza,1,slices,452.0,57.0,6.1,19.0,Morning,Male,2020-02-27 11:30:00,11,Meal,pizza
+1088,16.0,2020-02-27,7,11:30,Cooked Black Eyed Peas,1,cup,198.0,35.0,5.6,13.0,Morning,Male,2020-02-27 11:30:00,11,Meal,bean
