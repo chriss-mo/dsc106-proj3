@@ -53,7 +53,7 @@ function createChart(data) {
         .padding(0.01);
 
     const y = d3.scaleBand()
-        .range([0, height])
+        .range([height, 0]) // 'flip' the y axis 
         .domain(days)
         .padding(0.01);
 
