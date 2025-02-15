@@ -41,8 +41,10 @@ div {
     border-radius: 5px;
 }
 
-a { color: #07a; }
-a:visited { color: #07a; }
+a { color: #0077aa ; }
+a:visited { color: #941352 ; }
+a:hover { color: #00415e; }
+
 h2 { margin: 0; }
 h3 { 
     margin: 0; 
@@ -53,9 +55,10 @@ h3 {
 #tooltip {
     position: absolute;
     justify-content: center;
-    width: 60px;
-    height: 70px;
-    padding: 3px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    padding-top: 4px;
     font: 12px sans-serif;
     line-height: .5;
     margin: 0;

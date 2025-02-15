@@ -19,9 +19,10 @@
         <h2>Are People Addicted To Coffee ??!!</h2>
         <h3>Visualizing When People Eat and Popular Foods</h3>
         <script src="../src/lib/index.js"></script>
-        <p>Most Popular food of the DAY: probably coffee</p>
-        <p>Most popular food of the HOUR: probably coffee </p>
-        <img src="../src/img/coffeelove.jpg" 
+        <p id="p-hour-food">Click a box to show the most popular foods of the hour here !</p>
+        <p id="p-hour-count">Click a box!</p>
+        
+        <img src="../src/img/coffee.jpg" 
             title="A picture of coffee" alt="A drawing of coffee in nice warm tones" style="width: 50px; height: auto;">
         credit: <a href="https://www.pixiv.net/artworks/119702393" target="_blank">noa1008</a>  
     </div>
@@ -51,11 +52,10 @@
     </div>
 
     <div id="tooltip" class="tooltip" hidden>
-        <p id="tooltip-day"></p>
-        <p id="tooltip-hour"></p>
         <p id="tooltip-meals"></p>
+        <p id="tooltip-count"></p>
+        <p id="tooltip-food"></p>
+        <img id="tooltip-image" src="" alt="Food Image" style="width: 75px; height: auto;">
     </div>
-    <p>kitten</p>
-
 </body>
 </html>

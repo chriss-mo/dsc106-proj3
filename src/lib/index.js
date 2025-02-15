@@ -8,20 +8,42 @@ async function fetchCSV(url) {
         const parsedData = d3.csvParse(data, d => ({
             day: +d.day,
             hour: +d.hour,
-            value: 1 // Each row represents one meal
+            food: d.simplified_food,
+            value: 1 
         }));
 
         // Aggregate the data to count meals per hour and day
         const groupedData = d3.group(parsedData, d => d.day, d => d.hour);
         const aggregatedData = Array.from(groupedData, ([day, hours]) => 
-            Array.from(hours, ([hour, values]) => ({
-                day: day,
+            Array.from(hours, ([hour, values]) => {
+                const foodCounts = d3.rollup(values, v => v.length, d => d.food);
+                const mostPopularFoodEntry = Array.from(foodCounts).reduce((a, b) => a[1] > b[1] ? a : b);
+                const mostPopularFood = mostPopularFoodEntry[0];
+                const count = mostPopularFoodEntry[1];
+                return {
+                    day: day,
+                    hour: hour,
+                    value: values.length,
+                    food: mostPopularFood,
+                    count: count
+                }
+            })).flat();
+            
+        // aggregate by hour for the most popular foods of the hour
+        const groupedByHour = d3.group(parsedData, d => d.hour);
+        const aggregatedByHour = Array.from(groupedByHour, ([hour, values]) => {
+            const foodCounts = d3.rollup(values, v => v.length, d => d.food); // very intersting way to count (I didn't know this)
+            const mostPopularFoodEntry = Array.from(foodCounts).reduce((a, b) => a[1] > b[1] ? a : b);
+            const mostPopularFood = mostPopularFoodEntry[0];
+            const count = mostPopularFoodEntry[1];
+            return {
                 hour: hour,
-                value: values.length
-            }))
-        ).flat();
-
-        return aggregatedData;
+                value: values.length,
+                food: mostPopularFood,
+                count: count
+            }
+        });
+        return { aggregatedData, aggregatedByHour };
     } catch (error) {
         console.error('Error fetching the CSV data:', error);
     }
@@ -41,7 +63,7 @@ const svg = d3.select("#middle-container")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
 // reference https://d3-graph-gallery.com/graph/heatmap_style.html
-function createChart(data) {
+function createChart(data, datahour) {
     
     const hours = d3.range(0, 24);
     const days = d3.range(1, 10); // ranges from 1-10
@@ -53,7 +75,7 @@ function createChart(data) {
         .padding(0.01);
 
     const y = d3.scaleBand()
-        .range([height, 0]) // 'flip' the y axis 
+        .range([height, 0])
         .domain(days)
         .padding(0.01);
 
@@ -75,7 +97,7 @@ function createChart(data) {
         .style("stroke", "black")  // Add border
         .style("stroke-width", "2");
         
-        showTooltip(event, d);
+        showTooltip(event, d, datahour);
     })
     .on("mousemove", function(event, d) {
         showTooltip(event, d); // Ensure tooltip follows cursor
@@ -85,6 +107,9 @@ function createChart(data) {
         .style("stroke", "none");  
         
         hideTooltip();
+    })
+    .on("click", function(event, d) {
+        topFoods(d, datahour);
     });
     // reference: http://www.d3noob.org/2016/10/adding-axis-labels-in-d3js-v4.html
     svg.append("g") // Add the X Axis
@@ -112,9 +137,9 @@ function createChart(data) {
         .text("Day"); 
 }
 
-fetchCSV('../src/data/data1.csv').then(data => {
-    if (data) {
-        createChart(data);
+fetchCSV('../src/data/data1.csv').then(({ aggregatedData, aggregatedByHour }) => {
+    if (aggregatedData) {
+        createChart(aggregatedData, aggregatedByHour);
     }
 });
 
@@ -124,10 +149,19 @@ function showTooltip(event, d) {
         .style("top", (event.pageY + 15) + "px")
         .classed("visible", true); // make a class 'visible' that sets opacity pretty genius
 
-    d3.select("#tooltip-day").text(`Day: ${d.day}`);
-    d3.select("#tooltip-hour").text(`Hour: ${d.hour}`);
     d3.select("#tooltip-meals").text(`Meals: ${d.value}`);
+    d3.select("#tooltip-count").text(`Food Count: ${d.count}`);
+    d3.select("#tooltip-food").text(`Food: ${d.food}`);
+    d3.select("#tooltip-image").attr("src", `../src/img/coffee.jpg`);
 }
 function hideTooltip() {
     d3.select("#tooltip").classed("visible", false);
+}
+
+function topFoods(d, datahour) {
+    const hourData = datahour.find(h => h.hour === d.hour);
+    if (hourData) {
+        d3.select("#p-hour-food").text(`Most Popular Food (Hour): ${hourData.food}`);
+        d3.select("#p-hour-count").text(`Count: ${hourData.count}`);
+    }
 }
