@@ -27,23 +27,8 @@ async function fetchCSV(url) {
                     food: mostPopularFood,
                     count: count
                 }
-            })).flat();
-            
-        // aggregate by hour for the most popular foods of the hour
-        const groupedByHour = d3.group(parsedData, d => d.hour);
-        const aggregatedByHour = Array.from(groupedByHour, ([hour, values]) => {
-            const foodCounts = d3.rollup(values, v => v.length, d => d.food); // very intersting way to count (I didn't know this)
-            const mostPopularFoodEntry = Array.from(foodCounts).reduce((a, b) => a[1] > b[1] ? a : b);
-            const mostPopularFood = mostPopularFoodEntry[0];
-            const count = mostPopularFoodEntry[1];
-            return {
-                hour: hour,
-                value: values.length,
-                food: mostPopularFood,
-                count: count
-            }
-        });
-        return { aggregatedData, aggregatedByHour };
+        })).flat();
+        return aggregatedData;
     } catch (error) {
         console.error('Error fetching the CSV data:', error);
     }
@@ -117,7 +102,7 @@ async function fetchCSV_2(url) {
 
 // Set the dimensions and margins of the graph
 const margin = {top: 20, right: 30, bottom: 40, left: 40},
-    width = 850 - margin.left - margin.right,
+    width = 860 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
 // Append the svg object to the middle-container div
@@ -129,14 +114,14 @@ const svg = d3.select("#middle-container")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
 // reference https://d3-graph-gallery.com/graph/heatmap_style.html
-function createChart(data, datahour, avgs) {
+function createChart(data, avgs) {
     
     const hours = d3.range(0, 24);
     const days = d3.range(1, 10); // ranges from 1-10
 
     // Create scales
     const x = d3.scaleBand()
-        .range([0, width])
+        .range([0, width-25])
         .domain(hours)
         .padding(0.01);
 
@@ -175,21 +160,8 @@ function createChart(data, datahour, avgs) {
         hideTooltip();
     })
     .on("click", function(event, d) {
-        topFoods_2(d, avgs);
+        topFoods(d, avgs);
     });
-
-    // svg.selectAll()
-    // .data(avgs, function(d) { return d.day+':'+d.hour; })
-    // .enter()
-    // .append("rect")
-    // .attr("x", function(d) { return x(d.hour) })
-    // .attr("y", function(d) { return y(d.day) })
-    // .attr("width", x.bandwidth() )
-    // .attr("height", y.bandwidth() )
-    // .on("click", function(event, d) {
-    //     topFoods_2(d);
-    // });
-
 
     // reference: http://www.d3noob.org/2016/10/adding-axis-labels-in-d3js-v4.html
     svg.append("g") // Add the X Axis
@@ -215,8 +187,37 @@ function createChart(data, datahour, avgs) {
         .attr("dy", "1em")
         .style("text-anchor", "middle")
         .text("Day"); 
-}
 
+    // Add color legend
+    const legendHeight = height;
+    const legendWidth = 18;
+
+    const legend = svg.append("g")
+        .attr("class", "legend")
+        .attr("transform", `translate(${width-10}, 0)`);
+
+    const legendScale = d3.scaleLinear()
+        .domain(colorScale.domain())
+        .range([legendHeight, 0]);
+
+    const legendAxis = d3.axisRight(legendScale)
+        .ticks(6);
+
+    legend.append("g")
+        .selectAll("rect")
+        .data(d3.range(legendHeight))
+        .enter()
+        .append("rect")
+        .attr("x", 0)
+        .attr("y", d => d)
+        .attr("width", legendWidth)
+        .attr("height", 1)
+        .style("fill", d => colorScale(legendScale.invert(d)));
+
+    legend.append("g")
+        .attr("transform", `translate(${legendWidth},0)`)
+        .call(legendAxis);
+}
 
 function showTooltip(event, d) {
     d3.select("#tooltip")
@@ -225,50 +226,13 @@ function showTooltip(event, d) {
         .classed("visible", true); // make a class 'visible' that sets opacity pretty genius
 
     d3.select("#tooltip-meals").text(`Meals: ${d.value}`);
-    d3.select("#tooltip-count").text(`Food Count: ${d.count}`);
     d3.select("#tooltip-food").text(`Food: ${d.food}`);
-}
-function hideTooltip() {
+    d3.select("#tooltip-count").text(`Count: ${d.count}`);
+}function hideTooltip() {
     d3.select("#tooltip").classed("visible", false);
 }
 
-function topFoods(d, datahour) {
-    const hourData = datahour.find(h => h.hour === d.hour);
-    if (hourData) {
-        d3.select("#p-hour-food").text(`Most Popular Food (Hour): ${hourData.food}`);
-        d3.select("#p-hour-count").text(`Count: ${hourData.count}`);
-    }
-}
-
-function showTooltip_2(event, d, f) {
-    // console.log("Tooltip Data:", d);  // Debugging line
-
-    d3.select("#tooltip")
-        .style("left", (event.pageX + 15) + "px")
-        .style("top", (event.pageY + 15) + "px")
-        .classed("visible", true);
-
-    d3.select("#tooltip-count").text(`Food Count: ${f.count}`);
-    d3.select("#tooltip-meal").text(`Meal: ${d.meal || "no info available"}`);
-    d3.select("#tooltip-snack").text(`Snack: ${d.snack || "no info available"}`);
-    d3.select("#tooltip-beverage").text(`Beverage: ${d.beverage || "no info available"}`);
-    d3.select("#tooltip-calories").text(`Avg Calories: ${(d.average_calories || 0).toFixed(1)}`);
-    d3.select("#tooltip-carb").text(`Total Carbs: ${(d.total_carb || 0).toFixed(1)}g`);
-    d3.select("#tooltip-sugar").text(`Sugar: ${(d.sugar || 0).toFixed(1)}g`);
-    d3.select("#tooltip-image").attr("src", `../src/img/coffee.jpg`);
-}
-
-async function fetchCSVData() {
-    const { aggregatedData: data1_1, aggregatedByHour: data1_2 } = await fetchCSV('../src/data/data1.csv');
-    const data2 = await fetchCSV_2('../src/data/avg_foods.csv');
-    if (data1_1 && data2) {
-        // console.log('hooray!');
-        createChart(data1_1, data1_2, data2);
-    }
-}
-
-function topFoods_2(d, d2) {
-    // console.log(d);
+function topFoods(d, d2) {
     const day = d.day;
     const hour = d.hour;
     const filtered = d2.filter(d2Item => d2Item.day === day && d2Item.hour === hour);
@@ -279,25 +243,24 @@ function topFoods_2(d, d2) {
         return; // Exit early if no data
     }
 
-    // console.log(filtered);
-
     // Clear the existing content first
-    d3.select("#p-hour-food").html("");
+    d3.select("#p-hour-food").html(""); // Clear the food labels
+    d3.select("#p-hour-hour").text(`Popular Foods at Hour: ${d.hour}`);
+    d3.select("#p-label").text(`*Nutrition is based on one average serving`);
 
     // Function to format each nutrition label
     function createNutritionLabel(foodType, foodName, calories, carbs, sugar) {
         return `
             <div class="nutrition-label">
-                <h3>${foodType}: ${foodName}</h3>
+                <h4>${foodType}:</h4> 
+                <h3>${foodName}</h3>
                 <p class="entry"><strong><big>Calories </strong> <b>${calories}</b> </big></p>
                 <p class="entry"><strong>Carbs </strong> ${carbs}g</p>
                 <p class="entry"><strong>Sugar </strong> ${sugar}g</p>
                 <br />
-                <p><i><small>Nutrition is for 1 average serving</small></i></p>
             </div>
         `;
     }
-
     let labelsHTML = "";  // To collect all labels
 
     // Assuming you want to use the first item in filtered (if it's not empty)
@@ -309,7 +272,7 @@ function topFoods_2(d, d2) {
         const mealCarbs = filteredItem.meal_total_carb.toFixed(1);
         const mealSugar = filteredItem.meal_sugar.toFixed(1);
 
-        labelsHTML += createNutritionLabel("Most Popular Meal", filteredItem.meal, mealCalories, mealCarbs, mealSugar);
+        labelsHTML += createNutritionLabel("Meal", filteredItem.meal, mealCalories, mealCarbs, mealSugar);
     }
 
     // Check and display Beverage information if available
@@ -318,7 +281,7 @@ function topFoods_2(d, d2) {
         const beverageCarbs = filteredItem.beverage_total_carb.toFixed(1);
         const beverageSugar = filteredItem.beverage_sugar.toFixed(1);
 
-        labelsHTML += createNutritionLabel("Most Popular Beverage", filteredItem.beverage, beverageCalories, beverageCarbs, beverageSugar);
+        labelsHTML += createNutritionLabel("Beverage", filteredItem.beverage, beverageCalories, beverageCarbs, beverageSugar);
     }
 
     // Check and display Snack information if available
@@ -327,12 +290,18 @@ function topFoods_2(d, d2) {
         const snackCarbs = filteredItem.snack_total_carb.toFixed(1);
         const snackSugar = filteredItem.snack_sugar.toFixed(1);
 
-        labelsHTML += createNutritionLabel("Most Popular Snack", filteredItem.snack, snackCalories, snackCarbs, snackSugar);
+        labelsHTML += createNutritionLabel("Snack", filteredItem.snack, snackCalories, snackCarbs, snackSugar);
     }
-
 
     d3.select("#p-hour-food").html(labelsHTML);
 }
 
+async function fetchCSVData() {
+    const data1 = await fetchCSV('../src/data/data1.csv');
+    const data2 = await fetchCSV_2('../src/data/avg_foods.csv');
+    if (data1 && data2) {
+        createChart(data1, data2);
+    }
+}
 
 fetchCSVData();
