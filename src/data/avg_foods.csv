@@ -1,4 +1,4 @@
-,day,hour,class,simplified_food,avg carb,avg sugar,avg calorie
+,day,hour,class,simplified_food,carb,sugar,calorie
 0,1,6,Beverage,coffee,5.415267175572519,2.2572519083969467,42.80610687022901
 1,1,6,Meal,seafood,11.554545454545455,2.7636363636363637,258.47272727272724
 2,1,8,Beverage,milk,8.387777777777778,7.595555555555555,95.26666666666667

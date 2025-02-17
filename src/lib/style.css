@@ -23,7 +23,7 @@ div {
     background-color: #FBFFFF;
     border: 2px solid #456;
     border-radius: 5px;
-    margin-top: -17px;
+    margin-top: -20px;
     padding-bottom: 4px;
     line-height: 1.2;
 }
@@ -39,6 +39,8 @@ div {
     background-color: #FBFFFF;
     border: 2px solid #456;
     border-radius: 5px;
+    margin-bottom: -15px;
+    padding-bottom: 4px;
 }
 
 a { color: #07a; }
@@ -47,15 +49,24 @@ h2 { margin: 0; }
 h3 { 
     margin: 0; 
     font-size: 14px;
-    color: gray;
+    color: darkgray;
+}
+h4 { 
+    margin: 0; 
+    font-size: 16px;
+    color: #454545;
 }
 
 #tooltip {
+    min-width: 100px;
+    max-height: 300px;
+    overflow: visible;
     position: absolute;
-    justify-content: center;
-    width: 60px;
-    height: 70px;
-    padding: 3px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     font: 12px sans-serif;
     line-height: .5;
     margin: 0;
@@ -70,4 +81,50 @@ h3 {
 #tooltip.visible {
     opacity: 1; 
     pointer-events: auto;
+}
+
+#p-hour-food {
+    display: flex;  /* Use flexbox to display items in a row */
+    justify-content: space-between;  /* Space out the labels */
+    gap: 15px;  /* Add space between the labels */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.nutrition-label {
+    border: 1px solid #456;
+    padding: 10px;
+    min-width: 160px;
+    width: auto;
+}
+
+.nutrition-label h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #454545;
+    border-bottom: solid 2px #456;
+}
+
+.nutrition-label p {
+    margin: 2px 0;
+    font-size: 0.9em;
+}
+
+.entry {
+    border-bottom: solid 1px #456;
+    display: flex;
+    justify-content: space-between;
+}
+
+#p-hour-hour {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+#p-label {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 12px;
+    font-style: italic;
 }
