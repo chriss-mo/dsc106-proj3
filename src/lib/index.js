@@ -246,7 +246,7 @@ function topFoods(d, d2) {
     // Clear the existing content first
     d3.select("#p-hour-food").html(""); // Clear the food labels
     d3.select("#p-hour-hour").text(`Popular Foods at Hour: ${d.hour}`);
-    d3.select("#p-label").text(`*Nutrition is based on one average serving`);
+    d3.select("#p-label").text(`*Nutrition based on one average serving`);
 
     // Function to format each nutrition label
     function createNutritionLabel(foodType, foodName, calories, carbs, sugar) {
