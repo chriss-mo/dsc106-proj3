@@ -51,11 +51,19 @@ h3 {
 }
 
 #tooltip {
+    min-width: 200px;  /* Ensure space for text */
+    max-width: 300px;  /* Prevent it from being too wide */
+    max-height: 400px; /* Prevent it from cutting off */
+    overflow: visible;  /* Ensure content is not hidden */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center content */
     position: absolute;
     justify-content: center;
-    width: 60px;
-    height: 70px;
-    padding: 3px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    padding-top: 4px;
     font: 12px sans-serif;
     line-height: .5;
     margin: 0;
@@ -71,6 +79,7 @@ h3 {
     opacity: 1; 
     pointer-events: auto;
 }
+
 
 #p-hour-food {
     display: flex;  /* Use flexbox to display items in a row */
