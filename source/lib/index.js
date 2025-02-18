@@ -268,10 +268,6 @@ function showTooltip(event, d, d2) {
     }
 }
 
-
-
-
-
 function hideTooltip() {
     d3.select("#tooltip").classed("visible", false);
 }
@@ -341,8 +337,8 @@ function topFoods(d, d2) {
 }
 
 async function fetchCSVData() {
-    const data1 = await fetchCSV('/src/data/data1.csv');
-    const data2 = await fetchCSV_2('/src/data/avg_foods.csv');
+    const data1 = await fetchCSV('/source/data/data1.csv');
+    const data2 = await fetchCSV_2('/source/data/avg_foods.csv');
     if (data1 && data2) {
         createChart(data1, data2);
     }
