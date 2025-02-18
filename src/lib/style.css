@@ -85,8 +85,9 @@ h4 {
 
 #p-hour-food {
     display: flex;  /* Use flexbox to display items in a row */
-    justify-content: space-between;  /* Space out the labels */
-    gap: 15px;  /* Add space between the labels */
+    justify-content: space-between;  /*Space out the labels
+    /* flex-wrap: wrap; */
+    gap: 10px;  /* Add space between the labels */
     margin-top: 5px;
     margin-bottom: 5px;
 }
