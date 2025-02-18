@@ -228,44 +228,7 @@ function showTooltip(event, d, d2) {
 
     d3.select("#tooltip-day").text(`Day: ${d.day}`);
     d3.select("#tooltip-hour").text(`Hour: ${d.hour}`)
-    d3.select("#tooltip-meals").text(`# of Meals: ${d.value}`);
-    d3.select("#tooltip-food").text(`Most Popular Food: ${d.food}`);
-    d3.select("#tooltip-count").text(`Food Count: ${d.count}`);
-
-    //Find the snacks and beverages of the day
-    if (!d2) {
-        // console.error("Data for d2 is undefined or null", d);
-        return; // Exit early if d2 is undefined or null
-    }
-    const day = d.day;
-    const hour = d.hour;
-    const filtered = d2.filter(d2Item => d2Item.day === day && d2Item.hour === hour);
-
-    if (filtered.length === 0) {
-        console.log("No matching data found.");
-        return; // Exit early if no data
-    }
-    // Here is the part we add for snack and beverage
-    const filteredItem = filtered[0];  // Filter data for matching day and hour
-
-    if (filteredItem) {
-        // Add snack and beverage details if available
-        if (filteredItem.snack !== "no info available") {
-            d3.select("#tooltip-snack").text(`Snack: ${filteredItem.snack}`);
-        } else {
-            d3.select("#tooltip-snack").text("Snack: No popular snack at this time");
-        }
-
-        if (filteredItem.beverage !== "no info available") {
-            d3.select("#tooltip-beverage").text(`Beverage: ${filteredItem.beverage}`);
-        } else {
-            d3.select("#tooltip-beverage").text("Beverage: No popular beverage at this time");
-        }
-    } else {
-        // If no data is available for this day/hour
-        d3.select("#tooltip-snack").text("Snack: No snack at this time");
-        d3.select("#tooltip-beverage").text("Beverage: No popular beverage at this time");
-    }
+    d3.select("#tooltip-count").text(`Count: ${d.value}`);
 }
 
 function hideTooltip() {
@@ -285,7 +248,7 @@ function topFoods(d, d2) {
 
     // Clear the existing content first
     d3.select("#p-hour-food").html(""); // Clear the food labels
-    d3.select("#p-hour-hour").text(`Popular Foods at Hour: ${d.hour} Day: ${d.day}`);
+    d3.select("#p-hour-hour").text(`Popular Foods: Day: ${d.day} Hour: ${d.hour} `);
     d3.select("#p-label").text(`*Nutrition based on one average serving`);
 
     // Function to format each nutrition label
