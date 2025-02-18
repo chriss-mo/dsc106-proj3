@@ -1,15 +1,42 @@
 ## Visualization Rationale
 
-### Visualization
-We aimed to highlight how people's eating habits change throughout the day and identify which foods are most popular at specific times. A heatmap was chosen for this visualization because it allows for easy differentiation of higher meal counts with more distinct colors, effectively drawing attention to popular timeframes. Additionally, the heatmap’s structure made it easy to organize and label data by both day and time.
+### Introduction
+(what is our visualization and what it does)
+
+### Features
+
+- 
+- 
+- 
+
+### Justification (Explaining why we did things)
+This visualization aimed to highlight when people eat throughout the day and which foods are most popular at specific times of the day.
+
+A heatmap was chosen because it is able to show differences in meal counts as a series of time where higher counts show a brighter more distinct color drawing attention times with more activity. 
+
+Additionally, the heatmap’s structure made it easy to organize and label data by both day and time.
+
+### Interaction (Explaining why these interactions)
+Our primary interactive feature involves displaying information when a user hovers over a section of the heatmap and clickable boxes that shows 
+
+When clicked a nutrition label is created with data on the most popular food items, snacks, and beverages. 
+
+We use the information from the dataset to generate its nutrition facts by aggregating the overall calories, carbs and sugars. 
+
+We considered adding additional interactivity by allowing for full column selection to generate the most popular within a certain hour but that information seemed somewhat redundant and we decided that creating a nutrition label would be more interesting.
 
 ### Alternative Visualizations
-Other visualization options were considered during the planning stage. For example, we thought about using a stacked bar chart to track meal counts over the day. However, we ultimately decided that the heatmap would better show meal counts by the hour and day for all participants. We also explored the possibility of visualizing trends specifically for coffee consumption, as it remained consistent among subjects. While some individual coffee trends were interesting, we decided that an overall tracker would offer more useful insights. Additionally, we considered visualizing the differences in eating habits between male and female subjects. However, after further analysis, we determined that focusing on the overall trends of the study would be more beneficial.
+We had quite a few ideas for our data set like exploring the trends of a specific beverage like coffee, or focusing on a single subjects trends. Some questions we wanted to ask:
+- Are people addicted to coffee? 
+- What is subject (xx)'s addiction to icecream ?
+- What do night time eaters eat? breakfast skippers?  
+- Any interesting food combinations? e.g. pickles and ice cream?
 
-### Interaction
-Our primary interactive feature involves displaying information when a user hovers over a section of the heatmap. Since the heatmap consists of clickable boxes, we implemented a tooltip feature that provides basic information when the user hovers over a box. When clicked a nutrition label is created with data on the most popular food items, snacks, and beverages. We use the information from the dataset to generate its nutrition facts by aggregating the overall calories, carbs and sugars. We considered adding additional interactivity by allowing for full column selection to generate the most popular within a certain hour but that information seemed somewhat redundant and we decided that creating a nutrition label would be more interesting.
+While these questions are interesting, our dataset is rather small and inconsistent, which made choosing to focus on a subset of our data hard. We ultimately decided to focus on a broader topic like 'What are popular foods of the hour' 
 
-## Overview of Development Process
+Some ideas we had were to create a pie chart and group by time of day, like morning, afternoon, night and find popular foods of the hour. 
+
+## Development Process
 To map meal counts throughout the day, we used D3 to create the heatmap visualization based on the original data. One significant challenge we encountered was the inconsistency in how foods were logged, particularly with varied spelling and formatting. For example, “Babybel Cheese” was logged in four different ways. As a result, much of our time was spent cleaning and standardizing the data to ensure that meaningful insights could be drawn.
 
 We began by classifying the logged foods into categories like “meals,” “beverages,” or “snacks” in a new column called `food_class`. Next, we simplified food entries into broader categories (called `simplified_foods`), such as grouping all poultry-related foods (chicken, turkey, etc.) under a single label and combining entries like all types of coffee and lattes into a general “coffee” category for beverages. After organizing the data, we aggregated it by `simplified_food` to calculate the average calorie count, carbs (in grams), and sugar (in grams) for a single log entry, assuming each log represented one serving.
