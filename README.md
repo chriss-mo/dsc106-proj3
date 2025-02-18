@@ -1,13 +1,16 @@
 ## Visualization Rationale
 
 ### Introduction
-(what is our visualization and what it does)
+We chose the dataset 'BIG IDEAs Lab Glycemic Variability and Wearable Device Data' and focused on the data provided for meal information. This data contains information logged by 16 different subject across 10 days detailing the food they ate, the time they ate, the nutritional information of their food, and much more. We wanted to use this data to answer the question "Do different foods get eaten at different times of the day?". To do so we created new labels and manually categorized the data so that we could then see how often each food gets eaten. Using the counts that we were able to get from the new categorized data we created heatmaps so we could see what times people most often ate and through further analysis we were able to idenitfy which foods were common at which times. Through this analysis we will be able to get useful information on the average diet and we could use it to explore broader questions on nutrition, health, and diet.
 
 ### Features
-
-- 
-- 
-- 
+- `Simplified Foods` - Manually labeled food categories
+- `Logged_food` - Subject submitted food name
+- `Day` - Day food was logged
+- `Hour` - Hour food was logged
+- `Calories` - Calories in the food logged by subject
+- `Carbs` - Carbs in the food logged by subject
+- `Protein` - Protein in the food logged by subject
 
 ### Justification (Explaining why we did things)
 This visualization aimed to highlight when people eat throughout the day and which foods are most popular at specific times of the day.
