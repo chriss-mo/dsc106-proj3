@@ -134,6 +134,58 @@ function createChart(data, avgs) {
         .domain([0, d3.max(data, d => d.value)]); // change color here
 
     // Append rectangles
+    svg.append("text")
+        .attr("x", x(12) + x.bandwidth() / 2) // Position based on the x-axis scale
+        .attr("y", -10) // Slightly below the heatmap
+        .attr("text-anchor", "middle")
+        .style("fill", "black")
+        .style("font-size", "14px")
+        .text("Lunch Time Range");
+    
+    svg.append("text")
+        .attr("x", x(18) + x.bandwidth() / 2) // Position based on the x-axis scale
+        .attr("y", -10) // Slightly below the heatmap
+        .attr("text-anchor", "middle")
+        .style("fill", "black")
+        .style("font-size", "14px")
+        .text("Dinner Time Range");
+    
+    svg.append("line")
+        .attr("x1", x(11))
+        .attr("x2", x(11))
+        .attr("y1", 0)
+        .attr("y2", height)
+        .attr("stroke", "red")
+        .attr("stroke-width", 2)
+        .style("stroke-dasharray", "4 4"); // Dashed line for emphasis
+    
+    svg.append("line")
+        .attr("x1", x(14))
+        .attr("x2", x(14))
+        .attr("y1", 0)
+        .attr("y2", height)
+        .attr("stroke", "red")
+        .attr("stroke-width", 2)
+        .style("stroke-dasharray", "4 4"); // Dashed line for emphasis
+    
+    svg.append("line")
+        .attr("x1", x(17))
+        .attr("x2", x(17))
+        .attr("y1", 0)
+        .attr("y2", height)
+        .attr("stroke", "red")
+        .attr("stroke-width", 2)
+        .style("stroke-dasharray", "4 4"); // Dashed line for emphasis
+    
+        svg.append("line")
+        .attr("x1", x(20))
+        .attr("x2", x(20))
+        .attr("y1", 0)
+        .attr("y2", height)
+        .attr("stroke", "red")
+        .attr("stroke-width", 2)
+        .style("stroke-dasharray", "4 4"); // Dashed line for emphasis
+    
     svg.selectAll()
     .data(data, function(d) { return d.day+':'+d.hour; })
     .enter()
@@ -217,6 +269,7 @@ function createChart(data, avgs) {
     legend.append("g")
         .attr("transform", `translate(${legendWidth},0)`)
         .call(legendAxis);
+    
 }
 
 function showTooltip(event, d) {
