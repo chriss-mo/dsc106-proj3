@@ -1,32 +1,29 @@
 ## Visualization Rationale
 
 ### Introduction
-We chose the dataset 'BIG IDEAs Lab Glycemic Variability and Wearable Device Data' and focused on the data provided for meal information. This data contains information logged by 16 different subject across 10 days detailing the food they ate, the time they ate, the nutritional information of their food, and much more. We wanted to use this data to answer the question "Do different foods get eaten at different times of the day?". To do so we created new labels and manually categorized the data so that we could then see how often each food gets eaten. Using the counts that we were able to get from the new categorized data we created heatmaps so we could see what times people most often ate and through further analysis we were able to idenitfy which foods were common at which times. Through this analysis we will be able to get useful information on the average diet and we could use it to explore broader questions on nutrition, health, and diet.
+We used the 'BIG IDEAs Lab Glycemic Variability and Wearable Device Data' focusing on logged foods of 16 different subjects across 10 days.
+We asked the questions:
+- When do people eat food?
+- What do people eat at certain times of the day?
+
+To answer these questions, we created an interactive heatmap that displays meal frequency across different hours of the day. Users can engage with tooltips and nutrition labels to explore the data.
 
 ### Features
-- `Simplified Foods` - Manually labeled food categories
-- `Logged_food` - Subject submitted food name
-- `Day` - Day food was logged
-- `Hour` - Hour food was logged
-- `Calories` - Calories in the food logged by subject
-- `Carbs` - Carbs in the food logged by subject
-- `Protein` - Protein in the food logged by subject
+- Heatmap Visualization - Displays meal frequency by hour of day.
+- Interactive Tooltips - Hovering over a section shows extra information.
+- Dynamic Nutriton Labels - Clicking a section generates a label summarzing calories, carbs, and popular foods for that time.
+- Data Cleaning & Aggregration - Filtered food names and categorized meals. 
 
-### Justification (Explaining why we did things)
-This visualization aimed to highlight when people eat throughout the day and which foods are most popular at specific times of the day.
+### Justification
+A heatmap was chosen because is able to show differences in meal frequency across time. The color gradient and color choice draws attention to high activity periods making it easier to see patterns at a glance. Where high activity is colored brighter (yellow) vs lower activity is darker purple color. To aid with our visualization we added a color bar, and a tooltip where hovering over a section shows the day and hour that section represents. 
 
-A heatmap was chosen because it is able to show differences in meal counts as a series of time where higher counts show a brighter more distinct color drawing attention times with more activity. 
+With our website, we chose to make a simple design that's focal point is the visualization. We chose to use a lighter colors and borders around each section of our website to give some seperation and guidance for the reader. We expect them to look at the top box, then the middle, and finally the last in that order. 
 
-Additionally, the heatmap’s structure made it easy to organize and label data by both day and time.
-
-### Interaction (Explaining why these interactions)
-Our primary interactive feature involves displaying information when a user hovers over a section of the heatmap and clickable boxes that shows 
-
-When clicked a nutrition label is created with data on the most popular food items, snacks, and beverages. 
-
-We use the information from the dataset to generate its nutrition facts by aggregating the overall calories, carbs and sugars. 
-
-We considered adding additional interactivity by allowing for full column selection to generate the most popular within a certain hour but that information seemed somewhat redundant and we decided that creating a nutrition label would be more interesting.
+### Interaction
+The visualization includes:
+- Hover Tooltips: Displays the number of meals, and time of day it takes place at.
+- Clickable Sections: Generates a nutrition label summarizing the total calories, carbs, and sugars for the most logged foods at that time.
+- Planned but Omitted Features: We considered adding a full-column selection to show the most popular foods within an entire hour but ran out of time :(
 
 ### Alternative Visualizations
 We had quite a few ideas for our data set like exploring the trends of a specific beverage like coffee, or focusing on a single subjects trends. Some questions we wanted to ask:
@@ -35,15 +32,52 @@ We had quite a few ideas for our data set like exploring the trends of a specifi
 - What do night time eaters eat? breakfast skippers?  
 - Any interesting food combinations? e.g. pickles and ice cream?
 
-While these questions are interesting, our dataset is rather small and inconsistent, which made choosing to focus on a subset of our data hard. We ultimately decided to focus on a broader topic like 'What are popular foods of the hour' 
-
-Some ideas we had were to create a pie chart and group by time of day, like morning, afternoon, night and find popular foods of the hour. 
+While these questions were pretty interesting, the dataset we chose is small and inconsistent leading us to focus on a broader, simpler question: “What are the most popular foods at different times of the day?”
 
 ## Development Process
-To map meal counts throughout the day, we used D3 to create the heatmap visualization based on the original data. One significant challenge we encountered was the inconsistency in how foods were logged, particularly with varied spelling and formatting. For example, “Babybel Cheese” was logged in four different ways. As a result, much of our time was spent cleaning and standardizing the data to ensure that meaningful insights could be drawn.
 
-We began by classifying the logged foods into categories like “meals,” “beverages,” or “snacks” in a new column called `food_class`. Next, we simplified food entries into broader categories (called `simplified_foods`), such as grouping all poultry-related foods (chicken, turkey, etc.) under a single label and combining entries like all types of coffee and lattes into a general “coffee” category for beverages. After organizing the data, we aggregated it by `simplified_food` to calculate the average calorie count, carbs (in grams), and sugar (in grams) for a single log entry, assuming each log represented one serving.
+### 1. Data Cleaning & Organization
 
-Once the data was cleaned, classified, and aggregated, we used it to create interactive heatmap visualizations with D3.
+- Many food entries had inconsistent naming (e.g., “Babybel Cheese” had multiple spellings).
+- To address this, we created two new columns:
+  - **`food_class`**: Categorized entries as **meals, snacks, or beverages**.
+  - **`simplified_foods`**: Grouped similar foods under broader labels (e.g., all coffee-related items became “coffee”).
+- Aggregated data to compute average calorie, carb, and sugar content per log entry.
+- Because of the data was self reported, there was a lot of manual filtering :(  
 
-We first began with generating the heatmap visualization in such a way that it was readible and informative to the viewer. After that we got it to display on a website and construted the sections we needed for this project. We then created the code to generate information based on which hour and day combination was clicked. This information would then be displayed in the text section below the visualization. This feature later got upgraded into the nutrition labels that get generated below the heatmap. Once that was completed we began work on generating tooltips when the sections are hovered over. This included a highlight feature that lifts the selected square up along with a label that gives information on the day, hour, number of meals at that time, popular meal, popular snack, and popular beverage. After that we finialized the website by polishing up the titles, contribution sections, and writing the writeup in the readme of our repository.
+### 2. Heatmap Visualization
+
+- Implemented using **D3.js**.
+- We made this with the help of online resources like d3-graph-gallery and other tools.
+- Figuring out how to add labels to the x and y axis of our visualization took more than one hour haha.  
+
+### 3. Interactive Features
+- We started with simple tooltips to display some information which we used the same basic structure as lab 6 (DSC106) for hoverable tooltips and popups. 
+- We then added clickable sections which required us to filter and aggregated our data when we read it in from a csv file. 
+- Figuring out how to group by in javascript was a big pain. 
+
+### 4. Website & Documentation
+- To build our website, I looked at multiple different websites and looked at the developer console to see how other websites built them and came up with a pretty good base design. 
+- We took inspiration from xkcd.com website (mainly container design)
+- And my all time favorites the [motherfuckingwesbite](https://motherfuckingwebsite.com/) and [The best motherfucking website](https://thebestmotherfucking.website/) (seriously these are amazing)
+
+### Closing
+- All in all, between our group we probably spent 30-50 hours on this visualization. 
+- The bulk of it was learning and writing d3 code, but another big chunk was processing our data, and doing exploratory data analysis that lead us to our visualization. 
+
+---
+
+### Technologies Used
+
+- D3.js - visualization
+- JavaScript & HTML/CSS - web development and styling
+- Python & Pandas - data processing
+
+### Future Improvements
+
+- ...
+
+---
+
+Thanks for reading this! A lot of improvements could be made but we had a lot of fun with this one. 
+
